@@ -38,6 +38,8 @@ $(document).ready(function () {
 
     var vidString = 'https://media.reallygreatreading.com/object-link/' +vid+'/raw.mpd';
     var captionString = 'https://media.reallygreatreading.com/object-link/' +vid+'/en.vtt';
+        var thumbnailString = 'https://manager.media.reallygreatreading.com/object/preview-link/' +vid;
+
     const player = dashjs.MediaPlayer().create();
     player.initialize(
         document.getElementById("video1"),
@@ -45,6 +47,7 @@ $(document).ready(function () {
         true);
     //$('#caption1').html('');
     htmlString = vidString;
+    $('#image1').attr('src', thumbnailString);
     $('#track1').attr('src', captionString);
     // Select the div by its ID
     const wrapper = document.getElementById('wrapper');
