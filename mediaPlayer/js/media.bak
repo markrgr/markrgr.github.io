@@ -36,16 +36,18 @@ $(document).ready(function () {
 
     //vid = '23189c13-078d-425b-b24c-dd57f40740a3';
 
-    var vidString = 'https://media.reallygreatreading.com/object-link/' +vid+'/raw.mpd';
-    var captionString = 'https://media.reallygreatreading.com/object-link/' +vid+'/en.vtt';
+    var vidString = 'https://media.reallygreatreading.com/object-link/' + vid + '/raw.mpd';
     const player = dashjs.MediaPlayer().create();
     player.initialize(
         document.getElementById("video1"),
         vidString,
         true);
-    //$('#caption1').html('');
+
+
+
+    $('#caption1').html('');
+     $('#video1').append('<track default kind="captions" srclang="en" src="https://media.reallygreatreading.com/object-link/5dfb143d-d138-4d6f-b40e-3b303dd91934/en.vtt" />');
     htmlString = vidString;
-    $('#track1').attr('src', captionString);
     // Select the div by its ID
     const wrapper = document.getElementById('wrapper');
 
@@ -54,28 +56,36 @@ $(document).ready(function () {
     //wrapper.innerHTML = htmlString;
 
     //$('.vid.standard').addClass('s' + style);
-    if (parseInt(style)>99) {
-    $('.vidSlider').attr('tabIndex',0);
-    
+    if (parseInt(style) > 99) {
+        $('.vidSlider').attr('tabIndex', 0);
+
     }
- $('.vidSlider').removeAttr('disabled');
+    $('.vidSlider').removeAttr('disabled');
     $('.vid.standard').addClass('s' + style);
     var video = $('#video1').get(0);
     video.pause();
     var loaded = false;
     video.autoplay = false;
     video.load();
+    var caption = video.textTracks[0];
+    caption.oncuechange = function (e) {
+        var cue = this.activeCues[0];
+        if (cue) {
+            var cueString = cue.getCueAsHTML();
+            if (cueString != '') {
+                $('.vidCaption').fadeIn(200);
+                $('.vidCaption').html(cue.getCueAsHTML());
+            } else {
+                $('.vidCaption').fadeOut(200);
+                $('.vidCaption').html('');
+            }
+        }
+    };
+
+
+
 
     video.oncanplay = function () {
-        if (!loaded) {
-            loaded = true;
-            var video = $('#video1').get(0);
-            //video.play();
-
-        }
-    }
-
-    video.onloadstart = function () {
         $('.vidCaption').html('');
 
         var video = $('#video1').get(0);
