@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Really Great Reading-Media Player</title>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/media.js"></script>
+    <script src="js/dash.all.min.js"></script>
+    <!--<script src="js/ws.js"></script>-->
+    <!--<script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>-->
+    <!--test link addon ?vid=c928ed6b-57df-44a9-8768-5aea9c20ddc5&style=bubble-->
+    <!--JIM Link:https://www.reallygreatreading.com/rgrmp/v1_0/index.html?v=c928ed6b-57df-44a9-8768-5aea9c20ddc5&s=1-->
+    <!--REGGIE Link:https://www.reallygreatreading.com/rgrmp/v1_0/index.html?v=da637e63-ecc2-4f7d-a974-d19ef3e004fb&s=2-->
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+
+</head>
+
+<body>
+    <div id="wrapper" role="main">
+
+        <div class="vid standard">
+            <h1>Video</h1>
+            <div class="videoBox">
+                <img src="https://manager.media.reallygreatreading.com/object/preview-link/5dfb143d-d138-4d6f-b40e-3b303dd91934"
+                    class="vidThumbnail" />
+                <video id="video1" autoplay="false">   
+                    
+                </video>
+            </div>
+            <div class="videoControlBlock"><input type="range" min="1" max="1000" value="0" alt="set time"
+                    class="vidSlider" tabindex="-1" target="video1" action="setVideoTime" aria-label="set video time"
+                    disabled>
+                <div class="btn vidPlayToggle paused" tabindex="0" aria-label="toggle play" alt="toggle video play"
+                    role="button"></div>
+                <div class="btn vidCCToggle" aria-label="toggle captions" alt="toggle captions" role="button"
+                    tabindex="0"></div>
+                <div class="btn vidAudioToggle" tabindex="0" aria-label="toggle audio" alt="toggle audio" role="button">
+                </div>
+                <div class="btn vidFullScreen" tabindex="0" aria-label="fullscreen video" alt="fullscreen"
+                    role="button"></div>
+            </div>
+            <div class="captionBlock">
+                <div class="vidCaptionTextBlock">
+                    <div class="vidCaption"></div>
+                </div>
+            </div>
+        </div>
+        <!--<script src="js/dash.all.min.js"></script>-->
+
+
+    </div>
+</body>
+
+</html>
