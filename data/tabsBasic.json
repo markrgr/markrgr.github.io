@@ -1,0 +1,228 @@
+[
+    {
+        "tabs": [
+            {
+                "title": "Basic Tiles",
+                "width": "5.5",
+                "position": "2",
+                "tiles": [
+                    {
+                        "type": "color",
+                        "content": "Red"
+                    },
+                    {
+                        "type": "color",
+                        "content": "Yellow"
+                    },
+                    {
+                        "type": "color",
+                        "content": "Green"
+                    },
+                    {
+                        "type": "color",
+                        "content": "Blue"
+                    },
+                    {
+                        "type": "break"
+                    },
+                    {
+                        "type": "color",
+                        "content": "Orange"
+                    },
+                    {
+                        "type": "color",
+                        "content": "Purple"
+                    },
+                    {
+                        "type": "color",
+                        "content": "Cyan"
+                    },
+                    {
+                        "type": "color",
+                        "content": "Gray"
+                    },
+                    {
+                        "type": "div"
+                    },
+                    {
+                        "type": "vowel",
+                        "content": "a"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "b"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "c"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "d"
+                    },
+                    {
+                        "type": "vowel",
+                        "content": "e"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "f"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "g"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "h"
+                    },
+                    {
+                        "type": "vowel",
+                        "content": "i"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "j"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "k"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "l"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "m"
+                    },
+                    {
+                        "type": "break"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "n"
+                    },
+                    {
+                        "type": "vowel",
+                        "content": "o"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "p"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "qu"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "r"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "s"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "t"
+                    },
+                    {
+                        "type": "vowel",
+                        "content": "u"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "v"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "w"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "x"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "y"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "z"
+                    },
+                    {
+                        "type": "div"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "ch"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "ck"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "ph"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "sh"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "th"
+                    },
+                    {
+                        "type": "break"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "wh"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "tch",
+                        "width": "3"
+                    },
+                    {
+                        "type": "letter",
+                        "content": "dge",
+                        "width": "3"
+                    }
+                ]
+            },
+            {
+                "title": "SyllaBoards",
+                "position": "9",
+                "width": "6.5",
+                "tiles": [
+                    {
+                        "type": "syllaboard",
+                        "width": "10"
+                    },
+                    {
+                        "type": "txt",
+                        "content":"SyllaBoards help students break words into chunks for reading and spelling,</br>and can be used in place of a whiteboard for classroom activities."
+                    }
+                ]
+            },
+            {
+                "title": "How-To",
+                "position": "17",
+                "width": "5",
+                "tiles": [
+                    {
+                        "type": "syllaboard",
+                        "width": "10"
+                    },
+                    {
+                        "type": "txt",
+                        "content":"SyllaBoards help students break words into chunks for reading and spelling,</br>and can be used in place of a whiteboard for classroom activities."
+                    }
+                ]
+            }
+        ]
+    }
+]
