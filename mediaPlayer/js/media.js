@@ -55,8 +55,11 @@ $(document).ready(function () {
     //wrapper.innerHTML = htmlString;
 
     //$('.vid.standard').addClass('s' + style);
-
-
+    if (parseInt(style)>99) {
+    $('.vidSlider').attr('tabIndex',0);
+    
+    }
+ $('.vidSlider').removeAttr('disabled');
     $('.vid.standard').addClass('s' + style);
     var video = $('#video1').get(0);
     video.pause();
