@@ -1,11 +1,7 @@
-/*AROUND LINE 160 is the place to Emit 
-the Video Done WS Call. */
-
 
 var currentWidth;
-var referenceWidth = 360;
+var referenceWidth = 650;
 var active = true;
-var maxTime = 0;
 
 function sizer() {
     if (active) {
@@ -28,61 +24,79 @@ $(document).ready(function () {
     const urlParams = new URLSearchParams(window.location.search);
     // Extract the value of the 'video' parameter
     // Extract the value of the 'video' parameter
-    //const vid = urlParams.get('v');
-    var style = urlParams.get('s');
-    var link = urlParams.get('l');
-    var vid = urlParams.get('v');
+    const vid = urlParams.get('vid');
+    const style = urlParams.get('style');
+    var styleString = '' + style;
     var htmlString = '';
 
-    //vid = '23189c13-078d-425b-b24c-dd57f40740a3';
 
-    var vidString = 'https://media.reallygreatreading.com/object-link/' +vid+'/raw.mpd';
-    var captionString = 'https://media.reallygreatreading.com/object-link/' +vid+'/en.vtt';
-        var thumbnailString = 'https://manager.media.reallygreatreading.com/object/preview-link/' +vid;
+    if (!style) {
+        var vidString = '';
+        vidString += '<div class="vid standard"><video id="video1" data-dashjs-player="" src="https://media.reallygreatreading.com/object-link/' + vid + '/raw.mpd" crossorigin="anonymous" autoplay>';
+        vidString += '<track default kind="captions" srclang="en" src="https://media.reallygreatreading.com/object-link/' + vid + '/en.vtt" />';
+        vidString += '</video><input class="vidSlider" tabindex="0" type="range" min="0" max="1000" role="slider" aria-label="set time" alt="set video time"/><div class="btn vidPlayToggle" tabindex="0" aria-label="toggle play" alt="toggle video play" role="button"></div><div class="btn vidCCToggle"  aria-label="toggle captions" alt= "toggle captions" role="button"" tabindex="0"></div><div class="btn vidAudioToggle" tabindex="0"   aria-label="toggle audio" alt="toggle audio" role="button"></div><div class="btn vidFullScreen" tabindex="0"   aria-label="fullscreen video" alt="fullscreen" role="button"></div><div class="captionBlock"><div class="vidCaptionTextBlock"><div class="vidCaption"></div></div></div></div><script src="js/dash.all.min.js"></script>';
+        $('#caption1').html('');
+        htmlString = vidString;
+    } else {
+        if (styleString == '"avatar"') {
+            var vidString = '';
+            vidString += '<div class="vid bubble avatar"><div class="videoBox"><video id="video1" data-dashjs-player="" src="https://media.reallygreatreading.com/object-link/' + vid + '/raw.mpd" crossorigin="anonymous" autoplay>';
+            vidString += '<track default kind="captions" srclang="en" src="https://media.reallygreatreading.com/object-link/' + vid + '/en.vtt" />';
+            vidString += '</video></div><div class="btn vidPlayToggle" tabindex="0" aria-label="toggle play" alt="toggle video play" role="button"></div><div class="captionBlock"><div class="vidCaptionTextBlock"><div class="vidCaption"></div></div></div></div><script src="js/dash.all.min.js"></script>';
+            $('#caption1').html('');
+            htmlString = vidString;
+        }
+        if (styleString == '"bubble"') {
+            var vidString = '';
+            vidString += '<div class="vid bubble bubble16x9"><div class="videoBox"><video id="video1" crossorigin="anonymous">';
+            vidString += '<track default kind="captions" srclang="en" src="https://media.reallygreatreading.com/object-link/' + vid + '/en.vtt" />';
+            vidString += '</video></div><div class="btn vidPlayToggle" tabindex="0" aria-label="toggle play" alt="toggle video play" role="button"></div><div class="videoControlBlock"><div class="btn vidCCToggle"  aria-label="toggle captions" alt= "toggle captions" role="button"" tabindex="0"></div><div class="btn vidAudioToggle" tabindex="0"   aria-label="toggle audio" alt="toggle audio" role="button"></div><div class="btn vidFullScreen" tabindex="0" aria-label="fullscreen video" alt="fullscreen" role="button"></div></div><div class="captionBlock"><div class="vidCaptionTextBlock"><div class="vidCaption"></div></div></div></div><script src="js/dash.all.min.js"></script>';
+            $('#caption1').html('');
 
-    const player = dashjs.MediaPlayer().create();
-    player.initialize(
-        document.getElementById("video1"),
-        vidString,
-        false);
-    //$('#caption1').html('');
-    htmlString = vidString;
-    $('#image1').attr('src', thumbnailString);
-    $('#track1').attr('src', captionString);
+            
+            htmlString = vidString;
+
+        }
+        if (styleString == '"bubbleSL"') {
+            var vidString = '';
+            vidString += '<div class="vid bubble bubble16x9 bubbleSL"><div class="videoBox"><video id="video1" data-dashjs-player="" src="https://media.reallygreatreading.com/object-link/' + vid + '/raw.mpd" crossorigin="anonymous" autoplay>';
+            vidString += '<track default kind="captions" srclang="en" src="https://media.reallygreatreading.com/object-link/' + vid + '/en.vtt" />';
+            vidString += '</video></div><div class="btn vidPlayToggle" tabindex="0" aria-label="toggle play" alt="toggle video play" role="button"></div><div class="videoControlBlock"><div class="btn vidCCToggle"  aria-label="toggle captions" alt= "toggle captions" role="button"" tabindex="0"></div><div class="btn vidAudioToggle" tabindex="0"   aria-label="toggle audio" alt="toggle audio" role="button"></div><div class="btn vidFullScreen" tabindex="0" aria-label="fullscreen video" alt="fullscreen" role="button"></div></div><div class="captionBlock"><div class="vidCaptionTextBlock"><div class="vidCaption"></div></div></div></div>';
+            $('#caption1').html('');
+            htmlString = vidString;
+
+        }
+
+
+    }
+
     // Select the div by its ID
     const wrapper = document.getElementById('wrapper');
 
     // Insert the string into the div
 
-    //wrapper.innerHTML = htmlString;
+    wrapper.innerHTML = htmlString;
+    var vidCall = 'https://media.reallygreatreading.com/object-link/' +vid+'/raw.mpd';
 
-    //$('.vid.standard').addClass('s' + style);
-    if (parseInt(style)>99) {
-    $('.vidSlider').attr('tabIndex',0);
-    
-    }
- $('.vidSlider').removeAttr('disabled');
-    $('.vid.standard').addClass('s' + style);
+    const player = dashjs.MediaPlayer().create();
+    player.initialize(
+        document.getElementById("video1"),
+        vidCall,
+        false);
     var video = $('#video1').get(0);
-    video.pause();
     var loaded = false;
-    video.autoplay = false;
-    video.load();
-
     video.oncanplay = function () {
         if (!loaded) {
             loaded = true;
             var video = $('#video1').get(0);
-            //video.play();
+            video.play();
 
         }
     }
-
     video.onloadstart = function () {
         $('.vidCaption').html('');
-
         var video = $('#video1').get(0);
-        //video.autoplay = true;
+        video.autoplay = true;
         var caption = video.textTracks[0];
         caption.mode = 'hidden';
         caption.oncuechange = function (e) {
@@ -94,19 +108,19 @@ $(document).ready(function () {
                     $('.vidCaption').html(cue.getCueAsHTML());
                 } else {
                     $('.vidCaption').fadeOut(200);
-                    $('.vidCaption').html('');
+                    $('.vidCaption').html('empty');
                 }
             }
         };
-        // video.play();
+        video.play();
+        //Websocket Video Play
+        console.log('video start');
     }
 
     $('.vidCaption').hide();
 
     $('.vidPlay').bind('click', function () {
-        //$('.vidCaption').fadeOut(200);
-        //$('.vidCaption').html('');
-        //$('.vidCaption').html('');
+        $('.vidCaption').html('');
         var video = $('#video1').get(0);
         var caption = video.textTracks[0];
         caption.mode = 'hidden';
@@ -119,20 +133,20 @@ $(document).ready(function () {
                     $('.vidCaption').html(cue.getCueAsHTML());
                 } else {
                     $('.vidCaption').fadeOut(200);
-                    $('.vidCaption').html('');
+                    $('.vidCaption').html('empty');
                 }
             }
         };
         $(this).fadeOut(200);
         video.play();
+        //Websocket Video Play
+        console.log('video play');
     });
 
     $('.vidPlay').bind('keydown', function (e) {
 
         if (e.keyCode == 13) {
-            //$('.vidCaption').fadeOut(200);
-            //$('.vidCaption').html('');
-            //$('.vidCaption').html('');
+            $('.vidCaption').html('');
             var video = $('#video1').get(0);
             var caption = video.textTracks[0];
             caption.mode = 'hidden';
@@ -149,88 +163,44 @@ $(document).ready(function () {
                     }
                 }
             };
-            var interaction = video.textTracks[1];
-            interaction.mode = 'hidden';
-            interaction.oncuechange = function (e) {
-                var cue = this.activeCues[1];
-                if (cue) {
-                    var cueString = cue.getCueAsHTML();
-                    if (cueString != '') {
-                        $('#wsBlock').fadeIn(200);
-                        $('#wsBlock').html(cue.getCueAsHTML());
-                    } else {
-                        $('#wsBlock').fadeOut(200);
-                        $('#wsBlock').html('empty');
-                    }
-                }
-            };
             $(this).fadeOut(200);
             video.play();
+            //Websocket Video Play
             console.log('video play');
         }
     });
 
     $('video').bind('timeupdate', function (e) {
         var video = $(this).get(0);
-        if (parseInt(style) < 100) {
-            maxTime = video.duration;
-        } else {
-            if (video.currentTime > maxTime) {
-                maxTime = video.currentTime;
-            }
-        }
-
         if (video.currentTime >= video.duration) {
-            //Opportunity to Notify video done
-            console.log('Possible Web Socket for video done');
-            //socket.emit("message", { object_id: objId, language_code: langCode });
-            if (link != null) {
-                //alert(link);
-                window.location = link;
-            } else {
-                //alert('no link. Can send websocket call here.');
-            }
             $('.vidSlider').val(0);
             $('.vidPlay').fadeIn(100);
             video.currentTime = 0;
             video.pause();
-
-            $('.vidCaption').fadeOut(200);
-            $('.vidCaption').html('');
             //sendComplete();
 
             $('.vidPlayToggle').addClass('paused');
-
+            $('.vidCaption').fadeOut(200);
+            $('.vidCaption').html('empty');
             //Websocket Video Done
             console.log('video done');
         } else {
             $('.vidSlider').val((video.currentTime / video.duration) * 1000);
         }
     });
-
     $('.vidSlider').bind('input change', function (e) {
         //var target = $(this).attr('target');
-        $('.vidCaption').fadeOut(200);
-        $('.vidCaption').html('');
         var video = $('#video1').get(0);
         var min = $(this).attr('min');
         var max = $(this).attr('max');
-        if (video.duration * ($(this).val() / max) <= maxTime) {
-            video.currentTime = video.duration * ($(this).val() / max);
-
-        } else {
-            video.currentTime = maxTime;
-        }
+        video.currentTime = video.duration * ($(this).val() / max);
     });
-
     $('.vidPlayToggle').bind('click', function () {
         //var target = $(this).attr('target');
         // $('#' + target).requestFullscreen();
-        $('.vidThumbnail').fadeOut(200);
         var video = $('#video1').get(0);
         video.play();
-        //$('.vidCaption').fadeOut(200);
-        //$('.vidCaption').html('');
+
         if ($(this).hasClass('paused')) {
             console.log('pause');
             $(this).hide();
@@ -250,9 +220,6 @@ $(document).ready(function () {
 
     $('.vidPlayToggle').bind('keydown', function (e) {
         if (e.keyCode == 13) {
-            $('.vidThumbnail').fadeOut(200);
-            //$('.vidCaption').fadeOut(200);
-            //$('.vidCaption').html('');
             //var target = $(this).attr('target');
             // $('#' + target).requestFullscreen();
             var video = $('#video1').get(0);
@@ -354,5 +321,4 @@ $(document).ready(function () {
             //video.requestFullscreen();
         }
     });
-
 });
