@@ -1,4 +1,4 @@
-
+//after changing video call
 function initSupVideo() {
     $('.btn[action="playVid"]').addClass('paused');
 
@@ -67,14 +67,22 @@ function supVideoLoad(vlink, clink,tlink) {
         $('#btnVidTranscripts').hide();
     };
     var vidString = '';
-    vidString += '<div class="vid"><video id="video1" data-dashjs-player="" src="' + vlink + '" crossorigin="anonymous">';
+    vidString += '<div class="vid"><video id="video1" crossorigin="anonymous">';
     vidString += '<track default kind="captions" srclang="en" src="' + clink + '" />';
     //vidString += '</video></div><script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>';
-    vidString += '</video></div><script src="common/js/dash.all.min.js"></script>';
+    vidString += '</video></div>';
     //vidString += '</video></div><script>MediaPlayer.reset();</script>';
 
     $('#caption1').html('');
     $('#video0 .vidBox').html(vidString);
+    
+    const player = dashjs.MediaPlayer().create();
+
+    player.initialize(
+        document.getElementById("video1"),
+        vlink,
+        false);
+
     $('.supSlideNavigation').hide();
     initSupVideo();
 }
