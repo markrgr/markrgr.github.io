@@ -108,8 +108,23 @@
     background-image:url(../img/lowercase.svg);
     background-size: 90% auto;
     background-position:center center;
+    border: .1em solid transparent;
+    transition: border-color 0.2s ease;
     border-radius:.2em;
+
 }
+
+.uclc:hover {
+    border: .1em solid #fff;
+     background-color: rgba(215,172,214,40%);
+    
+}
+
+.uclc:focus {
+     border: .1em solid #fff;
+}
+
+
 .uclc.uppercase {
      background-image:url(../img/uppercase.svg);
 }
