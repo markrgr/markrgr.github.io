@@ -116,12 +116,18 @@
     border: solid .1em rgba(0, 0, 0, .5);
     border-radius: .2em;
     box-shadow: .05em .05em .25em rgba(0, 0, 0, .5);
-    background-image: url(../widgets/mediaplayer/img/thumbs/23189c13-078d-425b-b24c-dd57f40740a3.png);
     background-size: auto 100%;
     cursor:pointer;
     color:var(--textWhite);
     font-family:'BoldText';
     line-height:1.2em;
+}
+
+.widget.vid {
+    background-color:green;
+
+    background-size:auto 110%;
+    background-position:center center;
 }
 .widget .widgetLabel {
     position:absolute;
@@ -141,9 +147,7 @@
     z-index: 0;
     background-color:rgba(0,0,0,.5);
 }
-.widget.vid {
-    background-image: url(../widgets/mediaplayer/img/thumbs/23189c13-078d-425b-b24c-dd57f40740a3.png);
-}
+
 
 .widget.web {
     background-image: url(../img/thumbs/olt.png);

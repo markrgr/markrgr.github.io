@@ -979,8 +979,14 @@
                     },
                     {
                         "type": "vid",
-                        "vid":"23189c13-078d-425b-b24c-dd57f40740a3",
-                        "content":"Handwriting<br/>Posture",
+                        "vid":"f19acb2c-cbc1-4845-abed-9a6d868740ca",
+                        "content":"Syllaboard<br/>Example",
+                        "width": "10"
+                    },
+                    {
+                        "type": "vid",
+                        "vid":"4697af26-8a04-4353-8d29-ccab64a624b5",
+                        "content":"Chaining<br/>Example",
                         "width": "10"
                     }
                     

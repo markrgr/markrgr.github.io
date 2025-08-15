@@ -85,6 +85,10 @@ function initTabs(set) {
 
         $('.tabs').html(tabString);
         //$('#widgets').html(widgetString);
+       $('.widget.vid').each(function(e){
+        $(this).css('background-image','url(https://manager.media.reallygreatreading.com/object/preview-link/' + $(this).attr('vid') +')');
+       })
+     
         $('.tLabel').bind('keydown', function (e) {
             if (e.keyCode == 13) {
                 var parentID = $(this).parent().attr('id');
