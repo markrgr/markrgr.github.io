@@ -98,6 +98,21 @@
     margin: .2em;
     float: left;
 }
+.uclc {
+    position:absolute;
+    top:2.6em;
+    right:1.4em;
+    height:1.4em;
+    width:1.4em;
+    cursor:pointer;
+    background-image:url(../img/lowercase.svg);
+    background-size: 90% auto;
+    background-position:center center;
+    border-radius:.2em;
+}
+.uclc.uppercase {
+     background-image:url(../img/uppercase.svg);
+}
 .widget {
     position: relative;
     background-color: white;

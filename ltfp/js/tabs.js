@@ -1,4 +1,4 @@
-
+var uppercase = false;
 
 function addWeb(url) {
     $('#widgets').html('<iframe class="webFrame" src="' + url + '" aria-label="webview asset">');
@@ -62,6 +62,9 @@ function initTabs(set) {
                     case 'vidBub':
                         tabString += '<div class="vidBub" aria-label="' + data[0].tabs[i].tiles[j].content + '" role="button" tabindex="-1"><div class="label">' + data[0].tabs[i].tiles[j].content + '</div></div>';
                         break;
+                    case 'uclc':
+                        tabString += '<div class="uclc" aria-label="Uppercase Lowercase Toggle" role="button" tabindex="-1"></div>';
+                        break;
                     default:
                         var classString = '';
                         if (data[0].tabs[i].tiles[j].type == 'vowel') {
@@ -84,11 +87,47 @@ function initTabs(set) {
         };
 
         $('.tabs').html(tabString);
+
+        $('.uclc').bind('click', function (e) {
+            if (uppercase) {
+                uppercase = false;
+                $(this).removeClass('uppercase');
+                $('#t1 .sub').each(function (e) {
+                    $(this).text($(this).text().toLowerCase());
+                })
+            } else {
+                uppercase = true;
+                $(this).addClass('uppercase');
+                $('#t1 .sub').each(function (e) {
+                    $(this).text($(this).text().toUpperCase());
+                })
+            }
+            // alert('togglecase');
+        });
+
+        $('.uclc').bind('keydown', function (e) {
+            if (e.keyCode == 13) {
+                if (uppercase) {
+                    uppercase = false;
+                    $(this).removeClass('uppercase');
+                    $('#t1 .sub').each(function (e) {
+                        $(this).text($(this).text().toLowerCase());
+                    })
+                } else {
+                    uppercase = true;
+                    $(this).addClass('uppercase');
+                    $('#t1 .sub').each(function (e) {
+                        $(this).text($(this).text().toUpperCase());
+                    })
+                }
+            }
+            // alert('togglecase');
+        });
         //$('#widgets').html(widgetString);
-       $('.widget.vid').each(function(e){
-        $(this).css('background-image','url(https://manager.media.reallygreatreading.com/object/preview-link/' + $(this).attr('vid') +')');
-       })
-     
+        $('.widget.vid').each(function (e) {
+            $(this).css('background-image', 'url(https://manager.media.reallygreatreading.com/object/preview-link/' + $(this).attr('vid') + ')');
+        })
+
         $('.tLabel').bind('keydown', function (e) {
             if (e.keyCode == 13) {
                 var parentID = $(this).parent().attr('id');
@@ -97,6 +136,7 @@ function initTabs(set) {
                     $('.tabs .preset').attr('tabindex', '-1');
                     $('.tabs .widget').attr('tabindex', '-1');
                     $('.tabs .vidBub').attr('tabindex', '-1');
+                    $('.tabs .uclc').attr('tabindex', '-1');
                 } else {
                     $(this).parent().css('bottom', '0em');
                     $(this).parent().css('bottom', '0em');
@@ -104,6 +144,7 @@ function initTabs(set) {
                     $('.tabs .widget').attr('tabindex', '-1');
                     $('#' + parentID + ' .preset').attr('tabindex', '0');
                     $('#' + parentID + ' .widget').attr('tabindex', '0');
+                    $('.tabs .uclc').attr('tabindex', '0');
                     $('.tabs .vidBub').attr('tabindex', '0');
                     $('.tab:not(#' + parentID + ')').css('bottom', '-9.8em');
                 }
@@ -116,6 +157,7 @@ function initTabs(set) {
                 $('.tabs .preset').attr('tabindex', '-1');
                 $('.tabs .widget').attr('tabindex', '-1');
                 $('.tabs .vidBub').attr('tabindex', '-1');
+                $('.tabs .uclc').attr('tabindex', '-1');
 
             } else {
                 $(this).parent().css('bottom', '0em');
@@ -124,6 +166,7 @@ function initTabs(set) {
                 $('.tabs .widget').attr('tabindex', '-1');
                 $('#' + parentID + ' .preset').attr('tabindex', '0');
                 $('#' + parentID + ' .widget').attr('tabindex', '0');
+                $('.tabs .uclc').attr('tabindex', '0');
                 $('.tabs .vidBub').attr('tabindex', '0');
 
                 $('.tab:not(#' + parentID + ')').css('bottom', '-9.8em');
@@ -170,7 +213,7 @@ function initTabs(set) {
         $('.widget.vid').bind('keydown', function (e) {
             if (e.keyCode == 13) {
                 //if ($(this).attr('vplay') == 'false') {
-            addVideoBubble16x9($(this).attr('vid'));
+                addVideoBubble16x9($(this).attr('vid'));
                 //} else {
                 //    $('#widgets').html('');
                 //    $('#widgets').hide();

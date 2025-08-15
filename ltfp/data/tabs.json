@@ -190,6 +190,11 @@
                         "type": "letter",
                         "content": "dge",
                         "width": "3"
+                    },
+                    {
+                        "type": "uclc",
+                        "content": "",
+                        "width": "3"
                     }
                 ]
             },
