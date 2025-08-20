@@ -65,6 +65,20 @@ function initTabs(set) {
                     case 'uclc':
                         tabString += '<div class="uclc" aria-label="Uppercase Lowercase Toggle" role="button" tabindex="-1"></div>';
                         break;
+                    case 'digraph':
+                        var classString = '';
+                        if (data[0].tabs[i].tiles[j].type == 'vowel') {
+                            classString += ' vowel';
+                        }
+                        if (data[0].tabs[i].tiles[j].type == 'vowelChunk') {
+                            classString += ' vowelChunk';
+                        }
+                        if (data[0].tabs[i].tiles[j].width) {
+                            classString += ' w' + data[0].tabs[i].tiles[j].width;
+                        }
+
+                        tabString += '<div class="digraph' + classString + '" role="button" aria-label="' + data[0].tabs[i].tiles[j].content + '" tabindex="-1"><div class="sub">' + data[0].tabs[i].tiles[j].content + '</div></div>';
+                        break;
                     default:
                         var classString = '';
                         if (data[0].tabs[i].tiles[j].type == 'vowel') {
@@ -98,8 +112,13 @@ function initTabs(set) {
             } else {
                 uppercase = true;
                 $(this).addClass('uppercase');
-                $('#t1 .sub').each(function (e) {
+                $('#t1 .preset .sub').each(function (e) {
                     $(this).text($(this).text().toUpperCase());
+                });
+                $('#t1 .digraph .sub').each(function (e) {
+                    //$(this).text($(this).text().substr(0, 1).toUpperCase() + $(this).text().substr(1).toUpperLowercase());
+                    var digraphCaps = $(this).text().substr(0,1).toUpperCase() + $(this).text().substr(1).toLowerCase();
+                    $(this).text(digraphCaps);
                 })
             }
             // alert('togglecase');
@@ -178,6 +197,15 @@ function initTabs(set) {
         });
 
         $('.preset').bind('keydown', function (e) {
+            if (e.keyCode == 13) {
+                addTile(this);
+            }
+        });
+                $('.digraph').bind('click', function (e) {
+            addTile(this);
+        });
+
+        $('.digraph').bind('keydown', function (e) {
             if (e.keyCode == 13) {
                 addTile(this);
             }

@@ -108,6 +108,7 @@
     background-image:url(../img/lowercase.svg);
     background-size: 90% auto;
     background-position:center center;
+    background-repeat:no-repeat;
     border: .1em solid transparent;
     transition: border-color 0.2s ease;
     border-radius:.2em;
@@ -246,11 +247,45 @@
     cursor:pointer;
 }
 
+
+.digraph {
+    background-color: white;
+    padding: .1em;
+    padding-top: .2em;
+    display: inline-block;
+    margin: .2em;
+    margin-right: .1em;
+    margin-left: .1em;
+    height: 1.3em;
+    min-width: 1.2em;
+    text-align: center;
+    width:1.2em;
+    text-decoration: none;
+    border-radius: .2em;
+    border: solid .1em rgba(0, 0, 0, .5);
+    border-radius: .2em;
+    box-shadow: .05em .05em .25em rgba(0, 0, 0, .5);
+    cursor:pointer;
+}
+
 .preset.w3 {
     width: 1.8em;
 }
 .preset.w4 {
     width: 2.6em;
+}
+.digraph.w3 {
+    width: 1.8em;
+}
+.digaph.w4 {
+    width: 2.6em;
+}
+.digraph .sub {
+    padding-top:.1em;
+    font-size: .7em;
+    height: 1.35em;
+    border-bottom: solid .1em;
+    line-height: 1.2em;
 }
 .preset .sub {
     padding-top:.1em;

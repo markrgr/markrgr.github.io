@@ -155,7 +155,7 @@
                         "type": "div"
                     },
                     {
-                        "type": "letter",
+                        "type": "digraph",
                         "content": "ch"
                     },
                     {
@@ -163,22 +163,22 @@
                         "content": "ck"
                     },
                     {
-                        "type": "letter",
+                        "type": "digraph",
                         "content": "ph"
                     },
                     {
-                        "type": "letter",
+                        "type": "digraph",
                         "content": "sh"
                     },
                     {
-                        "type": "letter",
+                        "type": "digraph",
                         "content": "th"
                     },
                     {
                         "type": "break"
                     },
                     {
-                        "type": "letter",
+                        "type": "digraph",
                         "content": "wh"
                     },
                     {
@@ -978,10 +978,6 @@
                 "position": "56",
                 "width": "6.5",
                 "tiles": [
-                {
-                        "type": "txt",
-                        "content":"Tutorial Videos Here,</br>We are pulling these from Media Server."
-                    },
                     {
                         "type": "vid",
                         "vid":"f19acb2c-cbc1-4845-abed-9a6d868740ca",
