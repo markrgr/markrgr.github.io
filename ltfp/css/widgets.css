@@ -71,7 +71,7 @@
     background-image:url(../widgets/mediaplayer/img/bubbleVid4X3Back.png);
 }
 .videoBubble.videoBubble16x9 {
-    background-image:url(../widgets/mediaplayer/img/bubbleVid16X9Back.png);
+    background-image:url(../widgets/mediaplayer/img/bubbleVid16X9Back2025.png);
     width:9em;
 }
 .videoBubble.videoBubble16x9 .vidFrameBubble {
@@ -115,7 +115,7 @@
 .videoBubble .close {
     position:absolute;
     top:1em;
-    right:.2em;
+    right:.78em;
     height:1em;
     width:1em;
     border-radius:50%;
@@ -138,12 +138,12 @@
 .vidFrameBubble {
     position:absolute;
     top:1.5em;
-    left:.45em;
+    left:0em;
     z-index:100000;
     cursor:pointer;
     height:6em;
     width:4.4em;
-    overflow: hidden;
+    overflow:hidden;
 }
 #widgets {
     position: absolute;

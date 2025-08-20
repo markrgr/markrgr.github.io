@@ -50,7 +50,9 @@ $(document).ready(function () {
             var vidString = '';
             vidString += '<div class="vid bubble bubble16x9"><div class="videoBox"><video id="video1" crossorigin="anonymous">';
             vidString += '<track default kind="captions" srclang="en" src="https://media.reallygreatreading.com/object-link/' + vid + '/en.vtt" />';
-            vidString += '</video></div><div class="btn vidPlayToggle" tabindex="0" aria-label="toggle play" alt="toggle video play" role="button"></div><div class="videoControlBlock"><div class="btn vidCCToggle"  aria-label="toggle captions" alt= "toggle captions" role="button"" tabindex="0"></div><div class="btn vidAudioToggle" tabindex="0"   aria-label="toggle audio" alt="toggle audio" role="button"></div><div class="btn vidFullScreen" tabindex="0" aria-label="fullscreen video" alt="fullscreen" role="button"></div></div><div class="captionBlock"><div class="vidCaptionTextBlock"><div class="vidCaption"></div></div></div></div><script src="js/dash.all.min.js"></script>';
+            //vidString += '</video></div><div class="btn vidPlayToggle" tabindex="0" aria-label="toggle play" alt="toggle video play" role="button"></div><div class="videoControlBlock"><div class="btn vidCCToggle"  aria-label="toggle captions" alt= "toggle captions" role="button"" tabindex="0"></div><div class="btn vidAudioToggle" tabindex="0"   aria-label="toggle audio" alt="toggle audio" role="button"></div><div class="btn vidFullScreen" tabindex="0" aria-label="fullscreen video" alt="fullscreen" role="button"></div></div><div class="captionBlock"><div class="vidCaptionTextBlock"><div class="vidCaption"></div></div></div></div><script src="js/dash.all.min.js"></script>';
+            vidString += '</video></div><div class="videoControlBlock"><input type="range" min="1" max="1000" value="0" alt="set time" class="vidSlider" tabindex="0" target="video1" action="setVideoTime" aria-label="set video time"><div class="btn vidPlayToggle" tabindex="0" aria-label="toggle play" alt="toggle video play" role="button"></div><div class="btn vidCCToggle"  aria-label="toggle captions" alt= "toggle captions" role="button"" tabindex="0"></div><div class="btn vidAudioToggle" tabindex="0"   aria-label="toggle audio" alt="toggle audio" role="button"></div><div class="btn vidFullScreen" tabindex="0" aria-label="fullscreen video" alt="fullscreen" role="button"></div></div><div class="captionBlock"><div class="vidCaptionTextBlock"><div class="vidCaption"></div></div></div></div><script src="js/dash.all.min.js"></script>';
+
             $('#caption1').html('');
 
             
@@ -195,7 +197,7 @@ $(document).ready(function () {
         var max = $(this).attr('max');
         video.currentTime = video.duration * ($(this).val() / max);
     });
-    $('.vidPlayToggle').bind('click', function () {
+  /*  $('.vidPlayToggle').bind('click', function () {
         //var target = $(this).attr('target');
         // $('#' + target).requestFullscreen();
         var video = $('#video1').get(0);
@@ -235,7 +237,41 @@ $(document).ready(function () {
                 video.pause();
             }
         }
+    });*/
+
+    $('.vidPlayToggle').bind('click', function () {
+        var video = $('#video1').get(0);
+        video.play();
+
+        if ($(this).hasClass('paused')) {
+        
+            $(this).removeClass('paused');
+    
+            video.play();
+        } else {
+
+
+            $(this).addClass('paused');
+
+            video.pause();
+        }
     });
+
+    $('.vidPlayToggle').bind('keydown', function (e) {
+        if (e.keyCode == 13) {
+           var video = $('#video1').get(0);
+        video.play();
+
+        if ($(this).hasClass('paused')) {
+             $(this).removeClass('paused');
+            video.play();
+        } else {
+             $(this).addClass('paused');
+            video.pause();
+        }
+        }
+    });
+
 
     $('.vidCCToggle').bind('click', function () {
         $(this).toggleClass('captionsOff');
