@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 73.87 73.87">
+  <circle cx="36.935" cy="36.935" r="36.1963" fill="#B4E1EF"/>
+  <defs>
+    <style>.cls-1,.cls-2,.cls-3{fill:none;stroke-linejoin:round;}.cls-1,.cls-3{stroke:#fff;stroke-width:1.34px;}.cls-4{fill:#e9513d;}.cls-5{fill:#acdde4;}.cls-2{stroke:#404041;stroke-width:1.58px;}.cls-2,.cls-3{stroke-linecap:round;}</style>
+    <clipPath id="circularClip">
+      <circle cx="36.935" cy="36.935" r="36.1963"/>
+    </clipPath>
+  </defs>
+  <g id="Icons" clip-path="url(#circularClip)">
+    <g>
+      <circle class="cls-5" cx="36.93" cy="36.93" r="36.93" transform="translate(-11.32 56.92) rotate(-67.5)"/>
+      <polygon class="cls-4" points="49.7 21.3 36.93 14.7 24.17 21.3 18.91 30.93 18.91 49.84 54.96 49.84 54.96 30.93 49.7 21.3"/>
+      <polyline class="cls-1" points="45.45 49.84 45.45 35.37 28.42 35.37 28.42 49.84"/>
+      <polyline class="cls-2" points="55.69 32.27 49.7 21.3 36.93 14.7 24.17 21.3 18.17 32.27"/>
+      <line class="cls-1" x1="28.42" y1="35.37" x2="45.45" y2="49.84"/>
+      <line class="cls-1" x1="45.45" y1="35.37" x2="28.42" y2="49.84"/>
+      <g>
+        <line class="cls-3" x1="34.6" y1="22.81" x2="39.27" y2="27.48"/>
+        <line class="cls-3" x1="39.27" y1="22.81" x2="34.6" y2="27.48"/>
+        <rect class="cls-1" x="33.59" y="21.78" width="6.69" height="6.73"/>
+      </g>
+    </g>
+  </g>
+</svg>

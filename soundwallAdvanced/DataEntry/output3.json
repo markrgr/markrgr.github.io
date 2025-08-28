@@ -1,0 +1,390 @@
+{
+  "type": "icn",
+  "alt": "bear",
+  "id": "bear",
+  "content": "bear",
+  "left": "18em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp01",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn01",                       "alt": "bear",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp01",                        "content": "assets/mouth_images/mouth_w_lines/Mouth14_b_Model2_L.jpg",                        "alt": "mouth of B sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/b/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of B sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth14_b_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "cat",
+  "id": "cat",
+  "content": "cat",
+  "left": "30em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp02",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn02",                       "alt": "cat",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp02",                        "content": "assets/mouth_images/mouth_w_lines/Mouth22_k_Model1_L.jpg",                        "alt": "mouth of C sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/k/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of C sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth22_k_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "duck",
+  "id": "duck",
+  "content": "duck",
+  "left": "42em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp03",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn03",                       "alt": "duck",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp03",                        "content": "assets/mouth_images/mouth_w_lines/Mouth17_d_Model1_L.jpg",                        "alt": "mouth of D sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/d/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of D sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth17_d_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "fish",
+  "id": "fish",
+  "content": "fish",
+  "left": "54em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp04",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn04",                       "alt": "fish",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp04",                        "content": "assets/mouth_images/mouth_w_lines/Mouth16_f_Model2_L.jpg",                        "alt": "mouth of F sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/f/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of F sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth16_f_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "goat",
+  "id": "goat",
+  "content": "goat",
+  "left": "66em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp05",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn05",                       "alt": "goat",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp05",                        "content": "assets/mouth_images/mouth_w_lines/Mouth22_g_Model1_L.jpg",                        "alt": "mouth of G sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/g/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of G sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth22_g_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "hammer",
+  "id": "hammer",
+  "content": "hammer",
+  "left": "78em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp06",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn06",                       "alt": "hammer",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp06",                        "content": "assets/mouth_images/mouth_w_lines/Mouth23_h_Model2_L.jpg",                        "alt": "mouth of H sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/h/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of H sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth23_h_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "jump",
+  "id": "jump",
+  "content": "jump",
+  "left": "90em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp07",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn07",                       "alt": "jump",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp07",                        "content": "assets/mouth_images/mouth_w_lines/Mouth21_j_Model1_L.jpg",                        "alt": "mouth of J sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/j/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of J sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth21_j_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "lion",
+  "id": "lion",
+  "content": "lion",
+  "left": "102em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp08",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn08",                       "alt": "lion",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp08",                        "content": "assets/mouth_images/mouth_w_lines/Mouth19_l_Model1_L.jpg",                        "alt": "mouth of L sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/l/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of L sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth19_l_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "monkey",
+  "id": "monkey",
+  "content": "monkey",
+  "left": "114em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp09",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn09",                       "alt": "monkey",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp09",                        "content": "assets/mouth_images/mouth_w_lines/Mouth14_m_Model2_L.jpg",                        "alt": "mouth of M sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/m/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of M sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth14_m_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "nest",
+  "id": "nest",
+  "content": "nest",
+  "left": "126em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp10",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn10",                       "alt": "nest",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp10",                        "content": "assets/mouth_images/mouth_w_lines/Mouth20_n_Model2_L.jpg",                        "alt": "mouth of N sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/n/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of N sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth20_n_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "popcorn",
+  "id": "popcorn",
+  "content": "popcorn",
+  "left": "138em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp11",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn11",                       "alt": "popcorn",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp11",                        "content": "assets/mouth_images/mouth_w_lines/Mouth14_p_Model2_L.jpg",                        "alt": "mouth of P sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/p/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of P sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth14_p_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "queen",
+  "id": "queen",
+  "content": "queen",
+  "left": "30em",
+  "top": "25em",
+  "action": "toggleMulti",
+  "target": "grp12",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn12",                       "alt": "queen",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp12",                        "content": "assets/mouth_images/mouth_w_lines/Mouth9_w_Model1_L.jpg",                        "alt": "mouth of Q sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/kw/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of Q sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth9_w_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "rabbit",
+  "id": "rabbit",
+  "content": "rabbit",
+  "left": "42em",
+  "top": "25em",
+  "action": "toggleMulti",
+  "target": "grp13",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn13",                       "alt": "rabbit",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp13",                        "content": "assets/mouth_images/mouth_w_lines/Mouth13_r_Model1_L.jpg",                        "alt": "mouth of R sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/r/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of R sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth13_r_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "soap",
+  "id": "soap",
+  "content": "soap",
+  "left": "54em",
+  "top": "25em",
+  "action": "toggleMulti",
+  "target": "grp14",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn14",                       "alt": "soap",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp14",                        "content": "assets/mouth_images/mouth_w_lines/Mouth18_s_Model2_L.jpg",                        "alt": "mouth of S sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/s/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of S sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth18_s_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "toothbrush",
+  "id": "toothbrush",
+  "content": "toothbrush",
+  "left": "66em",
+  "top": "25em",
+  "action": "toggleMulti",
+  "target": "grp15",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn15",                       "alt": "toothbrush",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp15",                        "content": "assets/mouth_images/mouth_w_lines/Mouth17_t_Model1_L.jpg",                        "alt": "mouth of T sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/t/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of T sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth17_t_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "violin",
+  "id": "violin",
+  "content": "violin",
+  "left": "78em",
+  "top": "25em",
+  "action": "toggleMulti",
+  "target": "grp16",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn16",                       "alt": "violin",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp16",                        "content": "assets/mouth_images/mouth_w_lines/Mouth16_v_Model2_L.jpg",                        "alt": "mouth of V sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/v/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of V sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth16_v_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "wave",
+  "id": "wave",
+  "content": "wave",
+  "left": "90em",
+  "top": "25em",
+  "action": "toggleMulti",
+  "target": "grp17",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn17",                       "alt": "wave",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp17",                        "content": "assets/mouth_images/mouth_w_lines/Mouth9_w_Model2_L.jpg",                        "alt": "mouth of W sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/w/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of W sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth9_w_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "mix",
+  "id": "mix",
+  "content": "mix",
+  "left": "102em",
+  "top": "25em",
+  "action": "toggleMulti",
+  "target": "grp18",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn18",                       "alt": "mix",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp18",                        "content": "assets/mouth_images/mouth_w_lines/Mouth22_g_Model2_L.jpg",                        "alt": "mouth of X sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ks/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of X sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth22_g_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "yes",
+  "id": "yes",
+  "content": "yes",
+  "left": "114em",
+  "top": "25em",
+  "action": "toggleMulti",
+  "target": "grp19",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn19",                       "alt": "yes",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp19",                        "content": "assets/mouth_images/mouth_w_lines/Mouth3_y_Model2_L.jpg",                        "alt": "mouth of Y sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/y/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of Y sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth3_y_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "zipper",
+  "id": "zipper",
+  "content": "zipper",
+  "left": "126em",
+  "top": "25em",
+  "action": "toggleMulti",
+  "target": "grp20",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn20",                       "alt": "zipper",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp20",                        "content": "assets/mouth_images/mouth_w_lines/Mouth18_z_Model1_L.jpg",                        "alt": "mouth of Z sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/z/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of Z sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth18_z_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "sheep",
+  "id": "sheep",
+  "content": "sheep",
+  "left": "46.5em",
+  "top": "50em",
+  "action": "toggleMulti",
+  "target": "grp21",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn21",                       "alt": "sheep",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp21",                        "content": "assets/mouth_images/mouth_w_lines/Mouth21_sh_Model1_L.jpg",                        "alt": "mouth of Sh sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/sh/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of Sh sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth21_sh_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "thumb",
+  "id": "thumb",
+  "content": "thumb",
+  "left": "59em",
+  "top": "50em",
+  "action": "toggleMulti",
+  "target": "grp22",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn22",                       "alt": "thumb",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp22",                        "content": "assets/mouth_images/mouth_w_lines/Mouth15_th1_Model2_L.jpg",                        "alt": "mouth of Th sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/th/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of Th sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth15_th1_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "there",
+  "id": "there",
+  "content": "there",
+  "left": "71.5em",
+  "top": "50em",
+  "action": "toggleMulti",
+  "target": "grp23",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn23",                       "alt": "there",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp23",                        "content": "assets/mouth_images/mouth_w_lines/Mouth15_th2_Model2_L.jpg",                        "alt": "mouth of Th sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/th/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of Th sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth15_th2_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "chin",
+  "id": "chin",
+  "content": "chin",
+  "left": "84em",
+  "top": "50em",
+  "action": "toggleMulti",
+  "target": "grp24",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn24",                       "alt": "chin",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp24",                        "content": "assets/mouth_images/mouth_w_lines/Mouth21_ch_Model1_L.jpg",                        "alt": "mouth of Ch sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ch/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of Ch sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth21_ch_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "ring",
+  "id": "ring",
+  "content": "ring",
+  "left": "96.5em",
+  "top": "50em",
+  "action": "toggleMulti",
+  "target": "grp25",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn25",                       "alt": "ring",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp25",                        "content": "assets/mouth_images/mouth_w_lines/Mouth22_ng_Model2_L.jpg",                        "alt": "mouth of ng sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ng/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of ng sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth22_ng_Model2_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "vision",
+  "id": "vision",
+  "content": "vision",
+  "left": "109em",
+  "top": "50em",
+  "action": "toggleMulti",
+  "target": "grp26",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn26",                       "alt": "vision",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp26",                        "content": "assets/mouth_images/mouth_w_lines/Mouth21_zh_Model1_L.jpg",                        "alt": "mouth of zh sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/zh/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "mouth of zh sound",                                "content": "assets/mouth_images/mouth_w_lines/Mouth21_zh_Model1_L.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+}

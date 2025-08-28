@@ -1,0 +1,88 @@
+[
+    {
+        "menu": [
+            {
+                "type": "link",
+                "action": "openURL",
+                "source": "downloadUserGuide",
+                "target": "../assets/soundwall/SW_user_guide.pdf",
+                "label": "Download<br/>User Guide"
+            },
+            {
+                "type": "item",
+                "action": "openSlide",
+                "source": "vowelValley2",
+                "label": "Advanced<br/>Vowel Valley"
+            },
+            {
+                "type": "item",
+                "action": "openSlide",
+                "source": "consonantCanyon2",
+                "label": "Advanced Consonant<br/>Canyon"
+            },
+            {
+                "type": "txt",
+                "alt": "",
+                "content": "&copy; 2024 Really Great Reading, LLC",
+                "style": "copyright",
+                "right": ".5em",
+                "bottom": ".5em",
+                "width": "auto"
+            },
+            {
+                "type": "img",
+                "alt": "Really Great Reading Logo Sound-Spelling Wall",
+                "content": "../assets/logos/SoundSpelling_Splash.svg",
+                "style": "splashback",
+                "left": "30em",
+                "top": "10em",
+                "width": "60em",
+                "height": "40em",
+                "opacity": ""
+            }
+        ],
+        "vowelValley2": [
+            {
+                "id": "s0",
+                "content": [
+                    {
+                        "type": "sld",
+                        "id": "VV2",
+                        "content": "Vowel Valley",
+                        "action": "closeParent",
+                        "style": "vowelValley",
+                        "top": "1em",
+                        "left": "8em",
+                        "width": "60em",
+                        "height": "26em",
+                        "visible": "true",
+                        "children": [
+                            {
+                                "type": "txt",
+                                "content": "The most common spellings for each sound are included on each card.",
+                                "style": "disclaimer",
+                                "left": "1.5em",
+                                "top": "47.5em",
+                                "width": "35em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "img",
+                                "alt": "Really Great Reading Logo",
+                                "style": "Logo",
+                                "content": "../assets/logos/RGR_Logo_teal_2016.svg",
+                                "left": ".5em",
+                                "top": ".5em",
+                                "width": "5em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "grp",
+                                "id": "grpGhost",
+                                "style": "grpGhost",
+                                "left": "0em",
+                                "top": "0em",
+                                "width": "64em",
+                                "height": "30em",
+                                "visible": "false"
+                            },

@@ -1,0 +1,3356 @@
+[
+    {
+        "menu": [
+            {
+                "type": "link",
+                "action": "openURL",
+                "source": "downloadUserGuide",
+                "target": "../assets/soundwall/SW_user_guide.pdf",
+                "label": "Download<br/>User Guide"
+            },
+            {
+                "type": "item",
+                "action": "openSlide",
+                "source": "vowelValley2",
+                "label": "Advanced<br/>Vowel Valley"
+            },
+            {
+                "type": "item",
+                "action": "openSlide",
+                "source": "consonantCanyon2",
+                "label": "Advanced Consonant<br/>Canyon"
+            },
+            {
+                "type": "txt",
+                "alt": "",
+                "content": "&copy; 2024 Really Great Reading, LLC",
+                "style": "copyright",
+                "right": ".5em",
+                "bottom": ".5em",
+                "width": "auto"
+            },
+            {
+                "type": "img",
+                "alt": "Really Great Reading Logo Sound-Spelling Wall",
+                "content": "../assets/logos/SoundSpelling_Splash.svg",
+                "style": "splashback",
+                "left": "30em",
+                "top": "10em",
+                "width": "60em",
+                "height": "40em",
+                "opacity": ""
+            }
+        ],
+        "vowelValley2": [
+            {
+                "id": "s0",
+                "content": [
+                    {
+                        "type": "sld",
+                        "id": "VV2",
+                        "content": "Vowel Valley",
+                        "action": "closeParent",
+                        "style": "vowelValley",
+                        "top": "1em",
+                        "left": "8em",
+                        "width": "60em",
+                        "height": "26em",
+                        "visible": "true",
+                        "children": [
+                            {
+                                "type": "txt",
+                                "content": "The most common spellings for each sound are included on each card.",
+                                "style": "disclaimer",
+                                "left": "1.5em",
+                                "top": "47.5em",
+                                "width": "35em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "img",
+                                "alt": "Really Great Reading Logo",
+                                "style": "Logo",
+                                "content": "../assets/logos/RGR_Logo_teal_2016.svg",
+                                "left": ".5em",
+                                "top": ".5em",
+                                "width": "5em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "grp",
+                                "id": "grpGhost",
+                                "style": "grpGhost",
+                                "left": "0em",
+                                "top": "0em",
+                                "width": "64em",
+                                "height": "30em",
+                                "visible": "false"
+                            },{
+    "type": "icn",
+    "role": "image",
+    "alt": "bear",
+    "id": "icn01",
+    "content": "bear",
+    "left": "18em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp01"
+},
+{
+    "type": "grp",
+    "id": "grp01",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp01",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "long e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth7_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0304/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng01",
+            "alt": "bear",
+            "role": "image",
+            "content": "bear",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em",
+            "text": "bear"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "eagle",
+            "top": ".5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "eagle",
+            "text": "<u>ea</u>gle",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "eagle",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>ea</u>gle",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "equal",
+            "top": "4em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "equal",
+            "text": "<u>e</u>qual",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "equal",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>qual",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "candy",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "candy",
+            "text": "cand<span class='descender'>y</span>",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "candy",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "cand<span class='descender'>y</span>",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "teeth",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "teeth",
+            "text": "t<u>ee</u>th",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "teeth",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "t<u>ee</u>th",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "Eve",
+            "top": "14.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "Eve",
+            "text": "<u>E</u>v<u>e</u>",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "Eve",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>E</u>v<u>e</u>",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "yield",
+            "top": "18em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "yield",
+            "text": "y<u>ie</u>ld",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "yield",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "y<u>ie</u>ld",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "cat",
+    "id": "icn02",
+    "content": "cat",
+    "left": "30em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp02"
+},
+{
+    "type": "grp",
+    "id": "grp02",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp02",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "long e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth3_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/i\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng02",
+            "alt": "cat",
+            "role": "image",
+            "content": "itch",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "itch",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "itch",
+            "text": "<u>i</u>tch",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "itch",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>i</u>tch",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "gym",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "gym",
+            "text": "g<span class='descender'>y</span>m",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "gym",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "g<span class='descender'>y</span>m",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "duck",
+    "id": "icn03",
+    "content": "duck",
+    "left": "42em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp03"
+},
+{
+    "type": "grp",
+    "id": "grp03",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp03",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng03",
+            "alt": "duck",
+            "role": "image",
+            "content": "duck",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "fish",
+    "id": "icn04",
+    "content": "fish",
+    "left": "54em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp04"
+},
+{
+    "type": "grp",
+    "id": "grp04",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp04",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng04",
+            "alt": "fish",
+            "role": "image",
+            "content": "fish",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "goat",
+    "id": "icn05",
+    "content": "goat",
+    "left": "66em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp05"
+},
+{
+    "type": "grp",
+    "id": "grp05",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp05",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng05",
+            "alt": "goat",
+            "role": "image",
+            "content": "goat",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "hammer",
+    "id": "icn06",
+    "content": "hammer",
+    "left": "78em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp06"
+},
+{
+    "type": "grp",
+    "id": "grp06",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp06",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng06",
+            "alt": "hammer",
+            "role": "image",
+            "content": "hammer",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "jump",
+    "id": "icn07",
+    "content": "jump",
+    "left": "90em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp07"
+},
+{
+    "type": "grp",
+    "id": "grp07",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp07",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng07",
+            "alt": "jump",
+            "role": "image",
+            "content": "jump",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "lion",
+    "id": "icn08",
+    "content": "lion",
+    "left": "102em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp08"
+},
+{
+    "type": "grp",
+    "id": "grp08",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp08",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng08",
+            "alt": "lion",
+            "role": "image",
+            "content": "lion",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "monkey",
+    "id": "icn09",
+    "content": "monkey",
+    "left": "114em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp09"
+},
+{
+    "type": "grp",
+    "id": "grp09",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp09",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng09",
+            "alt": "monkey",
+            "role": "image",
+            "content": "monkey",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "nest",
+    "id": "icn10",
+    "content": "nest",
+    "left": "126em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp10"
+},
+{
+    "type": "grp",
+    "id": "grp10",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp10",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng10",
+            "alt": "nest",
+            "role": "image",
+            "content": "nest",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "popcorn",
+    "id": "icn11",
+    "content": "popcorn",
+    "left": "138em",
+    "top": "1em",
+    "action": "openGroupGhost",
+    "target": "grp11"
+},
+{
+    "type": "grp",
+    "id": "grp11",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp11",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng11",
+            "alt": "popcorn",
+            "role": "image",
+            "content": "popcorn",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "queen",
+    "id": "icn12",
+    "content": "queen",
+    "left": "30em",
+    "top": "25em",
+    "action": "openGroupGhost",
+    "target": "grp12"
+},
+{
+    "type": "grp",
+    "id": "grp12",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp12",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng12",
+            "alt": "queen",
+            "role": "image",
+            "content": "queen",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "rabbit",
+    "id": "icn13",
+    "content": "rabbit",
+    "left": "42em",
+    "top": "25em",
+    "action": "openGroupGhost",
+    "target": "grp13"
+},
+{
+    "type": "grp",
+    "id": "grp13",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp13",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng13",
+            "alt": "rabbit",
+            "role": "image",
+            "content": "rabbit",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "soap",
+    "id": "icn14",
+    "content": "soap",
+    "left": "54em",
+    "top": "25em",
+    "action": "openGroupGhost",
+    "target": "grp14"
+},
+{
+    "type": "grp",
+    "id": "grp14",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp14",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng14",
+            "alt": "soap",
+            "role": "image",
+            "content": "soap",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "toothbrush",
+    "id": "icn15",
+    "content": "toothbrush",
+    "left": "66em",
+    "top": "25em",
+    "action": "openGroupGhost",
+    "target": "grp15"
+},
+{
+    "type": "grp",
+    "id": "grp15",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp15",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng15",
+            "alt": "toothbrush",
+            "role": "image",
+            "content": "toothbrush",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "violin",
+    "id": "icn16",
+    "content": "violin",
+    "left": "78em",
+    "top": "25em",
+    "action": "openGroupGhost",
+    "target": "grp16"
+},
+{
+    "type": "grp",
+    "id": "grp16",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp16",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng16",
+            "alt": "violin",
+            "role": "image",
+            "content": "violin",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "wave",
+    "id": "icn17",
+    "content": "wave",
+    "left": "90em",
+    "top": "25em",
+    "action": "openGroupGhost",
+    "target": "grp17"
+},
+{
+    "type": "grp",
+    "id": "grp17",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp17",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng17",
+            "alt": "wave",
+            "role": "image",
+            "content": "wave",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "mix",
+    "id": "icn18",
+    "content": "mix",
+    "left": "102em",
+    "top": "25em",
+    "action": "openGroupGhost",
+    "target": "grp18"
+},
+{
+    "type": "grp",
+    "id": "grp18",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp18",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng18",
+            "alt": "mix",
+            "role": "image",
+            "content": "mix",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "yes",
+    "id": "icn19",
+    "content": "yes",
+    "left": "114em",
+    "top": "25em",
+    "action": "openGroupGhost",
+    "target": "grp19"
+},
+{
+    "type": "grp",
+    "id": "grp19",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp19",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng19",
+            "alt": "yes",
+            "role": "image",
+            "content": "yes",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "zipper",
+    "id": "icn20",
+    "content": "zipper",
+    "left": "126em",
+    "top": "25em",
+    "action": "openGroupGhost",
+    "target": "grp20"
+},
+{
+    "type": "grp",
+    "id": "grp20",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp20",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng20",
+            "alt": "zipper",
+            "role": "image",
+            "content": "zipper",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "sheep",
+    "id": "icn21",
+    "content": "sheep",
+    "left": "46.5em",
+    "top": "50em",
+    "action": "openGroupGhost",
+    "target": "grp21"
+},
+{
+    "type": "grp",
+    "id": "grp21",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp21",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng21",
+            "alt": "sheep",
+            "role": "image",
+            "content": "sheep",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "thumb",
+    "id": "icn22",
+    "content": "thumb",
+    "left": "59em",
+    "top": "50em",
+    "action": "openGroupGhost",
+    "target": "grp22"
+},
+{
+    "type": "grp",
+    "id": "grp22",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp22",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng22",
+            "alt": "thumb",
+            "role": "image",
+            "content": "thumb",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "there",
+    "id": "icn23",
+    "content": "there",
+    "left": "71.5em",
+    "top": "50em",
+    "action": "openGroupGhost",
+    "target": "grp23"
+},
+{
+    "type": "grp",
+    "id": "grp23",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp23",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng23",
+            "alt": "there",
+            "role": "image",
+            "content": "there",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "chin",
+    "id": "icn24",
+    "content": "chin",
+    "left": "84em",
+    "top": "50em",
+    "action": "openGroupGhost",
+    "target": "grp24"
+},
+{
+    "type": "grp",
+    "id": "grp24",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp24",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng24",
+            "alt": "chin",
+            "role": "image",
+            "content": "chin",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "ring",
+    "id": "icn25",
+    "content": "ring",
+    "left": "96.5em",
+    "top": "50em",
+    "action": "openGroupGhost",
+    "target": "grp25"
+},
+{
+    "type": "grp",
+    "id": "grp25",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp25",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng25",
+            "alt": "ring",
+            "role": "image",
+            "content": "ring",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "icn",
+    "role": "image",
+    "alt": "vision",
+    "id": "icn26",
+    "content": "vision",
+    "left": "109em",
+    "top": "50em",
+    "action": "openGroupGhost",
+    "target": "grp26"
+},
+{
+    "type": "grp",
+    "id": "grp26",
+    "style": "grpAdv",
+    "left": "4em",
+    "top": "2em",
+    "width": "56em",
+    "height": "25em",
+    "visible": "false",
+    "children": [
+        {
+            "type": "btn",
+            "style": "btnCloseGhost",
+            "alt": "close",
+            "role": "button",
+            "action": "closeGroupGhost",
+            "target": "grp26",
+            "top": "-.75em",
+            "right": "-.75em",
+            "height": "2.5em",
+            "width": "2.5em"
+        },
+        {
+            "type": "img",
+            "style": "photo",
+            "alt": "short e mouth",
+            "role": "image",
+            "content": "../assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",
+            "top": "5em",
+            "left": "4em",
+            "height": "auto",
+            "width": "12em"
+        },
+        {
+            "type": "txt",
+            "content": "/e\u0306/",
+            "top": "5em",
+            "left": "-.2em"
+        },
+        {
+            "type": "icn",
+            "id": "icng26",
+            "alt": "vision",
+            "role": "image",
+            "content": "vision",
+            "top": "7em",
+            "left": "56em",
+            "height": "28em",
+            "width": "28em"
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "edge",
+            "top": "7.5em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "edge",
+            "text": "<u>e</u>dge",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "edge",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "<u>e</u>dge",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        },
+        {
+            "type": "grp",
+            "style": "words",
+            "content": "head",
+            "top": "11em",
+            "left": "38em",
+            "height": "2.5em",
+            "width": "9.5em",
+            "icn": "head",
+            "text": "h<u>ea</u>d",
+            "children": [
+                {
+                    "type": "icn",
+                    "role": "image",
+                    "content": "head",
+                    "left": "-4em",
+                    "top": "-1em",
+                    "height": "8em",
+                    "width": "8em"
+                },
+                {
+                    "type": "txt",
+                    "style": "vocab",
+                    "content": "h<u>ea</u>d",
+                    "left": "-.0em",
+                    "top": ".25em"
+                }
+            ]
+        }
+    ]
+}                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

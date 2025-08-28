@@ -1,0 +1,288 @@
+{
+  "type": "icn",
+  "alt": "eagle",
+  "id": "eagle",
+  "content": "eagle",
+  "left": "18em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp01",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn01",                       "alt": "eagle",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp01",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth7_Model1.jpg",                        "alt": "long e mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ē/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "long e mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth7_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "itch",
+  "id": "itch",
+  "content": "itch",
+  "left": "30em",
+  "top": "10em",
+  "action": "toggleMulti",
+  "target": "grp02",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn02",                       "alt": "itch",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp02",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth3_Model2.jpg",                        "alt": "short i mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ĭ/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "short i mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth3_Model2.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "edge",
+  "id": "edge",
+  "content": "edge",
+  "left": "42em",
+  "top": "19em",
+  "action": "toggleMulti",
+  "target": "grp03",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn03",                       "alt": "edge",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp03",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",                        "alt": "short e mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ĕ/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "short e mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth2_Model2.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "acorn",
+  "id": "acorn",
+  "content": "acorn",
+  "left": "54em",
+  "top": "28em",
+  "action": "toggleMulti",
+  "target": "grp04",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn04",                       "alt": "acorn",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp04",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth1_Model2.jpg",                        "alt": "long a mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ā/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "long a mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth1_Model2.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "apple",
+  "id": "apple",
+  "content": "apple",
+  "left": "66em",
+  "top": "37em",
+  "action": "toggleMulti",
+  "target": "grp05",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn05",                       "alt": "apple",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp05",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth6_Model2.jpg",                        "alt": "short a mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ă/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "short a mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth6_Model2.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "up",
+  "id": "up",
+  "content": "up",
+  "left": "78em",
+  "top": "46em",
+  "action": "toggleMulti",
+  "target": "grp06",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn06",                       "alt": "up",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp06",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth5_Model2.jpg",                        "alt": "short u mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ŭ/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "short u mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth5_Model2.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "octopus",
+  "id": "octopus",
+  "content": "octopus",
+  "left": "90em",
+  "top": "37em",
+  "action": "toggleMulti",
+  "target": "grp07",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn07",                       "alt": "octopus",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp07",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth4_Model1.jpg",                        "alt": "short o mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ŏ/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "short o mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth4_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "awesome",
+  "id": "awesome",
+  "content": "awesome",
+  "left": "102em",
+  "top": "28em",
+  "action": "toggleMulti",
+  "target": "grp08",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn08",                       "alt": "awesome",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp08",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth10_Model2.jpg",                        "alt": "other vowel sound",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/aw/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "other vowel sound",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth10_Model2.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "open",
+  "id": "open",
+  "content": "open",
+  "left": "114em",
+  "top": "19em",
+  "action": "toggleMulti",
+  "target": "grp09",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn09",                       "alt": "open",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp09",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth8_Model2.jpg",                        "alt": "long o mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ō/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "long o mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth8_Model2.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "role": "image",
+  "alt": "book",
+  "id": "book",
+  "content": "book",
+  "left": "126em",
+  "top": "10em",
+  "action": "toggleMulti",
+  "target": "grp10",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn10",                       "alt": "book",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp10",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth11_Model1.jpg",                        "alt": "other vowel mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                            "type": "img",                            "style": "altFont",                            "left": "6em",                            "content": "common/fonts/svgs/oocurve.svg",                            "left": ".5em",                            "top": ".25em",                            "height": "3em",                            "width": "7em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "other vowel mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth11_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "role": "image",
+  "alt": "ooze",
+  "id": "ooze",
+  "content": "ooze",
+  "left": "138em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp11",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn11",                       "alt": "ooze",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp11",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth9_Model2.jpg",                        "alt": "other vowel mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                            "type": "img",                            "style": "altFont",                            "left": "6em",                            "content": "common/fonts/svgs/oo.svg",                            "left": ".5em",                            "top": ".25em",                            "height": "3em",                            "width": "7em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "other vowel mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth9_Model2.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "awake",
+  "id": "awake",
+  "content": "awake",
+  "left": "78em",
+  "top": "1em",
+  "action": "toggleMulti",
+  "target": "grp12",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn12",                       "alt": "awake",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp12",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth12_Model2.jpg",                        "alt": "schwa vowel mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/Ə/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "schwa vowel mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth12_Model2.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "ice",
+  "id": "ice",
+  "content": "ice",
+  "left": "4.5em",
+  "top": "22em",
+  "action": "toggleMulti",
+  "target": "grp13",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn13",                       "alt": "ice",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp13",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth1_Model1.jpg",                        "alt": "long i mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ī/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "long i mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth1_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "role": "image",
+  "alt": "unicorn",
+  "id": "unicorn",
+  "content": "unicorn",
+  "left": "4.5em",
+  "top": "46em",
+  "action": "toggleMulti",
+  "target": "grp14",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn14",                       "alt": "unicorn",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp14",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth3_Model1.jpg",                        "alt": "long vowel mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                            "type": "img",                            "style": "altFont",                            "left": "6em",                            "content": "common/fonts/svgs/yoo.svg",                            "left": ".5em",                            "top": ".25em",                            "height": "3em",                            "width": "7em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "long vowel mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth3_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "ouch",
+  "id": "ouch",
+  "content": "ouch",
+  "left": "22em",
+  "top": "46em",
+  "action": "toggleMulti",
+  "target": "grp15",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn15",                       "alt": "ouch",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp15",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth1_Model1.jpg",                        "alt": "other vowel mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ou/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "other vowel mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth1_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "oink",
+  "id": "oink",
+  "content": "oink",
+  "left": "39.5em",
+  "top": "46em",
+  "action": "toggleMulti",
+  "target": "grp16",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn16",                       "alt": "oink",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp16",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth9_Model1.jpg",                        "alt": "other vowel mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/oi/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "other vowel mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth9_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "bird",
+  "id": "bird",
+  "content": "bird",
+  "left": "113em",
+  "top": "46em",
+  "action": "toggleMulti",
+  "target": "grp17",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn17",                       "alt": "bird",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp17",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth3_Model1.jpg",                        "alt": "long vowel mouth",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/er/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "long vowel mouth",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth3_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "barn",
+  "id": "barn",
+  "content": "barn",
+  "left": "127.5em",
+  "top": "46em",
+  "action": "toggleMulti",
+  "target": "grp18",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn18",                       "alt": "barn",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp18",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth4_Model1.jpg",                        "alt": "r-controlled vowel",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/ar/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "r-controlled vowel",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth4_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+},
+{
+  "type": "icn",
+  "alt": "fork",
+  "id": "fork",
+  "content": "fork",
+  "left": "145.5em",
+  "top": "46em",
+  "action": "toggleMulti",
+  "target": "grp19",
+  "children": [
+                   {                       "type": "btn",                       "id": "btn19",                       "alt": "fork",                       "role": "button",
+                       "name": "default_id",                       "style": "hotspot",                       "content": "",                       "left": "0",                       "top": "0em",                       "height": "9.5em",                       "width": "9.5em"                   },                   {                        "type": "grp",                        "id": "grp19",                        "content": "assets/mouth_images/mouth_wo_lines/Mouth8_Model1.jpg",                        "alt": "r-controlled vowel",                        "left": ".4em",                        "top": "11em",                        "width": "9em",                        "height": "12em",                        "visible": "false",                        "children": [                            {                                "type": "txt",                                "content": "/or/",                                "left": "-.15em",                                "top": "-.15em"                            },                            {                                "type": "img",                                "style": "photo",                                "alt": "r-controlled vowel",                                "content": "assets/mouth_images/mouth_wo_lines/Mouth8_Model1.jpg",                                "left": ".5em",                                "top": "3.5em",                                "width": "7.5em",                                "height": "auto"                            }                        ]
+                    }
+                 ]
+}

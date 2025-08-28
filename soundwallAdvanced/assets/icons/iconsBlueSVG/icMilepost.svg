@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 140.4 140.4" style="enable-background:new 0 0 140.4 140.4;" xml:space="preserve">
+<circle cx="70.2" cy="70.2" r="68.796" fill="#B4E1EF"/><style type="text/css" clip-path="url(#circularClip)">
+	.st0{fill:#85C446;}
+	.st1{fill:#414042;}
+	.st2{fill:none;stroke:#A97C50;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#FFC20E;}
+	.st4{fill:#85C446;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st5{enable-background:new    ;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:#E9513D;}
+</style>
+<g id="Layer_2_1_" clip-path="url(#circularClip)">
+	<g id="Icons">
+		<path class="st0" d="M0,70.2c0,38.8,31.4,70.2,70.2,70.2s70.2-31.4,70.2-70.2c0-3.5-0.3-7.1-0.8-10.6H0.8C0.3,63.1,0,66.7,0,70.2z    "/>
+		<path class="st1" d="M79.2,59.6H22.9L5.2,96.8c14.7,35.9,55.7,53,91.5,38.4c5.1-2.1,10-4.8,14.5-8L79.2,59.6z"/>
+		<line class="st2" x1="102.9" y1="22.4" x2="102.9" y2="95.3"/>
+		<path class="st3" d="M60.7,139.7l-6.8-80.1h-2.6L45.6,136C50.5,137.8,55.5,139.1,60.7,139.7z"/>
+		<rect x="45.6" y="72.8" class="st1" width="12.6" height="2.7"/>
+		<rect x="45.6" y="94.8" class="st1" width="12.6" height="4.9"/>
+		<rect x="44.6" y="125.4" class="st1" width="18.5" height="7.5"/>
+		<path class="st4" d="M98.7,24.2h8.5c1.8,0,3.3,1.5,3.3,3.3V45c0,1.8-1.5,3.3-3.3,3.3h-8.5c-1.8,0-3.3-1.5-3.3-3.3V27.5    C95.3,25.7,96.8,24.2,98.7,24.2z"/>
+		<g class="st5">
+			<path class="st6" d="M100.2,29c0-0.4,0-0.9,0-1.4h0c-0.1,0.4-0.2,0.9-0.4,1.3l-0.4,1.3h-0.6l-0.4-1.3c-0.1-0.4-0.2-0.9-0.3-1.3h0     c0,0.5,0,1-0.1,1.4l-0.1,1.3h-0.7l0.2-3.4h1l0.3,1.1c0.1,0.4,0.2,0.8,0.3,1.2h0c0.1-0.4,0.2-0.8,0.3-1.2l0.4-1.1h1l0.2,3.4h-0.7     L100.2,29z"/>
+			<path class="st6" d="M102.3,26.9v3.4h-0.8v-3.4H102.3z"/>
+			<path class="st6" d="M103,26.9h0.8v2.7h1.3v0.6H103V26.9z"/>
+			<path class="st6" d="M107.5,28.8h-1.2v0.8h1.4v0.6h-2.2v-3.4h2.1v0.6h-1.3v0.7h1.2V28.8z"/>
+		</g>
+		<g class="st5">
+			<path class="st6" d="M107.6,32.9v1.9l-5.4,11.1H99l5.4-10.5v0h-6v-2.5H107.6z"/>
+		</g>
+		<path class="st7" d="M88.6,34.3L70,18.4l-0.9,7.3L54.8,24l-1.5,12.4l14.3,1.7l-0.9,7.3L88.6,34.3z"/>
+	</g>
+</g>
+<defs><clipPath id="circularClip"><circle cx="70.2" cy="70.2" r="68.796"/></clipPath></defs></svg>

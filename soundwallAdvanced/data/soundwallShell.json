@@ -1,0 +1,317 @@
+[
+    {
+        "menu": [
+            {
+                "type": "link",
+                "action": "openURL",
+                "role": "button",
+                "name":"Download User Guide",
+                "alt":"Download User Guide",
+                "source": "downloadUserGuide",
+                "target": "assets/Soundwall/SW_user_guide.pdf",
+                "label": "Download<br/>User Guide"
+            },
+            {
+                "type": "item",
+                "action": "openSlide",
+                "source": "vowelValley1",
+                "label": "Basic <br/> Vowel Valley"
+            },
+            {
+                "type": "item",
+                "action": "openSlide",
+                "source": "consonantCanyon1",
+                "label": " Basic Consonant<br/>Canyon"
+            },
+            {
+                "type": "item",
+                "action": "openSlide",
+                "source": "vowelValley2",
+                "label": "Advanced<br/>Vowel Valley"
+            },
+            {
+                "type": "item",
+                "action": "openSlide",
+                "source": "consonantCanyon2",
+                "label": "Advanced<br/>Consonant<br/>Canyon"
+            },
+            {
+                "type": "txt",
+                "alt": "",
+                "content": "&copy; 2024 Really Great Reading, LLC",
+                "style": "copyright",
+                "right": ".5em",
+                "bottom": ".5em",
+                "width": "auto"
+            },
+            {
+                "type": "img",
+                "alt": "Really Great Reading Logo Sound-Spelling Wall",
+                "content": "../assets/logos/SoundSpelling_Splash.svg",
+                "left": "25em",
+                "top": "8m",
+                "width": "130em",
+                "height": "auto",
+                "style": "splashback",
+                "left": "30em",
+                "top": "10em",
+                "width": "60em",
+                "height": "40em"
+            }
+        ],
+        "vowelValley1": [
+            {
+                "id": "s0",
+                "content": [
+                    {
+                        "type": "sld",
+                        "id": "VV",
+                        "alt": "close",
+                        "content": "Vowel Valley",
+                        "action": "closeParent",
+                        "style": "vowelValley",
+                        "top": "1em",
+                        "left": "1em",
+                        "width": "60em",
+                        "height": "26em",
+                        "visible": "true",
+                        "children": [
+                            {
+                                "type": "txt",
+                                "content": "The most common spellings for each sound are included on each card.",
+                                "style": "disclaimer",
+                                "left": "1.5em",
+                                "top": "47.5em",
+                                "width": "35em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "img",
+                                "alt": "Really Great Reading Logo",
+                                "style": "Logo",
+                                "content": "../assets/logos/RGR_Logo_teal_2016.svg",
+                                "left": ".5em",
+                                "top": ".5em",
+                                "width": "5em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "grp",
+                                "id": "grpGhost",
+                                "style": "grpGhost",
+                                "left": "0em",
+                                "top": "0em",
+                                "width": "64em",
+                                "height": "30em",
+                                "visible": "false"
+                            },
+                            /*ADD output1.json here*/
+                        ]
+                    }
+                ]
+            }
+        ],
+        "vowelValley2": [
+            {
+                "id": "s1",
+                "content": [
+                    {
+                        "type": "sld",
+                        "id": "VV2",
+                        "content": "Vowel Valley",
+                        "action": "closeParent",
+                        "style": "vowelValley",
+                        "top": "1em",
+                        "left": "1em",
+                        "width": "60em",
+                        "height": "26em",
+                        "visible": "true",
+                        "children": [
+                            {
+                                "type": "txt",
+                                "content": "The most common spellings for each sound are included on each card.",
+                                "style": "disclaimer",
+                                "left": "1.5em",
+                                "top": "47.5em",
+                                "width": "35em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "img",
+                                "alt": "Really Great Reading Logo",
+                                "style": "Logo",
+                                "content": "../assets/logos/RGR_Logo_teal_2016.svg",
+                                "left": ".5em",
+                                "top": ".5em",
+                                "width": "5em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "grp",
+                                "id": "grpGhost",
+                                "style": "grpGhost",
+                                "left": "0em",
+                                "top": "0em",
+                                "width": "64em",
+                                "height": "30em",
+                                "visible": "false"
+                            },
+                            {
+                                "type": "vid",
+                                "id": "video1",
+                                "style": "vidBox",
+                                "content": "",
+                                "bounce": "250",
+                                "left": "5em",
+                                "top": "4em",
+                                "width": "20em",
+                                "height": "15.75em"
+                            },
+                            {
+                                "type": "slider",
+                                "id":"video1Slider",
+                                "target": "video1",
+                                "style": "",
+                                "alt": "Video Controller",
+                                "name":"Video Controller",
+                                "action": "sdwVideoSlide",
+                                "value": "0",
+                                "bottom": "4.5em",
+                                "left": "7em",
+                                "width": "10em",
+                                "height": "3em"
+                            },
+                            /*ADD output2.json here*/
+                        ]
+                    }
+                ]
+            }
+        ],
+        "consonantCanyon1": [
+            {
+                "id": "s2",
+                "content": [
+                    {
+                        "type": "sld",
+                        "id": "CC",
+                        "content": "Consonant Canyon",
+                        "action": "closeParent",
+                        "style": "consonantCanyon",
+                        "top": "1em",
+                        "left": "1em",
+                        "width": "60em",
+                        "height": "26em",
+                        "visible": "true",
+                        "children": [
+                            {
+                                "type": "txt",
+                                "content": "The most common spellings for each sound are included on each card.",
+                                "style": "disclaimer",
+                                "left": "1.5em",
+                                "top": "47.5em",
+                                "width": "35em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "img",
+                                "style": "Logo",
+                                "alt": "Really Great Reading Logo",
+                                "content": "../assets/logos/RGR_Logo_teal_2016.svg",
+                                "left": ".5em",
+                                "top": ".5em",
+                                "width": "5em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "grp",
+                                "id": "grpGhost",
+                                "style": "grpGhost",
+                                "left": "0em",
+                                "top": "0em",
+                                "width": "64em",
+                                "height": "30em",
+                                "visible": "false"
+                            },
+                            /*ADD output3.json here*/
+                        ]
+                    }
+                ]
+            }
+        ],
+        "consonantCanyon2": [
+            {
+                "id": "s3",
+                "content": [
+                    {
+                        "type": "sld",
+                        "id": "CC2",
+                        "content": "Consonant Canyon",
+                        "action": "closeParent",
+                        "style": "consonantCanyon",
+                        "top": "1em",
+                        "left": "1em",
+                        "width": "60em",
+                        "height": "26em",
+                        "visible": "true",
+                        "children": [
+                            {
+                                "type": "txt",
+                                "content": "The most common spellings for each sound are included on each card.",
+                                "style": "disclaimer",
+                                "left": "1.5em",
+                                "top": "47.5em",
+                                "width": "35em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "img",
+                                "style": "Logo",
+                                "alt": "Really Great Reading Logo",
+                                "content": "../assets/logos/RGR_Logo_teal_2016.svg",
+                                "left": ".5em",
+                                "top": ".5em",
+                                "width": "5em",
+                                "height": "auto"
+                            },
+                            {
+                                "type": "grp",
+                                "id": "grpGhost",
+                                "style": "grpGhost",
+                                "left": "0em",
+                                "top": "0em",
+                                "width": "64em",
+                                "height": "30em",
+                                "visible": "false"
+                            },
+                            {
+                                "type": "vid",
+                                "id": "video1",
+                                "style": "vidBox",
+                                "content": "",
+                                "bounce": "250",
+                                "left": "5em",
+                                "top": "4em",
+                                "width": "20em",
+                                "height": "15.75em"
+                            },
+                            {
+                                "type": "slider",
+                                "id":"video1Slider",
+                                "target": "video1",
+                                "style": "",
+                                "alt": "set time",
+                                "action": "sdwVideoSlide",
+                                "value": "0",
+                                "bottom": "4.5em",
+                                "left": "7em",
+                                "width": "10em",
+                                "height": "3em"
+                            },
+                            /*ADD output4.json here*/
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
