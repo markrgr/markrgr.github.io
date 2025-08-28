@@ -1,3 +1,12 @@
+/*external media player integration*/
+#wrapper .supVidFrame {
+    position:absolute;
+    top:0em;
+    left:7em;
+    height:20em; 
+    width:28em;
+}
+
 /*CSS for Online Tools Integration*/
 #wrapper .sld.studentOLTSlide {
     border: none;
@@ -147,6 +156,7 @@ body.med {
 
 .med.container.light {
     background-color: var(--darkbox);
+    background-color: var(--ghostBlack40);
 }
 
 
@@ -231,12 +241,39 @@ body.med {
     overflow: visible;
 }
 
+.sup #wrapper .med .btn.printK {
+    position: absolute;
+    border-radius: 1em;
+    background-color: var(--vitcgroup);
+    outline: none;
+    border: solid .25em rgba(0, 0, 0, 0);
+    text-align: left;
+    cursor: pointer;
+    transition: all 1s 0s;
+    overflow: visible;
+    padding:.1em;
+    padding-left:1em;
+    text-decoration: underline;
+
+}
+
 .sup #wrapper .btn .transcript {
     font-size: 22em;
     color: black;
     text-align: left;
-    background-color: var(--primary);
+    background-color: var(--tertiary);
 }
+
+.sup #wrapper .btn {
+text-decoration: none;
+}
+
+.sup #wrapper .btn:hover,
+.sup #wrapper .btn:focus,
+.sup #wrapper .btn:active {
+text-decoration: underline;
+}
+
 
 .sup #wrapper .med.dark .btn {
     background-color: var(--ghost80);
@@ -302,7 +339,18 @@ body.med {
     border: solid .25em var(--chatborder);
     transition: all 0s 0s;
 }
-
+#wrapper .med .btn .btnIcBack.printK {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: .4;
+    transition: all 1s 0s;
+    background-size: auto 100%;
+    background-position: 6em center;
+    background-repeat: no-repeat;
+}
 #wrapper .med .btn .btnIcBack {
     position: absolute;
     left: 0;
@@ -1157,7 +1205,7 @@ body.sdw #wrapper .sld {
 }
 
 .sdw #wrapper .lst li.soundFlag {
-    background-color: var(--primary);
+    background-color: var(--tertiary);
     height: 2em;
     color: #fff;
     overflow: visible;
@@ -2013,7 +2061,7 @@ body.admin #wrapper .lst .itm .lst li.itm {
 
 
 .sup #wrapper .lnk.primary {
-    background-color: var(--primary);
+    background-color: var(--tertiary);
     color: var(--ghostWhite80);
     font-size: .5em;
     border-radius: 1em;
@@ -2028,7 +2076,7 @@ body.admin #wrapper .lst .itm .lst li.itm {
 }
 
 .sup #wrapper .lnk.secondary {
-    background-color: var(--primary);
+    background-color: var(--tertiary);
     color: var(--ghostWhite80);
     font-size: .8em;
     border-radius: 1em;
@@ -2043,7 +2091,7 @@ body.admin #wrapper .lst .itm .lst li.itm {
 }
 
 .sup #wrapper .btn.primary {
-    background-color: var(--primary);
+    background-color: var(--tertiary);
     color: var(--ghostWhite80);
     font-size: .8em;
     border-radius: 1em;
@@ -2058,7 +2106,7 @@ body.admin #wrapper .lst .itm .lst li.itm {
 }
 
 .sup #wrapper .btn.secondary {
-    background-color: var(--primary);
+    background-color: var(--tertiary);
     color: var(--ghostWhite80);
     font-size: .5em;
     border-radius: 1em;
@@ -2199,7 +2247,7 @@ body.sup.embed #wrapper .sld {
 }
 
 body.sup #wrapper .sld {
-    background-color: var(--primary);
+    background-color: var(--tertiary);
     border:solid .2em var(--clearBlack);
     background-image: url(../../assets/ResourceRoom/EL_resource_hub_backsplash.svg);
     background-size: 100% auto;
@@ -2383,7 +2431,7 @@ body.sup #wrapper h1 {
 
 /* Handle on hover */
 .sup ::-webkit-scrollbar-thumb:hover {
-    background: var(--primary);
+    background: var(--tertiary);
 }
 
 body.sup #wrapper .grp.grpBlank {
@@ -2458,7 +2506,7 @@ body.sup #wrapper .grp.grpSupResource.download {
 }
 
 body.sup #wrapper .grp.grp5 {
-    background-color: (--primary);
+    background-color: (--tertiary);
 }
 body.sup #wrapper .btn.btnSupLanguage {
     float: none;

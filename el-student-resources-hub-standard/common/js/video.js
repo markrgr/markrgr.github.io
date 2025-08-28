@@ -56,23 +56,28 @@ function initSupVideo() {
 
 }
 
-function supVideoLoad(vlink, clink,tlink) {
+function supVideoLoad(vlink, clink, tlink) {
     var htmlString = '';
     if (tlink) {
         //alert(tlink)
-        $('#btnVidTranscripts').attr('target', 'assets/'+tlink);
+        $('#btnVidTranscripts').attr('target', 'assets/' + tlink);
         $('#btnVidTranscripts').fadeIn(50);
     } else {
         //alert('no tlink');
         $('#btnVidTranscripts').hide();
     };
     var vidString = '';
+    /*OLD VIDEO*/
+    /*
     vidString += '<div class="vid"><video id="video1" data-dashjs-player="" src="' + vlink + '" crossorigin="anonymous">';
     vidString += '<track default kind="captions" srclang="en" src="' + clink + '" />';
     //vidString += '</video></div><script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>';
     vidString += '</video></div><script src="common/js/dash.all.min.js"></script>';
     //vidString += '</video></div><script>MediaPlayer.reset();</script>';
-
+    */
+    /*END OLD VIDEO */
+    var vidURL = vlink.substr(49,36);
+    vidString = '<iframe class="supVidFrame" allowfullscreen src="media-player/index.html?v='+vidURL+'&s=30&c='+clink+'" arial-label="stream media player" title="streaming media"></iframe>'
     $('#caption1').html('');
     $('#video0 .vidBox').html(vidString);
     $('.supSlideNavigation').hide();

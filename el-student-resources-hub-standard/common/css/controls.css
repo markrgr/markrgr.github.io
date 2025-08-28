@@ -99,7 +99,7 @@
     position: absolute;
     right:0;
     color:var(--textWhite);
-    background-color:var(--control);
+    background-color:var(--control1);
     display:block;
     width:auto;
     border:solid .2em var(--textWhite);

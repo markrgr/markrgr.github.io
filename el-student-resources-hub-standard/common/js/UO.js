@@ -1096,9 +1096,15 @@ function buildObjects(data) {
         //var target = $(this).attr('target');
         //$('.grp:not(#grp0,#' + target + ')').fadeOut(100);
         //$('#' + target).fadeIn(500);
-        var video = $('#video1').get(0);
+        /*var video = $('#video1').get(0);
         video.currentTime = 0;
         video.pause();
+        var parent = $('#video0').attr('parent');
+        $('.supSlideNavigation').show();
+        $('#video0').fadeOut(250);
+        $(parent).fadeIn(500);*/
+        $('#video0').fadeOut(200);
+        $('.vidBox').html('');
         var parent = $('#video0').attr('parent');
         $('.supSlideNavigation').show();
         $('#video0').fadeOut(250);

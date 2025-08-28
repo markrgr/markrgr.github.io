@@ -326,10 +326,10 @@
     position:absolute;
     height:auto;
     width:auto;
-	z-index: 1000000;
+	z-index: 0;
     border-radius:0;
     cursor:pointer;
-    background-color:var(--ghostBlack40);
+    /*background-color:var(--ghostBlack40);*/
 
 }
 

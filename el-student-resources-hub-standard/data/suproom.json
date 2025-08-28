@@ -69,64 +69,18 @@
                                         "bottom": "0em",
                                         "children": [
                                             {
-                                                "type": "vid",
-                                                "id": "video1",
-                                                "style": "vidBox",
-                                                "content": "",
-                                                "track": "",
-                                                "left": "2em",
-                                                "top": "1.2em",
-                                                "bottom": "3em",
-                                                "width": "41em",
-                                                "height": "auto"
-                                            },
-                                            {
-                                                "type": "txt",
-                                                "id": "caption1",
-                                                "style": "vidCaption",
-                                                "content": "",
-                                                "left": "5em",
-                                                "top": "0em",
-                                                "right": "5em",
-                                                "width": "auto",
-                                                "height": "auto"
-                                            },
-                                            {
                                                 "type": "btn",
-                                                "style": "playK",
-                                                "id": "btnVidPlay1",
-                                                "alt": "play",
+                                                "style": "closeK",
+                                                "id": "btnVidClose",
+                                                "alt": "close video",
+                                                "role": "button",
                                                 "target": "video1",
-                                                "action": "playVid",
+                                                "action": "supCloseVideo",
                                                 "content": "",
-                                                "left": "4em",
-                                                "bottom": "1em",
-                                                "width": ".75em",
-                                                "height": ".75em"
-                                            },
-                                            {
-                                                "type": "slider",
-                                                "target": "video1",
-                                                "style": "",
-                                                "alt": "set time",
-                                                "action": "setVideoTime",
-                                                "value": "0",
-                                                "bottom": ".6em",
-                                                "left": "4em",
-                                                "width": "24em",
-                                                "height": "1em"
-                                            },
-                                            {
-                                                "type": "btn",
-                                                "style": "captionsK",
-                                                "alt": "captions",
-                                                "action": "videoCaptionsToggle",
-                                                "target": "caption1",
-                                                "content": "",
-                                                "left": "58em",
-                                                "bottom": "1em",
-                                                "width": ".75em",
-                                                "height": ".75em"
+                                                "left": "69.2em",
+                                                "top": "4.6em",
+                                                "width": ".5em",
+                                                "height": ".5em"
                                             },
                                             {
                                                 "type": "btn",
@@ -134,65 +88,25 @@
                                                 "alt": "print",
                                                 "id": "btnVidTranscripts",
                                                 "role": "link",
+                                                "content":"transcripts",
                                                 "action": "openTranscript",
                                                 "target": "dummy.pdf",
-                                                "left": "62em",
-                                                "bottom": "1em",
-                                                "width": ".80em",
-                                                "height": ".75em"
+                                                "left": "21em",
+                                                "top": "34.8em",
+                                                "width": "7em",
+                                                "height": "1em"
                                             },
                                             {
-                                                "type": "btn",
-                                                "style": "unmutedK",
-                                                "id": "btnVidVol1",
-                                                "alt": "mute",
-                                                "target": "video1",
-                                                "action": "muteVid",
+                                                "type": "vid",
+                                                "id": "video1",
+                                                "style": "vidBox",
                                                 "content": "",
-                                                "left": "66.5em",
-                                                "bottom": "1em",
-                                                "width": ".75em",
-                                                "height": ".75em"
-                                            },
-                                            {
-                                                "type": "slider",
-                                                "id": "video1Slider",
-                                                "target": "video1",
-                                                "style": "audio",
-                                                "alt": "volume",
-                                                "action": "setVideoVol",
-                                                "value": "0",
-                                                "bottom": ".6em",
-                                                "left": "35em",
-                                                "width": "4em",
-                                                "height": "1em",
-                                                "visible": "true"
-                                            },
-                                            {
-                                                "type": "btn",
-                                                "style": "fullScreenK",
-                                                "id": "btnVidFull",
-                                                "alt": "fullscreen",
-                                                "target": "video1",
-                                                "action": "videoFullScreen",
-                                                "content": "",
-                                                "left": "79em",
-                                                "bottom": "1em",
-                                                "width": ".75em",
-                                                "height": ".75em"
-                                            },
-                                            {
-                                                "type": "btn",
-                                                "style": "closeK",
-                                                "id": "btnVidClose",
-                                                "alt": "close video",
-                                                "target": "video1",
-                                                "action": "supCloseVideo",
-                                                "content": "",
-                                                "left": "83em",
-                                                "bottom": "1em",
-                                                "width": ".75em",
-                                                "height": ".75em"
+                                                "track": "",
+                                                "left": "2em",
+                                                "top": "2.2em",
+                                                "bottom": "3em",
+                                                "width": "41em",
+                                                "height": "auto"
                                             }
                                         ]
                                     }
@@ -485,7 +399,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": " ",
                                         "visible": "true"
                                     },
                                     {
@@ -645,7 +559,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -834,7 +748,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -1662,7 +1576,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -3628,7 +3542,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -3819,7 +3733,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -4086,7 +4000,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -4245,7 +4159,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -4404,7 +4318,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -4520,7 +4434,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -4687,7 +4601,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -6549,7 +6463,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -6752,7 +6666,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -6954,7 +6868,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -7228,7 +7142,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -7394,7 +7308,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -7560,7 +7474,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -7676,7 +7590,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -7843,7 +7757,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -9705,7 +9619,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -9908,7 +9822,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -10110,7 +10024,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -10384,7 +10298,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -10550,7 +10464,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -10716,7 +10630,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -10832,7 +10746,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -10999,7 +10913,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -12861,7 +12775,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -13064,7 +12978,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -13266,7 +13180,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -13540,7 +13454,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -13706,7 +13620,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -13872,7 +13786,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -13988,7 +13902,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -14155,7 +14069,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -16017,7 +15931,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -16220,7 +16134,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -16422,7 +16336,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -16696,7 +16610,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -16862,7 +16776,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -17028,7 +16942,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -17144,7 +17058,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -17311,7 +17225,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -19173,7 +19087,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -19376,7 +19290,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -19578,7 +19492,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -19852,7 +19766,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -20018,7 +19932,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -20184,7 +20098,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -20300,7 +20214,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -20467,7 +20381,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -22329,7 +22243,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -22532,7 +22446,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -22734,7 +22648,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -23008,7 +22922,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -23174,7 +23088,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -23340,7 +23254,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -23456,7 +23370,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -23623,7 +23537,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -25485,7 +25399,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -25688,7 +25602,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -25890,7 +25804,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -26164,7 +26078,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -26330,7 +26244,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -26496,7 +26410,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -26612,7 +26526,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -26779,7 +26693,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -28844,7 +28758,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -29046,7 +28960,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -29320,7 +29234,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -29486,7 +29400,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
@@ -29652,7 +29566,7 @@
                                         "id": "",
                                         "type": "txt",
                                         "style": "subheadDivider",
-                                        "content": "<h1></h1>",
+                                        "content": "  ",
                                         "visible": "true"
                                     },
                                     {
