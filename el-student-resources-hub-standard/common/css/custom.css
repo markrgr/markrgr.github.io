@@ -268,10 +268,10 @@ body.med {
 text-decoration: none;
 }
 
-.sup #wrapper .btn:hover,
-.sup #wrapper .btn:focus,
-.sup #wrapper .btn:active {
-text-decoration: underline;
+.sup #wrapper .med .btn.printK:hover,
+.sup #wrapper .med .btn.printK:focus,
+.sup #wrapper .med .btn.printK:active {
+  text-decoration: underline;
 }
 
 
@@ -2202,7 +2202,6 @@ body.sup #wrapper .btn.download {
 }
 
 .sup #wrapper .tab {
-    background-color: red;
     font-size: .5em;
     border-radius: 1em;
     padding: 1em;
@@ -2630,7 +2629,7 @@ body.sup #wrapper .btn.btnSupPDF .supButtonPDFLink {
 
 
 body.sup #wrapper .btnSupPDF .supResourceHeader {
-    color: var(--primary);
+    color: var(--tertiary);
     font-size: 1em;
     text-align: center;
     font-family: "DisplayText";
@@ -2714,7 +2713,7 @@ body.sup #wrapper .btn.btnSupVideo.vidVector .supResourceHeader {
 
 
 body.sup #wrapper .supResourceHeader {
-    color: var(--primary);
+    color: var(--tertiary);
     font-size: 1em;
     text-align: center;
     font-family: "DisplayText";
@@ -2859,7 +2858,7 @@ body.sup #wrapper .btnSupLanguage .supResourceBody {
 }
 
 body.sup #wrapper .supResourceBody {
-    color: var(--primary);
+    color: var(--tertiary);
     font-size: .9em;
     text-align: center;
     font-family: "BodyText";
@@ -2870,7 +2869,6 @@ body.sup #wrapper .grp.grpBox {
 }
 
 body.sup .drp {
-    background-color: red;
     color: #fff;
     height: auto;
     border-radius: 0;
