@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Really Great Handwriting</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6E4pB5i3Pd6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Really Great Reading Handwriting</name>
+			<description lang="und">Really Great Reading Handwriting</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5XRtHeXfAfR" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Really Great Handwriting</name>
+			<description lang="und">Really Great Handwriting</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6H9kiJ3Ma70" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Goals of Really Great Handwriting</name>
+			<description lang="und">Goals of Really Great Handwriting</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6hGqCAAClYK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Sequence of Handwriting Skills</name>
+			<description lang="und">Sequence of Handwriting Skills</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5k4HZSwJbbu" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Scope &amp; Sequence</name>
+			<description lang="und">Scope &amp; Sequence</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6S5roCLN1lu" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Alt Scope &amp; Sequence</name>
+			<description lang="und">Alt Scope &amp; Sequence</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6i0R946klks" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Letter Strokes</name>
+			<description lang="und">Letter Strokes</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5zItqR2Nft8" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Sample Week</name>
+			<description lang="und">Sample Week</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6FkTl4iWhEU" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Structuring Really Great Reading Block</name>
+			<description lang="und">Structuring Really Great Reading Block</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6CtT1P0Dnxh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Necessary Materials</name>
+			<description lang="und">Necessary Materials</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5eKXrKCl3qO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Teacher Guide</name>
+			<description lang="und">Teacher Guide</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5ekGzCrDUC0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Student Workbook</name>
+			<description lang="und">Student Workbook</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6TNYhmpis0r" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Student Workbook</name>
+			<description lang="und">Student Workbook</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6UdcY9jKpky" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Student Workbook</name>
+			<description lang="und">Student Workbook</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5muMINORI9o" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Handwriting</name>
+			<description lang="und">Handwriting</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6Ov5u7UFWhO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Assessment Materials</name>
+			<description lang="und">Assessment Materials</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6qJwNg5lIVm" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Letter Formation Rubric</name>
+			<description lang="und">Letter Formation Rubric</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6FxnCGboba3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Writing Foundations Rubric</name>
+			<description lang="und">Writing Foundations Rubric</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/60NWSPuej9m" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Congratulations!</name>
+			<description lang="und">Congratulations!</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6N5PE48Ouj6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Research</name>
+			<description lang="und">Research</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5lTQiS9Pbdn" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Check Out Our White Papers</name>
+			<description lang="und">Check Out Our White Papers</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5yM9Lz6Z0VO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Check Out Our White Papers</name>
+			<description lang="und">Check Out Our White Papers</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/62mZdRgw7Rn" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Research Tells Us...</name>
+			<description lang="und">Research Tells Us...</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6GtuVewLnVI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Handwriting</name>
+			<description lang="und">Handwriting</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5fxyV8KURG9" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Thank you!</name>
+			<description lang="und">Thank you!</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5ytPcc6olpR" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Foundational Skills Activities</name>
+			<description lang="und">Foundational Skills Activities</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6IK0BnSQaJh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Formation and Sentence Structure</name>
+			<description lang="und">Formation and Sentence Structure</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6pki8il6T76" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Rocket Grip</name>
+			<description lang="und">Rocket Grip</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6OgUP8KgoVH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Foundational Activities</name>
+			<description lang="und">Foundational Activities</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6d0LqJVpbMg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Connecting to Sound Stories</name>
+			<description lang="und">Connecting to Sound Stories</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6QNauR43Crn" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Space Walk</name>
+			<description lang="und">Space Walk</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6DRJI70jzgu" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Orbital Pathways</name>
+			<description lang="und">Orbital Pathways</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6QlD3SoutXO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Compare &amp; Contrast</name>
+			<description lang="und">Compare &amp; Contrast</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6D8vT5RAGE7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Congratulations!</name>
+			<description lang="und">Congratulations!</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6C1iBjZ8sZV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Handwriting Lesson</name>
+			<description lang="und">Handwriting Lesson</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6f0svobh6xF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Formation and Sentence Structure</name>
+			<description lang="und">Formation and Sentence Structure</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/67rylhpGG9r" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Letter Formation Goals</name>
+			<description lang="und">Letter Formation Goals</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/68DcXWKp0SC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Teacher Guide - Teach</name>
+			<description lang="und">Teacher Guide - Teach</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6EpUqr6rYJ3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Teacher Guide - Teach</name>
+			<description lang="und">Teacher Guide - Teach</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5hLvfNPpCj7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Teacher Guide - Animation</name>
+			<description lang="und">Teacher Guide - Animation</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6RNcwJ2he7s" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Teacher Guide - Student Workbook</name>
+			<description lang="und">Teacher Guide - Student Workbook</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6puqiifxICk" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Congratulations!</name>
+			<description lang="und">Congratulations!</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6HrxdYl3fX5" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Sentence Writing</name>
+			<description lang="und">Sentence Writing</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5tpdZaXYvCX" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Formation and Sentence Structure</name>
+			<description lang="und">Formation and Sentence Structure</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6Lc28r5mz4Z" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Letter Formation Goals</name>
+			<description lang="und">Letter Formation Goals</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5l8KXFzYbtI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Laying the Sentence Foundation</name>
+			<description lang="und">Laying the Sentence Foundation</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5rgpHQdhMpK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Telescope Routine</name>
+			<description lang="und">Telescope Routine</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6iWRAizCP8B" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Telescope Routine</name>
+			<description lang="und">Telescope Routine</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5fPiUJCrF6F" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Sentence Launch Sequence</name>
+			<description lang="und">Sentence Launch Sequence</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5etWDan46Uk" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Sentence Launch Sequence</name>
+			<description lang="und">Sentence Launch Sequence</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5bHOSO1tFtW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">A Peek Inside Capitalization Instruction</name>
+			<description lang="und">A Peek Inside Capitalization Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6TlqWjZsBun" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">A Peek Inside Punctuation Instruction</name>
+			<description lang="und">A Peek Inside Punctuation Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6icr663RUz7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">A Peek Inside Subject and Verb Instruction</name>
+			<description lang="und">A Peek Inside Subject and Verb Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6ZZfc0HL0jy" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Application of Skills</name>
+			<description lang="und">Application of Skills</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6PZJ7fXg1WA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Congratulations!</name>
+			<description lang="und">Congratulations!</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6PWo0A7mq0W" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Supply Room</name>
+			<description lang="und">Supply Room</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6Yrc8jT97G8" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Suggested Additional Resources</name>
+			<description lang="und">Suggested Additional Resources</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/6lLVq3o46am" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Suggested Additional Resources</name>
+			<description lang="und">Suggested Additional Resources</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6d7lOVOgTW3/5d7MXVXXTQz" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Congratulations!</name>
+			<description lang="und">Congratulations!</description>
+		</activity>
+	</activities>
+</tincan>

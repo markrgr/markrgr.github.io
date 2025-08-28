@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">module_1_up</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6dSUUUiszFg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unit Planners Welcome</name>
+			<description lang="und">Unit Planners Welcome</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5x0eeyecHEx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">A Week in the Life of Really Great Reading Instruction</name>
+			<description lang="und">A Week in the Life of Really Great Reading Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5tElXO0Xpsg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unit Planners</name>
+			<description lang="und">Unit Planners</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5iuLDJBPNM9" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unit Planner and Resources Slide</name>
+			<description lang="und">Unit Planner and Resources Slide</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6QvqQ4NqDoE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unit Planner and Resources Slide</name>
+			<description lang="und">Unit Planner and Resources Slide</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5kYwyrnKj0E" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Direct Instruction</name>
+			<description lang="und">Direct Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6UvbIU7uDeC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Direct Instruction</name>
+			<description lang="und">Direct Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5poXvghtFt7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Direct Instruction</name>
+			<description lang="und">Direct Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6SYuLbK5Rpl" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Direct Instruction</name>
+			<description lang="und">Direct Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6WXzZY0DajA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Direct Instruction</name>
+			<description lang="und">Direct Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5wuzKDjJQoF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Practice to Mastery </name>
+			<description lang="und">Practice to Mastery </description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6GR83aqftOT" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Practice to Mastery</name>
+			<description lang="und">Practice to Mastery</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5yN35UIkgEb" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Practice to Mastery</name>
+			<description lang="und">Practice to Mastery</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6oGMlG5Aofe" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Practice to Mastery</name>
+			<description lang="und">Practice to Mastery</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5tHNK3L56Tj" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Practice to Mastery</name>
+			<description lang="und">Practice to Mastery</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/64P6tylyVVv" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Practice to Mastery</name>
+			<description lang="und">Practice to Mastery</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5beUI9JmLFT" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Independent Practice</name>
+			<description lang="und">Independent Practice</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6DfwVLtHPBt" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Vocabulary Playground - Student Experience</name>
+			<description lang="und">Vocabulary Playground - Student Experience</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6puHgfz6JFq" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Teacher Dashboard and Student Grouping</name>
+			<description lang="und">Teacher Dashboard and Student Grouping</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6qQLorbrRDN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unit Reports</name>
+			<description lang="und">Unit Reports</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5tAcbN57D9o" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Activity Reports</name>
+			<description lang="und">Activity Reports</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5tDX1SbjBsD" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Formative Assessment Guides</name>
+			<description lang="und">Formative Assessment Guides</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6lIqiayKPqH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Skill Reports</name>
+			<description lang="und">Skill Reports</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5i5T5CvZsIz" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Individual Reports</name>
+			<description lang="und">Individual Reports</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6hQKhaN2fSU" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Group Reports</name>
+			<description lang="und">Group Reports</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/68p1VDSXAiw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">News &amp; Resources for the Playgrounds</name>
+			<description lang="und">News &amp; Resources for the Playgrounds</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5zMQaPHe5MW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Small Group Instruction</name>
+			<description lang="und">Small Group Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6cyhqerlAnC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Small Group Instruction</name>
+			<description lang="und">Small Group Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6MZhP8zWBS0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Small Group Instruction</name>
+			<description lang="und">Small Group Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/5fJtKq7CALd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Small Group Instruction</name>
+			<description lang="und">Small Group Instruction</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6jQCDQ1XJO1" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Spanish Resources</name>
+			<description lang="und">Spanish Resources</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/6qNuolv1LaC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Let’s Walk Down to the Supply Room</name>
+			<description lang="und">Let’s Walk Down to the Supply Room</description>
+		</activity>
+		<activity id="urn:articulate:storyline:64JYmkoeEYk/687WqYn5tYf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Congratulations!</name>
+			<description lang="und">Congratulations!</description>
+		</activity>
+	</activities>
+</tincan>

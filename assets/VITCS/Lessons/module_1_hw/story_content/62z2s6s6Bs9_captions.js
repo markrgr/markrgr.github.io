@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.90.32850.0%0D%0A%0D%0A00:00:00.736%20--%3E%2000:00:04.800%0D%0AReally%20Great%20Handwriting%20is%20deeply%20rooted%20in%20the%20latest%20research.%20%0D%0A%0D%0A"}')

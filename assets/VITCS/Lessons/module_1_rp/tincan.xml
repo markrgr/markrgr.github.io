@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">module_1_rp</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6DyhqXIUvIO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Welcome</name>
+			<description lang="und">Welcome</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/63xLOTNFvIa" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und"> About This Module</name>
+			<description lang="und"> About This Module</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5waNwFlb7ls" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Reading Playground</name>
+			<description lang="und">Reading Playground</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5prqH7j2lGd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Key Features</name>
+			<description lang="und">Key Features</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6fYIOiVslsb" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Reading Playground Goals</name>
+			<description lang="und">Reading Playground Goals</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6Pyo7sCcJrv" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Do you have the Reading Playground?</name>
+			<description lang="und">Do you have the Reading Playground?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5YCGdsvz1q2" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">When to Use Reading Playground Games</name>
+			<description lang="und">When to Use Reading Playground Games</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5axslH7BX1r" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Student Playground Organization</name>
+			<description lang="und">Student Playground Organization</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6chwxgCTcqm" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Game Mapping</name>
+			<description lang="und">Game Mapping</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6Op1FQ6hZBo" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Creating a Routine</name>
+			<description lang="und">Creating a Routine</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/651nboULqXc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Locating the Reading Playground for Teachers</name>
+			<description lang="und">Locating the Reading Playground for Teachers</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6Qd5VoREx3c" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Do you Sign On with Clever/Classlink?</name>
+			<description lang="und">Do you Sign On with Clever/Classlink?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6WNhgw86Eqy" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Clever Classlink</name>
+			<description lang="und">Clever Classlink</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6Mv0cmRX2wt" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Adding Classes and Students Manually</name>
+			<description lang="und">Adding Classes and Students Manually</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5kLIpm2HuKp" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Printing Tickets for Rostered Schools</name>
+			<description lang="und">Printing Tickets for Rostered Schools</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6hrUS7PRDx1" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Locking and Unlocking Units</name>
+			<description lang="und">Locking and Unlocking Units</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5ylI7Pucv11" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Student View</name>
+			<description lang="und">Student View</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6d1QqJoMVNe" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Student Experience Button</name>
+			<description lang="und">Student Experience Button</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6V3IUFP2dbr" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">News &amp; Resources</name>
+			<description lang="und">News &amp; Resources</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5VCRuLZ9qWG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Printing parent Letters</name>
+			<description lang="und">Printing parent Letters</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6hGgVJn82fP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Build a Word Online</name>
+			<description lang="und">Build a Word Online</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6f0RlHz1WkL" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Why Use Build a Word Online</name>
+			<description lang="und">Why Use Build a Word Online</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6PpW7SfKDlO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Build a Word in Action</name>
+			<description lang="und">Build a Word in Action</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5uV8RXx3zxF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Online Activity Reports</name>
+			<description lang="und">Online Activity Reports</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5dXUVmI15Sf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">My Assignments</name>
+			<description lang="und">My Assignments</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5xM1rmtlknA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Playbooks General Overview</name>
+			<description lang="und">Playbooks General Overview</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6J3HMjUoUY8" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What Does a Playbook Consist Of?</name>
+			<description lang="und">What Does a Playbook Consist Of?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6LeKdBhVm6j" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">How Does It Work?</name>
+			<description lang="und">How Does It Work?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6i1ktPNzvdq" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What do Playbooks look like from the teacher’s perspective?</name>
+			<description lang="und">What do Playbooks look like from the teacher’s perspective?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6SOhL03cr4e" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What happens if Level 3 isn’t completed with a student?</name>
+			<description lang="und">What happens if Level 3 isn’t completed with a student?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6CjOEjAIdxl" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Can a Playbook be cancelled for a student?</name>
+			<description lang="und">Can a Playbook be cancelled for a student?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6RTz2MT0Gdz" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What happens if a student is struggling with multiple skills?</name>
+			<description lang="und">What happens if a student is struggling with multiple skills?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5jQnYJEswa5" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What happens if a student previously had a Playbook for a skill and is now needing a Playbook for it again?</name>
+			<description lang="und">What happens if a student previously had a Playbook for a skill and is now needing a Playbook for it again?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5spzcnvkoyL" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Can I turn off the Playbooks feature?</name>
+			<description lang="und">Can I turn off the Playbooks feature?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5bBdpnsUJcq" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Navigating Reports</name>
+			<description lang="und">Navigating Reports</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6Evdf6FfDWl" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Skills Analysis Overview</name>
+			<description lang="und">Skills Analysis Overview</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5nyZ4YNZSY6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Activity Performance Report</name>
+			<description lang="und">Activity Performance Report</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6TeLu6WQsMw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unit by Unit Report</name>
+			<description lang="und">Unit by Unit Report</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/5yZMiUVPFJC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Formative Assessment Guide</name>
+			<description lang="und">Formative Assessment Guide</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6T5DwpxqFuA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">How to Use Formative Assessment Guides</name>
+			<description lang="und">How to Use Formative Assessment Guides</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6pNTZpTwJr3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Recommendations - Purpose &amp; Info</name>
+			<description lang="und">Recommendations - Purpose &amp; Info</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6IerjXCu4NI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Beginning, Middle, and End of Program Assessments</name>
+			<description lang="und">Beginning, Middle, and End of Program Assessments</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6fCwBwwyXwP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">When to Administer Program Assessments</name>
+			<description lang="und">When to Administer Program Assessments</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6VtvTZWCQc3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Unlocking and Navigating to the Program Assessments</name>
+			<description lang="und">Unlocking and Navigating to the Program Assessments</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6aPUJr04Ml8" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Assessment Performance Reports</name>
+			<description lang="und">Assessment Performance Reports</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6464nqPjsSH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">School Dashboard Reports</name>
+			<description lang="und">School Dashboard Reports</description>
+		</activity>
+		<activity id="urn:articulate:storyline:6eXvc9KxT7j/6YyLSVTK4n0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What's Next?</name>
+			<description lang="und">What's Next?</description>
+		</activity>
+	</activities>
+</tincan>

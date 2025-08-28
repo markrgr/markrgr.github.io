@@ -1,0 +1,5 @@
+
+(function() {
+    const data = {"transcripts":[{"name":"captions","cues":[{"start":736,"text":"Welcome to this virtual professional development and training course."},{"start":4864,"text":"You will learn about the science of how vocabulary is learned, "},{"start":9440,"text":"the science and art of vocabulary selection and instruction,"},{"start":13536,"text":"how and why semantic reasoning"},{"start":16096,"text":"that is imbedded in InferCabulary"},{"start":18432,"text":"is so efficient for deep vocabulary learning,"},{"start":22112,"text":"how to effectively use InferCabulary"},{"start":24864,"text":"in direct instruction and select words for"},{"start":27808,"text":"independent play."}]}]};
+    window.globalLoadJsAsset('story_content/5p2RWWsJMzH_transcripts.js', JSON.stringify(data));
+})();

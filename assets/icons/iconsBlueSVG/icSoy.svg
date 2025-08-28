@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.4 140.4">
+  <circle cx="70.2" cy="70.2" r="68.796" fill="#B4E1EF"/>
+  <defs>
+    <style>.cls-1{fill:#acdde4;}.cls-2{fill:#9d3f97;}.cls-3{fill:#fff;}.cls-4{fill:#e9513d;}.cls-5,.cls-7,.cls-8,.cls-9{fill:none;stroke-linecap:round;stroke-miterlimit:10;}.cls-5{stroke:#e9513d;stroke-width:2px;}.cls-6{fill:#603913;}.cls-7,.cls-8,.cls-9{stroke:#ffc20e;}.cls-7{stroke-width:4px;}.cls-9{stroke-width:3px;}</style>
+    <clipPath id="circularClip">
+      <circle cx="70.2" cy="70.2" r="68.796"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2" clip-path="url(#circularClip)">
+    <g id="Icons">
+      <path class="cls-1" d="M140.4,70.2A70.2,70.2,0,1,1,70.2,0a70.2,70.2,0,0,1,70.2,70.2"/>
+      <path class="cls-2" d="M4.21,94.2a70.22,70.22,0,0,0,132,0Z"/>
+      <path class="cls-3" d="M84,38.28l2.06-12.07H54.34L56.4,38.28a45.07,45.07,0,0,1-1.87,22.36l-3.69,9.1a75,75,0,0,0-5.31,33.47l.61,8.66a2.5,2.5,0,0,0,2.49,2.32H91.77a2.5,2.5,0,0,0,2.49-2.32l.61-8.66a75,75,0,0,0-5.31-33.47l-3.69-9.1A45.07,45.07,0,0,1,84,38.28Z"/>
+      <polygon class="cls-4" points="56.4 38.28 54.34 26.21 86.06 26.21 84 38.28 56.4 38.28"/>
+      <line class="cls-5" x1="53.67" y1="26.21" x2="87.04" y2="26.21"/>
+      <path class="cls-6" d="M54.53,60.64l-3.69,9.1a75,75,0,0,0-5.31,33.47l.61,8.66a2.5,2.5,0,0,0,2.49,2.32H91.77a2.5,2.5,0,0,0,2.49-2.32l.61-8.66a75,75,0,0,0-5.31-33.47l-3.69-9.1a45,45,0,0,1-2.25-10.17H56.78A45,45,0,0,1,54.53,60.64Z"/>
+      <line class="cls-7" x1="55.25" y1="78.83" x2="84.98" y2="78.83"/>
+      <line class="cls-8" x1="59.25" y1="85.17" x2="80.98" y2="85.17"/>
+      <line class="cls-8" x1="65.25" y1="96.32" x2="74.97" y2="96.32"/>
+      <line class="cls-9" x1="59.25" y1="90.74" x2="80.98" y2="90.74"/>
+      <polygon class="cls-9" points="74.47 62.68 70.11 60.17 65.76 62.68 65.76 67.71 70.11 70.22 74.47 67.71 74.47 62.68"/>
+    </g>
+  </g>
+</svg>

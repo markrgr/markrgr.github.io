@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.90.32850.0%0D%0A%0D%0A00:00:00.160%20--%3E%2000:00:04.946%0D%0ATo%20do%20this,%20let%E2%80%99s%20take%20a%20journey%20through%20a%20week%20in%20the%20life%20of%20Really%20Great%20Reading%20instruction.%0D%0A%0D%0A"}')

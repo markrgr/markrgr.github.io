@@ -1,0 +1,5 @@
+
+(function() {
+    const data = {"transcripts":[{"name":"captions","cues":[{"start":32,"text":"Let's consider an example of this. "},{"start":2192,"text":"When babies are young, if they have a dog in the environment, "},{"start":6016,"text":"and a more knowledgeable other uses the word dog,"},{"start":9280,"text":"a seed is planted."},{"start":11360,"text":"The child uses fast mapping"},{"start":13920,"text":"to attach the label to the object."},{"start":16112,"text":"Fast mapping is the process that children and adults"},{"start":19968,"text":"use to quickly infer the meaning of a new word from the available clues."},{"start":25056,"text":"The quality of the interaction matters."},{"start":28096,"text":"The more clues that are available, the more accurate the fast mapped word will be."},{"start":33008,"text":"Multimodal interactions are optimal."},{"start":36160,"text":"More on this in just a moment."},{"start":38201,"text":"Fast mapping is the process that leads to our breadth of vocabulary."}]}]};
+    window.globalLoadJsAsset('story_content/5hZA6p0pecp_transcripts.js', JSON.stringify(data));
+})();

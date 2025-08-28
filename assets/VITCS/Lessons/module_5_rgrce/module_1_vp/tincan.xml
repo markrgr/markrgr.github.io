@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Vocabulary Playground</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/6DyhqXIUvIO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Welcome</name>
+			<description lang="und">Welcome</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/6i0GPTTo8Gl" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und"> About This Module</name>
+			<description lang="und"> About This Module</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/5s13Pdk0Rlf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Know A Word</name>
+			<description lang="und">Know A Word</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/5vnwCkFy3Wr" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">4 Part Processing System</name>
+			<description lang="und">4 Part Processing System</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/5ZirbvDfzo6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Vocabulary Aqusition</name>
+			<description lang="und">Vocabulary Aqusition</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/6UbeJ4giTWQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Fast Mapping</name>
+			<description lang="und">Fast Mapping</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/6neeqodD4wa" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Welcome</name>
+			<description lang="und">Welcome</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/6DFNNMq5pNd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und"> About This Module</name>
+			<description lang="und"> About This Module</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/5nJ3OPc21mM" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Key Features</name>
+			<description lang="und">Key Features</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/64PqhV6QxdY" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Vocabulary Playground Goals</name>
+			<description lang="und">Vocabulary Playground Goals</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/6qfdjYvU8Y0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">When to Use the Vocabulary Playground</name>
+			<description lang="und">When to Use the Vocabulary Playground</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/60E8wscwCOX" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Vocabulary Playground Organization</name>
+			<description lang="und">Vocabulary Playground Organization</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/6hqUJWJvO78" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Game Mapping</name>
+			<description lang="und">Game Mapping</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/5uvflxY6cQA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Creating a Routine</name>
+			<description lang="und">Creating a Routine</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/5a9X3Yk7s0I" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Locating the Vocabulary Playgrounds for Teachers</name>
+			<description lang="und">Locating the Vocabulary Playgrounds for Teachers</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/6QjXGUXCQHN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Locking and Unlocking Units</name>
+			<description lang="und">Locking and Unlocking Units</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/5tLHetqt9p0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Student View</name>
+			<description lang="und">Student View</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/5lSLCIxK7f0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Student Experience Button</name>
+			<description lang="und">Student Experience Button</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/6EwImeLWoCW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Printing parent Letters</name>
+			<description lang="und">Printing parent Letters</description>
+		</activity>
+		<activity id="urn:articulate:storyline:5aF0kZHg6lp/5kHy8TFLweM" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Thank you!</name>
+			<description lang="und">Thank you!</description>
+		</activity>
+	</activities>
+</tincan>

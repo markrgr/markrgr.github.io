@@ -1,0 +1,5 @@
+
+(function() {
+    const data = {"transcripts":[{"name":"captions","cues":[{"start":160,"text":"The student log in process is easy."},{"start":2528,"text":"To log in to the Reading Playground,"},{"start":4536,"text":"the Vocabulary Playground or InferCabulary,"},{"start":7968,"text":"type RGR.fun into the address bar at the top of your screen."},{"start":12888,"text":"Type in your password or school code."},{"start":15744,"text":"If you are using your school code type that in first"},{"start":19200,"text":"then enter your secret code to log in."},{"start":22560,"text":"In this example, I have access to Countdown, Blast, "},{"start":26144,"text":"HD Word, and InferCabulary."},{"start":28320,"text":"But my teacher has asked me to open InferCabulary."},{"start":31872,"text":"I'll click on the InferCabulary icon to load the program."},{"start":35872,"text":"To go back and select a different program,"},{"start":38496,"text":"click on the back arrow to go back to the program selection screen.  "}]}]};
+    window.globalLoadJsAsset('story_content/6YnnGJAdRPm_transcripts.js', JSON.stringify(data));
+})();

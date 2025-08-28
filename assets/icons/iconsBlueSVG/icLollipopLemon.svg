@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.4 140.4">
+  <circle cx="70.2" cy="70.2" r="68.796" fill="#B4E1EF"/>
+  <defs>
+    <style>.cls-1{fill:#3cbecc;}.cls-2{fill:#e6e7e8;}.cls-3{fill:#ffcc4e;}.cls-4{fill:#ffc20e;}.cls-5{fill:#fff;opacity:0.3;}.cls-6,.cls-7{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;}.cls-6{stroke:#fff;}.cls-7{stroke:#ffc20e;}</style>
+    <clipPath id="circularClip">
+      <circle cx="70.2" cy="70.2" r="68.796"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2" clip-path="url(#circularClip)">
+    <g id="Icons">
+      <path class="cls-1" d="M140.4,70.2A70.2,70.2,0,1,1,70.2,0,70.2,70.2,0,0,1,140.4,70.2Z"/>
+      <path class="cls-2" d="M54.42,126.86a3.4,3.4,0,0,0,4.2-2.34l20.6-72.36c-1.08-.35-2.15-.7-3.25-1s-2.2-.57-3.3-.85L52.08,122.66A3.39,3.39,0,0,0,54.42,126.86Z"/>
+      <rect class="cls-3" x="58.56" y="15.06" width="43.84" height="40.3" rx="14.43" transform="matrix(0.27, -0.96, 0.96, 0.27, 24.58, 102.98)"/>
+      <path class="cls-4" d="M101.8,46.32a1.23,1.23,0,0,1-1.51.85L57.34,34.94a1.22,1.22,0,0,1-.84-1.51l2.66-9.33a1.21,1.21,0,0,1,1.51-.84l42.94,12.22a1.23,1.23,0,0,1,.85,1.51Z"/>
+      <path class="cls-5" d="M86.48,14.13,81,12.56A14.44,14.44,0,0,0,63.15,22.5l-.39,1.35-2.09-.59a1.21,1.21,0,0,0-1.51.84L56.5,33.43a1.22,1.22,0,0,0,.84,1.51l2.1.6-.39,1.36A14.43,14.43,0,0,0,69,54.73l2.25.64L52.08,122.66a3.38,3.38,0,0,0,2.31,4.19Z"/>
+      <path class="cls-6" d="M70.23,21.1a7.12,7.12,0,0,1,7.92-3"/>
+      <path class="cls-7" d="M90.29,49.18a7.13,7.13,0,0,1-7.92,3"/>
+    </g>
+  </g>
+</svg>
