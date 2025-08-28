@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="pinterest" content="nopin" description="Sorry, you can't save from Really Great Reading Sites." />
+    <meta name="pinterest" content="nohover" />
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="pinterest" content="nopin" description="Sorry, you can't save from Really Great Reading Sites." />
+
+    <meta name="pinterest" content="nohover" description="Sorry, you can't save from Really Great Reading Sites." />
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Playbooks Short E">
+
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <title>Really Great Reading Short E Playbook</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/interface.css">
+
+    <link rel="stylesheet" type="text/css" href="css/controls.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+
+    <link rel="stylesheet" type="text/css" href="css/teacherFH.css">
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!--<script src="js/jquery-2.1.0.min.js"></script><script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquiTouch.js"></script>
+    <script src="js/json2.min.js"></script>-->
+    <script src="js/sizer.js"></script>
+
+    <!--<script src="js/sketch.js"></script>-->
+
+    <script src="js/tools.js"></script>
+    <!--<script src="js/popup.js"></script>-->
+
+
+    <!--<script src="js/dolchgen.js"></script>-->
+</head>
+
+<body>
+    <!--<link rel="stylesheet" type="text/css" href="css/popup.css">
+    <script src="js/popup.js"></script>-->
+    <div id="wrapper">
+
+        <div id="contentSizer">
+            <div id="controls" class="controls">
+                <div class="toolLogo controlButton" tabindex="0" role="button" aria-label="open menu">
+                    <div class="toolTip"><span>tile utilities</span></div>
+                </div>
+                <div class="tool navPos navHidden" tabindex="0" role="button" aria-label="navigation location">
+                    <div class="toolTip"><span>menu location</span></div>
+                </div>
+                <div class="tool resize" tabindex="0" role="button" aria-label="resize">
+                    <div class="toolTip"><span>toggle scaling</span></div>
+                </div>
+            </div>
+
+
+            <div role="navigation" id="menuBarParent" class="menuBarParent navHidden">
+                <div id="menuBar" class="menuBar">
+
+                    <!--ADD FH WIDGET-->
+                    <div class="header projects-header">
+                        <div class="projects-header__left">
+                            <!--<a href="https://www.reallygreatreading.com/">
+            <img class="projects-header__logo" src="https://cdn.olt.reallygreatreading.com/s/1-4-6/img/header_img/logo.svg" alt="RGR Home">
+        </a>-->
+
+                            <form>
+                                <button class="projects-header__change"
+                                    formaction="https://playground.reallygreatreading.com/apps/">
+                                    <!--<img src="https://cdn.olt.reallygreatreading.com/s/1-4-6/img/header_img/change-product.svg" alt="My AppsPad">-->My
+                                    AppsPad
+                                </button>
+                            </form>
+
+                        </div>
+                        <div class="projects-header__right">
+                            <div class="projects-header__actions">
+                                <div tabindex="0" class="btn-header message" onclick="onShowFeedback()">
+                                    <img src="img/interface/toolIcons/message.png" alt="Send Message">
+                                </div>
+                            </div>
+                            <div class="projects-header__user">
+                                <div class="header-user__logo">
+                                    <img class="header-user__img"
+                                        src="https://cdn.olt.reallygreatreading.com/s/1-4-6/img/header_img/header-user-bg.svg"
+                                        alt="">
+                                    <span class="header-logo__initials">MS</span>
+                                </div>
+                                <span class="header-user__initials">Mark Snyder</span>
+                                <div class="header-user__open" tabindex="0"></div>
+                            </div>
+                            <div class="header-user__menu">
+                                <div class="user-menu__logo">
+                                    <!--<img src="https://cdn.olt.reallygreatreading.com/s/1-4-6/img/header_img/big-user_logo.svg" alt="">-->
+                                    <span class="user-menu__name">MS</span>
+                                </div>
+                                <h3 class="user-menu__fullname">Mark Snyder</h3>
+                                <p class="user-menu__email">mark.snyder@reallygreatreading.com</p>
+                                <p class="user-menu__school">Implementation Specialist Academy</p>
+
+                                <div class="user-menu__actions">
+                                    <a class="settings" tabindex="0"
+                                        href="https://playground.reallygreatreading.com/profile/settings/">settings<!--<img src="https://cdn.olt.reallygreatreading.com/s/1-4-6/img/header_img/user-menu-settings.svg" alt="">--></a>
+                                    <a class="logout" tabindex="0"
+                                        href="/teacher/packages/logout/">logout<!--<img src="https://cdn.olt.reallygreatreading.com/s/1-4-6/img/header_img/user-menu-logout.svg" alt="">--></a>
+                                </div>
+                            </div>
+                            <div class="modal-container" id="modalContainer">
+                                <div class="modal-backdrop"></div>
+                                <div class="modal-content">
+                                    <p>Your user session has been automatically ended.</p>
+                                    <p>Your login credentials are being used on another device. </p>
+                                    <p style="font-weight: bold">If you believe your credentials are being used without
+                                        your authorization, please change your
+                                        password.</p>
+                                    <button id="closeModalBtn">Confirm</button>
+                                </div>
+                            </div>
+                            <div class="modal-container" id="feedbackModalContainer">
+                                <div class="modal-backdrop"></div>
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        Feedback Form
+                                    </div>
+                                    <span class="close-icon" onclick="onCloseFeedback()">
+                                        <svg width="32" height="32" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" class=" cursor-pointer text-gray-600"
+                                            data-testid="closeIcon">
+                                            <path
+                                                d="M10.0024 11.0656L6.27621 14.7919C6.13679 14.9313 5.95935 15.001 5.74389 15.001C5.52842 15.001 5.35098 14.9313 5.21157 14.7919C5.07215 14.6524 5.00244 14.475 5.00244 14.2595C5.00244 14.0441 5.07215 13.8666 5.21157 13.7272L8.9378 10.001L5.21157 6.27474C5.07215 6.13532 5.00244 5.95788 5.00244 5.74242C5.00244 5.52696 5.07215 5.34952 5.21157 5.2101C5.35098 5.07068 5.52842 5.00098 5.74389 5.00098C5.95935 5.00098 6.13679 5.07068 6.27621 5.2101L10.0024 8.93634L13.7287 5.2101C13.8681 5.07068 14.0455 5.00098 14.261 5.00098C14.4765 5.00098 14.6539 5.07068 14.7933 5.2101C14.9327 5.34952 15.0024 5.52696 15.0024 5.74242C15.0024 5.95788 14.9327 6.13532 14.7933 6.27474L11.0671 10.001L14.7933 13.7272C14.9327 13.8666 15.0024 14.0441 15.0024 14.2595C15.0024 14.475 14.9327 14.6524 14.7933 14.7919C14.6539 14.9313 14.4765 15.001 14.261 15.001C14.0455 15.001 13.8681 14.9313 13.7287 14.7919L10.0024 11.0656Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </span>
+                                    <div class="feedback-form">
+                                        <div id="HF"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END FH WIDGET-->
+                    <div id="menuBarLeft" class="menuBarText">
+                        <div id="homeBtn" tabindex="0"></div>
+                        <div id="navArrows">
+                            <div id="navLeft" tabindex="0"></div>
+                            <span id="lessonCounter">0 of 0</span>
+                            <div id="navRight" tabindex="0"></div>
+                        </div>
+                    </div>
+                    <div id="menuBarSelector">
+                        <select id="menuBarLessonSelector" name="Select Lesson" role="combobox" tabindex="0"
+                            aria-label="Select From Book 1" aria-expanded="false" aria-controls="true">
+                            <option>option 1</option>
+                        </select>
+                    </div>
+
+                    <div id="menuBarCenter" class="menuBarText">Playbook Sandbox</div>
+                    <div id="menuBarRight" class="menuBarText">U0_L0</div>
+                </div>
+            </div>
+            <div id="content">
+                <embed class="embedded" src="materials/SL/pb05st02/story.html" />
+            </div>
+            <!--<img class="vidThumb" src="https://manager.media.reallygreatreading.com/object/preview-link/57d9f0dc-2cac-4e7a-9d29-ec4996a0be84/"/>-->
+
+        </div>
+    </div>
+</body>
+
+</html>

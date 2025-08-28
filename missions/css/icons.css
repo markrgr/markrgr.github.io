@@ -1,0 +1,3912 @@
+.standardIcon {
+    position: relative;
+    height: 4em;
+    width: 4em;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url('../img/icons/icon1.svg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-color: #b4e2f0;
+}
+
+.scaledIcon {
+    position: relative;
+    height: 8em;
+    width: 8em;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url('../img/icons/icon1.svg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-color: #b4e2f0;
+}
+
+.hiddenIcon {
+    opacity:0;
+}
+
+.hiddenImage {
+   opacity:0; 
+}
+
+.iconX {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image:url('../img/checkFalse.svg');
+    background-size:100% auto;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+.iconXHidden {
+    display:none;
+}
+
+.blockIcon {
+    height: 12em;
+    width: 12em;
+    border-radius: 50%;
+    background-image: url('../img/icons/icon1.svg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-color: #b4e2f0;
+    display: inline-block;
+    margin: 1em;
+}
+.fullScreenIcon {
+    height: 30em;
+    width: 30em;
+}
+.pulseIcon {} 
+
+.sortIcon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1.8em;
+    width: 1.8em;
+}
+.headIcon {
+    font-size: 1.8em;
+}
+.iconSmall {
+    height: 4em;
+    width: 4em;
+}
+.verticalLargeIcon {
+    display: inline-block;
+    height: 16em;
+    width: 16em;
+}
+/*Numeric Icons*/
+.ic1 {
+    background-image: url(../img/icons/ic1.svg);
+    background-size: 103% auto;
+}
+.ic2 {
+    background-image: url(../img/icons/ic2.svg);
+    background-size: 103% auto;
+}
+.ic3 {
+    background-image: url(../img/icons/ic3.svg);
+    background-size: 103% auto;
+}
+.ic4 {
+    background-image: url(../img/icons/ic4.svg);
+    background-size: 103% auto;
+}
+.ic5 {
+    background-image: url(../img/icons/ic5.svg);
+    background-size: 103% auto;
+}
+.ic6 {
+    background-image: url(../img/icons/ic6.svg);
+    background-size: 103% auto;
+}
+.ic7 {
+    background-image: url(../img/icons/ic7.svg);
+    background-size: 103% auto;
+}
+.ic8 {
+    background-image: url(../img/icons/ic8.svg);
+    background-size: 103% auto;
+}
+.ic9 {
+    background-image: url(../img/icons/ic9.svg);
+    background-size: 103% auto;
+}
+.ic10 {
+    background-image: url(../img/icons/ic10.svg);
+    background-size: 103% auto;
+}
+/*Alphanumeric colored Icons*/
+.ic1green {
+    background-image: url(../img/icons/ic1green.svg);
+    background-size: 103% auto;
+}
+.ic2green {
+    background-image: url(../img/icons/ic2green.svg);
+    background-size: 103% auto;
+}
+.ic3green {
+    background-image: url(../img/icons/ic3green.svg);
+        background-size: 103% auto;
+}
+.ic4green {
+    background-image: url(../img/icons/ic4green.svg);
+        background-size: 103% auto;
+}
+.ic5green {
+    background-image: url(../img/icons/ic5green.svg);
+        background-size: 103% auto;
+}
+.ic6green {
+    background-image: url(../img/icons/ic6green.svg);
+        background-size: 103% auto;
+}
+.ic7green {
+    background-image: url(../img/icons/ic7green.svg);
+        background-size: 103% auto;
+}
+
+.ic1blue {
+    background-image: url(../img/icons/ic1blue.svg);
+        background-size: 103% auto;
+}
+.ic2blue {
+    background-image: url(../img/icons/ic2blue.svg);
+        background-size: 103% auto;
+}
+.ic3blue {
+    background-image: url(../img/icons/ic3blue.svg);
+        background-size: 103% auto;
+}
+.ic4blue {
+    background-image: url(../img/icons/ic4blue.svg);
+        background-size: 103% auto;
+}
+.ic5blue {
+    background-image: url(../img/icons/ic5blue.svg);
+        background-size: 103% auto;
+}
+.ic6blue {
+    background-image: url(../img/icons/ic6blue.svg);
+        background-size: 103% auto;
+}
+.ic7blue {
+    background-image: url(../img/icons/ic7blue.svg);
+        background-size: 103% auto;
+}
+
+.icAgreen {
+    background-image: url(../img/icons/icAgreen.svg);
+        background-size: 103% auto;
+}
+.icBgreen {
+    background-image: url(../img/icons/icBgreen.svg);
+        background-size: 103% auto;
+}
+.icCgreen {
+    background-image: url(../img/icons/icCgreen.svg);
+        background-size: 103% auto;
+}
+.icDgreen {
+    background-image: url(../img/icons/icDgreen.svg);
+        background-size: 103% auto;
+}
+.icEgreen {
+    background-image: url(../img/icons/icEgreen.svg);
+        background-size: 103% auto;
+}
+.icFgreen {
+    background-image: url(../img/icons/icFgreen.svg);
+        background-size: 103% auto;
+}
+.icGgreen {
+    background-image: url(../img/icons/icGgreen.svg);
+        background-size: 103% auto;
+}
+.icAblue {
+    background-image: url(../img/icons/icAblue.svg);
+        background-size: 103% auto;
+}
+.icBblue {
+    background-image: url(../img/icons/icBblue.svg);
+        background-size: 103% auto;
+}
+.icCblue {
+    background-image: url(../img/icons/icCblue.svg);
+        background-size: 103% auto;
+}
+.icDblue {
+    background-image: url(../img/icons/icDblue.svg);
+        background-size: 103% auto;
+}
+.icEblue {
+    background-image: url(../img/icons/icEblue.svg);
+        background-size: 103% auto;
+}
+.icFblue {
+    background-image: url(../img/icons/icFblue.svg);
+        background-size: 103% auto;
+}
+.icGblue {
+    background-image: url(../img/icons/icGblue.svg);
+        background-size: 103% auto;
+}
+/*End Alphanumeric colored Icons*/
+.icOne {
+    background-image: url(../img/icons/icOne.svg);
+}
+.icAbove {
+    background-image: url(../img/icons/icAbove.svg);
+}
+.ic_Abnormal {
+    background-image: url(../img/icons/icAbnormal.svg);
+}
+.icAce {
+    background-image: url(../img/icons/icAce.svg);
+}
+.icAcorn {
+    background-image: url(../img/icons/icAcorn.svg);
+}
+.icAdd {
+    background-image: url(../img/icons/icAdd.svg);
+}
+.icAdhesive {
+    background-image: url(../img/icons/icAdhesive.svg);
+}
+.icAdore {
+    background-image: url(../img/icons/icAdore.svg);
+}
+.icaeiou_icons {
+    background-image: url(../img/icons/icaeiou_icons.svg);
+    background-size: 103% auto;
+}
+.icaeiou_letters {
+    background-image: url(../img/icons/icaeiou_letters.svg);
+    background-size: 103% auto;
+}
+.icaiu_icons {
+    background-image: url(../img/icons/icaiu_icons.svg);
+    background-size: 103% auto;
+}
+.icaiu_letters {
+    background-image: url(../img/icons/icaiu_letters.svg);
+    background-size: 103% auto;
+}
+.icAfraid {
+    background-image: url(../img/icons/icAfraid.svg);
+}
+.icAirplane {
+    background-image: url(../img/icons/icAirplane.svg);
+}
+.icAirplaneWing {
+    background-image: url(../img/icons/icAirplaneWing.svg);
+}
+.icAlaska {
+    background-image: url(../img/icons/icAlaska.svg);
+}
+.icAll {
+    background-image: url(../img/icons/icAll.svg);
+}
+.icAlligator {
+    background-image: url(../img/icons/icAlligator.svg);
+}
+.icAngel {
+    background-image: url(../img/icons/icAngel.svg);
+}
+.icAnt {
+    background-image: url(../img/icons/icAnt.svg);
+}
+.icApe {
+    background-image: url(../img/icons/icApe.svg);
+}
+.icApple {
+    background-image: url(../img/icons/icApple.svg);
+}
+.icApartment {
+    background-image: url(../img/icons/icApartment.svg);
+}
+.icAppleFirst {
+    background-image: url(../img/icons/icAppleFirst.svg);
+}
+.icAppleLast {
+    background-image: url(../img/icons/icAppleLast.svg);
+}
+.icAppleSecond {
+    background-image: url(../img/icons/icAppleSecond.svg);
+}
+.icApron {
+    background-image: url(../img/icons/icApron.svg);
+}
+.icArgument {
+    background-image: url(../img/icons/icArgument.svg);
+}
+.icArmy {
+    background-image: url(../img/icons/icArmy.svg);
+}
+.icArms {
+    background-image: url(../img/icons/icArms.svg);
+}
+.icArrow {
+    background-image: url(../img/icons/icArrow.svg);
+}
+.icAstronaut {
+    background-image: url(../img/icons/icAstronaut.svg);
+}
+.icAsteroid {
+    background-image: url(../img/icons/icAsteroid.svg);
+}
+.icAsleep {
+    background-image: url(../img/icons/icAsleep.svg);
+}
+.icAttentive {
+    background-image: url(../img/icons/icAttentive.svg);
+}
+.icAvocado {
+    background-image: url(../img/icons/icAvocado.svg);
+}
+.icAx {
+    background-image: url(../img/icons/icAx.svg);
+}
+.icBaby {
+    background-image: url(../img/icons/icBaby.svg);
+}
+.icBabyBoy {
+    background-image: url(../img/icons/icBabyBoy.svg);
+}
+.icBabyFoot {
+    background-image: url(../img/icons/icBabyFoot.svg);
+}
+.icBack {
+    background-image: url(../img/icons/icBack.svg);
+}
+.icBackpack {
+    background-image: url(../img/icons/icBackpack.svg);
+}
+.icBackyard {
+    background-image: url(../img/icons/icBackyard.svg);
+}
+.icBacon {
+    background-image: url(../img/icons/icBacon.svg);
+}
+.icBad {
+    background-image: url(../img/icons/icBad.svg);
+}
+.icBadge {
+    background-image: url(../img/icons/icBadge.svg);
+}
+.icBag {
+    background-image: url(../img/icons/icBag.svg);
+}
+.icBall {
+    background-image: url(../img/icons/icBall.svg);
+}
+.icBalloon {
+    background-image: url(../img/icons/icBalloon.svg);
+}
+.icBaloney {
+    background-image: url(../img/icons/icBaloney.svg);
+}
+.icBanana {
+    background-image: url(../img/icons/icBanana.svg);
+}
+.icBananaBite {
+    background-image: url(../img/icons/icBananaBite.svg);
+}
+.icBananaPeel {
+    background-image: url(../img/icons/icBananaPeel.svg);
+}
+.icBand {
+    background-image: url(../img/icons/icBand.svg);
+}
+.icBandage {
+    background-image: url(../img/icons/icBandage.svg);
+}
+.icBandana {
+    background-image: url(../img/icons/icBandana.svg);
+}
+.icBang {
+    background-image: url(../img/icons/icBang.svg);
+}
+.icBanjo {
+    background-image: url(../img/icons/icBanjo.svg);
+}
+.icBank {
+    background-image: url(../img/icons/icBank.svg);
+}
+.icBankroller {
+    background-image: url(../img/icons/icBankroller.svg);
+}
+.icBaseball {
+    background-image: url(../img/icons/icBaseball.svg);
+}
+.icBaseballField {
+    background-image: url(../img/icons/icBaseballField.svg);
+}
+.icBasket {
+    background-image: url(../img/icons/icBasket.svg);
+}
+.icBasketball {
+    background-image: url(../img/icons/icBasketball.svg);
+}
+.icBat {
+    background-image: url(../img/icons/icBat.svg);
+}
+.icBatboy {
+    background-image: url(../img/icons/icBatboy.svg);
+}
+.icBeach {
+    background-image: url(../img/icons/icBeach.svg);
+}
+.icBeak {
+    background-image: url(../img/icons/icBeak.svg);
+}
+.icBean {
+    background-image: url(../img/icons/icBean.svg);
+}
+.icBear {
+    background-image: url(../img/icons/icBear.svg);
+}
+.icBed {
+    background-image: url(../img/icons/icBed.svg);
+}
+.icBee {
+    background-image: url(../img/icons/icBee.svg);
+}
+.icBeet {
+    background-image: url(../img/icons/icBeet.svg);
+}
+.icBeekeeping {
+    background-image: url(../img/icons/icBeekeeping.svg);
+}
+.icBefore {
+    background-image: url(../img/icons/icBefore.svg);
+}
+.icBeg {
+    background-image: url(../img/icons/icBeg.svg);
+}
+.icBell {
+    background-image: url(../img/icons/icBell.svg);
+}
+.icBelt {
+    background-image: url(../img/icons/icBelt.svg);
+}
+.icBen {
+    background-image: url(../img/icons/icBen.svg);
+}
+.icBend {
+    background-image: url(../img/icons/icBend.svg);
+}
+.icBent {
+    background-image: url(../img/icons/icBent.svg);
+}
+.icBerries {
+    background-image: url(../img/icons/icBerries.svg);
+}
+.icBetween {
+    background-image: url(../img/icons/icBetween.svg);
+}
+.icBike {
+    background-image: url(../img/icons/icBike.svg);
+}
+.icBillboard {
+    background-image: url(../img/icons/icBillboard.svg);
+}
+.icBird {
+    background-image: url(../img/icons/icBird.svg);
+}
+.icBirdRed {
+    background-image: url(../img/icons/icBirdRed.svg);
+}
+.icBirdsClose {
+    background-image: url(../img/icons/icBirdsClose.svg);
+}
+.icBirdsFar {
+    background-image: url(../img/icons/icBirdsFar.svg);
+}
+.icBirdUp {
+    background-image: url(../img/icons/icBirdUp.svg);
+}
+.icBirthmark {
+    background-image: url(../img/icons/icBirthmark.svg);
+}
+.icBite {
+    background-image: url(../img/icons/icBite.svg);
+}
+.icBlinding {
+    background-image: url(../img/icons/icBlinding.svg);
+}
+.icBlue {
+    background-image: url(../img/icons/icBlue.svg);
+}
+.icBlueberries {
+    background-image: url(../img/icons/icBlueberries.svg);
+}
+.icBlurry {
+    background-image: url(../img/icons/icBlurry.svg);
+}
+.icBlush {
+    background-image: url(../img/icons/icBlush.svg);
+}
+.icBoardGameParts {
+    background-image: url(../img/icons/icBoardGameParts.svg);
+}
+.icBoardGameWhole {
+    background-image: url(../img/icons/icBoardGameWhole.svg);
+}
+.icBoat {
+    background-image: url(../img/icons/icBoat.svg);
+}
+.icBoatBig {
+    background-image: url(../img/icons/icBoatBig.svg);
+}
+.icBoatSmall {
+    background-image: url(../img/icons/icBoatSmall.svg);
+}
+.icBoil {
+    background-image: url(../img/icons/icBoil.svg);
+}
+.icBone {
+    background-image: url(../img/icons/icBone.svg);
+}
+.icBook {
+    background-image: url(../img/icons/icBook.svg);
+}
+.icBookClosed {
+    background-image: url(../img/icons/icBookClosed.svg);
+}
+.icBookmark {
+    background-image: url(../img/icons/icBookmark.svg);
+}
+.icBookshelf {
+    background-image: url(../img/icons/icBookshelf.svg);
+}
+.icBoomerang {
+    background-image: url(../img/icons/icBoomerang.svg);
+}
+.icBottle {
+    background-image: url(../img/icons/icBottle.svg);
+}
+.icBox {
+    background-image: url(../img/icons/icBox.svg);
+}
+.icBoy {
+    background-image: url(../img/icons/icBoy.svg);
+}
+.icBrag {
+    background-image: url(../img/icons/icBrag.svg);
+}
+.icBraid {
+    background-image: url(../img/icons/icBraid.svg);
+}
+.icBrain {
+    background-image: url(../img/icons/icBrain.svg);
+}
+.icBrandonBear {
+    background-image: url(../img/icons/icBrandonBear.svg);
+}
+.icBreak {
+    background-image: url(../img/icons/icBreak.svg);
+}
+.icBread {
+    background-image: url(../img/icons/icBread.svg);
+}
+.icBrick {
+    background-image: url(../img/icons/icBrick.svg);
+}
+.icBride {
+    background-image: url(../img/icons/icBride.svg);
+}
+.icBridge {
+    background-image: url(../img/icons/icBridge.svg);
+}
+.icBright {
+    background-image: url(../img/icons/icBright.svg);
+}
+.icBrim {
+    background-image: url(../img/icons/icBrim.svg);
+}
+.icBroke {
+    background-image: url(../img/icons/icBroke.svg);
+}
+.icBroom {
+    background-image: url(../img/icons/icBroom.svg);
+}
+.icBrush {
+    background-image: url(../img/icons/icBrush.svg);
+}
+.icBudge {
+    background-image: url(../img/icons/icBudge.svg);
+}
+.icBug {
+    background-image: url(../img/icons/icBug.svg);
+}
+.icBug2 {
+    background-image: url(../img/icons/icBug2.svg);
+}
+.icBullFight {
+    background-image: url(../img/icons/icBullFight.svg);
+}
+.icBulletin {
+    background-image: url(../img/icons/icBulletin.svg);
+}
+.icBump {
+    background-image: url(../img/icons/icBump.svg);
+}
+.icBurner {
+    background-image: url(../img/icons/icBurner.svg);
+}
+.icBurn {
+    background-image: url(../img/icons/icBurn.svg);
+}
+.icBurrow {
+    background-image: url(../img/icons/icBurrow.svg);
+}
+.icBus {
+    background-image: url(../img/icons/icBus.svg);
+}
+.icBush {
+    background-image: url(../img/icons/icBush.svg);
+}
+.icButterfly {
+    background-image: url(../img/icons/icButterfly.svg);
+}
+.icButterflyBlue {
+    background-image: url(../img/icons/icButterflyBlue.svg);
+}
+.icC {
+    background-image: url(../img/icons/icC.svg);
+}
+.icCab {
+    background-image: url(../img/icons/icCab.svg);
+}
+.icCabin {
+    background-image: url(../img/icons/icCabin.svg);
+}
+.icCactus {
+    background-image: url(../img/icons/icCactus.svg);
+}
+.icCage {
+    background-image: url(../img/icons/icCage.svg);
+}
+.icCake {
+    background-image: url(../img/icons/icCake.svg);
+}
+.icCakePart {
+    background-image: url(../img/icons/icCakePart.svg);
+}
+.icCalculating {
+    background-image: url(../img/icons/icCalculating.svg);
+}
+.icCamel {
+    background-image: url(../img/icons/icCamel.svg);
+}
+.icCan {
+    background-image: url(../img/icons/icCan.svg);
+}
+.icCandles {
+    background-image: url(../img/icons/icCandles.svg);
+}
+.icCandy {
+    background-image: url(../img/icons/icCandy.svg);
+}
+.icCap {
+    background-image: url(../img/icons/icCap.svg);
+}
+.icCar {
+    background-image: url(../img/icons/icCar.svg);
+}
+.icCard {
+    background-image: url(../img/icons/icCard.svg);
+}
+.icCardsDeck {
+    background-image: url(../img/icons/icCardsDeck.svg);
+}
+.icCarelessness {
+    background-image: url(../img/icons/icCarelessness.svg);
+}
+.icCarlaKayla {
+    background-image: url(../img/icons/icCarlaKayla.svg);
+}
+.icCarla {
+    background-image: url(../img/icons/icCarla.svg);
+}
+.icCarnival {
+    background-image: url(../img/icons/icCarnival.svg);
+}
+.icCarpenter {
+    background-image: url(../img/icons/icCarpenter.svg);
+}
+.icCarrot {
+    background-image: url(../img/icons/icCarrot.svg);
+}
+.icCars {
+    background-image: url(../img/icons/icCars.svg);
+}
+.icCart {
+    background-image: url(../img/icons/icCart.svg);
+}
+.icCartilage {
+    background-image: url(../img/icons/icCartilage.svg);
+}
+.icCarWheel {
+    background-image: url(../img/icons/icCarWheel.svg);
+}
+.icCash {
+    background-image: url(../img/icons/icCash.svg);
+}
+.icCashier {
+    background-image: url(../img/icons/icCashier.svg);
+}
+.icCast {
+    background-image: url(../img/icons/icCast.svg);
+}
+.icCat {
+    background-image: url(../img/icons/icCat.svg);
+}
+.icCaterpillar {
+    background-image: url(../img/icons/icCaterpillar.svg);
+}
+.icCatPlay {
+    background-image: url(../img/icons/icCatPlay.svg);
+}
+.icCat2 {
+    background-image: url(../img/icons/icCat2.svg);
+}
+.icCatfish {
+    background-image: url(../img/icons/icCatfish.svg);
+}
+.icCaveman {
+    background-image: url(../img/icons/icCaveman.svg);
+}
+.icCerealDry {
+    background-image: url(../img/icons/icCerealDry.svg);
+}
+.icCerealEat {
+    background-image: url(../img/icons/icCerealEat.svg);
+}
+.icCerealMilk {
+    background-image: url(../img/icons/icCerealMilk.svg);
+}
+.icCerealPourMilk {
+    background-image: url(../img/icons/icCerealPourMilk.svg);
+}
+.icChase {
+    background-image: url(../img/icons/icChase.svg);
+}
+.icChain {
+    background-image: url(../img/icons/icChain.svg);
+}
+.icChair {
+    background-image: url(../img/icons/icChair.svg);
+}
+.icChalk {
+    background-image: url(../img/icons/icChalk.svg);
+}
+.icChad {
+    background-image: url(../img/icons/icChad.svg);
+}
+.icChat {
+    background-image: url(../img/icons/icChat.svg);
+}
+.icCheck {
+    background-image: url(../img/icons/icCheck.svg);
+}
+.icCheckGreen {
+    background-image: url(../img/icons/icCheckGreen.svg);
+}
+.icCheeks {
+    background-image: url(../img/icons/icCheeks.svg);
+}
+.icCheerleader2 {
+    background-image: url(../img/icons/icCheerleader2.svg);
+}
+.icCheese {
+    background-image: url(../img/icons/icCheese.svg);
+}
+.icCheetah {
+    background-image: url(../img/icons/icCheetah.svg);
+}
+.icCherryRed {
+    background-image: url(../img/icons/icCherryRed.svg);
+}
+.icChess {
+    background-image: url(../img/icons/icChess.svg);
+}
+.icChest {
+    background-image: url(../img/icons/icChest.svg);
+}
+.icChewy {
+    background-image: url(../img/icons/icChewy.svg);
+}
+.icChick {
+    background-image: url(../img/icons/icChick.svg);
+}
+.icChimney {
+    background-image: url(../img/icons/icChimney.svg);
+}
+.icChin {
+    background-image: url(../img/icons/icChin.svg);
+}
+.icChip {
+    background-image: url(../img/icons/icChip.svg);
+}
+.icChocolate {
+    background-image: url(../img/icons/icChocolate.svg);
+}
+.icChop {
+    background-image: url(../img/icons/icChop.svg);
+}
+.icChore {
+    background-image: url(../img/icons/icChore.svg);
+}
+.icChurch {
+    background-image: url(../img/icons/icChurch.svg);
+}
+.icClam {
+    background-image: url(../img/icons/icClam.svg);
+}
+.icClap {
+    background-image: url(../img/icons/icClap.svg);
+}
+.icClassroom {
+    background-image: url(../img/icons/icClassroom.svg);
+}
+.icClay {
+    background-image: url(../img/icons/icClay.svg);
+}
+.icClimb{
+    background-image: url(../img/icons/icClimb.svg);
+}
+.icClimate{
+    background-image: url(../img/icons/icClimate.svg);
+}
+.icCling{
+    background-image: url(../img/icons/icCling.svg);
+}
+.icClip {
+    background-image: url(../img/icons/icClip.svg);
+}
+.icClock {
+    background-image: url(../img/icons/icClock.svg);
+}
+.icCloud {
+    background-image: url(../img/icons/icCloud.svg);
+}
+.icClown {
+    background-image: url(../img/icons/icClown.svg);
+}
+.icCoastline {
+    background-image: url(../img/icons/icCoastline.svg);
+}
+.icCocoa {
+    background-image: url(../img/icons/icCocoa.svg);
+}
+.icCod {
+    background-image: url(../img/icons/icCod.svg);
+}
+.icCoin {
+    background-image: url(../img/icons/icCoin.svg);
+}
+.icCold {
+    background-image: url(../img/icons/icCold.svg);
+}
+.icColoredPencilBlue {
+    background-image: url(../img/icons/icColoredPencilBlue.svg);
+}
+.icColoredPencils {
+    background-image: url(../img/icons/icColoredPencils.svg);
+}
+.icColoredPencilsBox {
+    background-image: url(../img/icons/icColoredPencilsBox.svg);
+}
+.icColoredPencilsFew {
+    background-image: url(../img/icons/icColoredPencilsFew.svg);
+}
+.icColoredPencilsMany {
+    background-image: url(../img/icons/icColoredPencilsMany.svg);
+}
+.icCome {
+    background-image: url(../img/icons/icCome.svg);
+}
+.icComic {
+    background-image: url(../img/icons/icComic.svg);
+}
+.icCompactdisk {
+    background-image: url(../img/icons/icCompactdisk.svg);
+}
+.icConcentrate {
+    background-image: url(../img/icons/icConcentrate.svg);
+}
+.icCone {
+    background-image: url(../img/icons/icCone.svg);
+}
+.icConfident {
+    background-image: url(../img/icons/icConfident.svg);
+}
+.icConsistency {
+    background-image: url(../img/icons/icConsistency.svg);
+}
+.icContrast {
+    background-image: url(../img/icons/icContrast.svg);
+}
+.icContribute {
+    background-image: url(../img/icons/icContribute.svg);
+}
+.icCord {
+    background-image: url(../img/icons/icCord.svg);
+}
+.icCorduroy {
+    background-image: url(../img/icons/icCorduroy.svg);
+}
+.icClover {
+    background-image: url(../img/icons/icClover.svg);
+}
+.icCoffee {
+    background-image: url(../img/icons/icCoffee.svg);
+}
+.icCookie {
+    background-image: url(../img/icons/icCookie.svg);
+}
+.icCookieBake {
+    background-image: url(../img/icons/icCookieBake.svg);
+}
+.icCookieDecorate {
+    background-image: url(../img/icons/icCookieDecorate.svg);
+}
+.icCookieHot {
+    background-image: url(../img/icons/icCookieHot.svg);
+}
+.icCookiePlain {
+    background-image: url(../img/icons/icCookiePlain.svg);
+}
+.icContainer {
+    background-image: url(../img/icons/icContainer.svg);
+}
+.icCop {
+    background-image: url(../img/icons/icCop.svg);
+}
+.icCorn {
+    background-image: url(../img/icons/icCorn.svg);
+}
+.icCot {
+    background-image: url(../img/icons/icCot.svg);
+}
+.icCountdownRocket {
+    background-image: url(../img/icons/icCountdownRocket.svg);
+}
+.icCourt {
+    background-image: url(../img/icons/icCourt.svg);
+}
+.icCourtside {
+    background-image: url(../img/icons/icCourtside.svg);
+}
+.icCow {
+    background-image: url(../img/icons/icCow.svg);
+}
+.icCowYoga {
+    background-image: url(../img/icons/icCowYoga.svg);
+}
+.icCrab {
+    background-image: url(../img/icons/icCrab.svg);
+}
+.icCram {
+    background-image: url(../img/icons/icCram.svg);
+}
+.icCrane {
+    background-image: url(../img/icons/icCrane.svg);
+}
+.icCranky {
+    background-image: url(../img/icons/icCranky.svg);
+}
+.icCrash {
+    background-image: url(../img/icons/icCrash.svg);
+}
+.icCrayonBlue {
+    background-image: url(../img/icons/icCrayonBlue.svg);
+}
+.icCream {
+    background-image: url(../img/icons/icCream.svg);
+}
+.icCreased {
+    background-image: url(../img/icons/icCreased.svg);
+}
+.icCreep2 {
+    background-image: url(../img/icons/icCreep2.svg);
+}
+.icCrew {
+    background-image: url(../img/icons/icCrew.svg);
+}
+.icCrib {
+    background-image: url(../img/icons/icCrib.svg);
+}
+.icCrow {
+    background-image: url(../img/icons/icCrow.svg);
+}
+.icCrowd {
+    background-image: url(../img/icons/icCrowd.svg);
+}
+.icCrumb {
+    background-image: url(../img/icons/icCrumb.svg);
+}
+.icCrush {
+    background-image: url(../img/icons/icCrush.svg);
+}
+.icCry {
+    background-image: url(../img/icons/icCry.svg);
+}
+.icCub {
+    background-image: url(../img/icons/icCub.svg);
+}
+.icCube {
+    background-image: url(../img/icons/icCube.svg);
+}
+.icCup {
+    background-image: url(../img/icons/icCup.svg);
+}
+.icCupcake {
+    background-image: url(../img/icons/icCupcake.svg);
+}
+.icCupcakeAfter {
+    background-image: url(../img/icons/icCupcakeAfter.svg);
+}
+.icCupcakeChocolate {
+    background-image: url(../img/icons/icCupcakeChocolate.svg);
+}
+.icCupcakes {
+    background-image: url(../img/icons/icCupcakes.svg);
+}
+.icCurb {
+    background-image: url(../img/icons/icCurb.svg);
+}
+.icCut {
+    background-image: url(../img/icons/icCut.svg);
+}
+.icDaniel {
+    background-image: url(../img/icons/icDaniel.svg);
+}
+.icDanielDog {
+    background-image: url(../img/icons/icDanielDog.svg);
+}
+.icDark {
+    background-image: url(../img/icons/icDark.svg);
+}
+.icDeck {
+    background-image: url(../img/icons/icDeck.svg);
+}
+.icDeer {
+    background-image: url(../img/icons/icDeer.svg);
+}
+.icDelicate {
+    background-image: url(../img/icons/icDelicate.svg);
+}
+.icDelightful {
+    background-image: url(../img/icons/icDelightful.svg);
+}
+.icDen {
+    background-image: url(../img/icons/icDen.svg);
+}
+.icDent {
+    background-image: url(../img/icons/icDent.svg);
+}
+.icDentist {
+    background-image: url(../img/icons/icDentist.svg);
+}
+.icDeployment {
+    background-image: url(../img/icons/icDeployment.svg);
+}
+.icDesk {
+    background-image: url(../img/icons/icDesk.svg);
+}
+.icDetective {
+    background-image: url(../img/icons/icDetective.svg);
+}
+.icDig {
+    background-image: url(../img/icons/icDig.svg);
+}
+.icDime {
+    background-image: url(../img/icons/icDime.svg);
+}
+.icDinnerPlateEmpty {
+    background-image: url(../img/icons/icDinnerPlateEmpty.svg);
+}
+.icDinnerPlateFull {
+    background-image: url(../img/icons/icDinnerPlateFull.svg);
+}
+.icDinnerPlateHalf {
+    background-image: url(../img/icons/icDinnerPlateHalf.svg);
+}
+.icDinosaur {
+    background-image: url(../img/icons/icDinosaur.svg);
+}
+.icDip {
+    background-image: url(../img/icons/icDip.svg);
+}
+.icDirt {
+    background-image: url(../img/icons/icDirt.svg);
+}
+.icDisconnect {
+    background-image: url(../img/icons/icDisconnect.svg);
+}
+.icDish {
+    background-image: url(../img/icons/icDish.svg);
+}
+.icDisorder {
+    background-image: url(../img/icons/icDisorder.svg);
+}
+.icDisrepair {
+    background-image: url(../img/icons/icDisrepair.svg);
+}
+.icDock {
+    background-image: url(../img/icons/icDock.svg);
+}
+.icDoctor {
+    background-image: url(../img/icons/icDoctor.svg);
+}
+.icDog {
+    background-image: url(../img/icons/icDog.svg);
+}
+.icDogBig {
+    background-image: url(../img/icons/icDogBig.svg);
+}
+.icDogSmall {
+    background-image: url(../img/icons/icDogSmall.svg);
+}
+.icDoghouse {
+    background-image: url(../img/icons/icDoghouse.svg);
+}
+.icDogRunning {
+    background-image: url(../img/icons/icDogRunning.svg);
+}
+.icDolphin {
+    background-image: url(../img/icons/icDolphin.svg);
+}
+.icDonut {
+    background-image: url(../img/icons/icDonut.svg);
+}
+.icDoor {
+    background-image: url(../img/icons/icDoor.svg);
+}
+.icDot {
+    background-image: url(../img/icons/icDot.svg);
+}
+.icDoughCook {
+    background-image: url(../img/icons/icDoughCook.svg);
+}
+.icDoughMix {
+    background-image: url(../img/icons/icDoughMix.svg);
+}
+.icDoughMix1 {
+    background-image: url(../img/icons/icDoughMix1.svg);
+}
+.icDoughScoop {
+    background-image: url(../img/icons/icDoughScoop.svg);
+}
+.icDownload {
+    background-image: url(../img/icons/icDownload.svg);
+}
+.icDragon {
+    background-image: url(../img/icons/icDragon.svg);
+}
+.icDownstairs {
+    background-image: url(../img/icons/icDownstairs.svg);
+}
+.icDrape {
+    background-image: url(../img/icons/icDrape.svg);
+}
+.icDraw {
+    background-image: url(../img/icons/icDraw.svg);
+}
+.icDraw2 {
+    background-image: url(../img/icons/icDraw2.svg);
+}
+.icDrawBlank {
+    background-image: url(../img/icons/icDrawBlank.svg);
+}
+.icDrawingWhole {
+    background-image: url(../img/icons/icDrawingWhole.svg);
+}
+.icDream {
+    background-image: url(../img/icons/icDream.svg);
+}
+.icDress {
+    background-image: url(../img/icons/icDress.svg);
+}
+.icDrew {
+    background-image: url(../img/icons/icDrew.svg);
+}
+.icDrop {
+    background-image: url(../img/icons/icDrop.svg);
+}
+.icDroop {
+    background-image: url(../img/icons/icDroop.svg);
+}
+.icDrum {
+    background-image: url(../img/icons/icDrum.svg);
+}
+.icDune {
+    background-image: url(../img/icons/icDune.svg);
+}
+.icDuplicate {
+    background-image: url(../img/icons/icDuplicate.svg);
+}
+.icDuck {
+    background-image: url(../img/icons/icDuck.svg);
+}
+.icEagle {
+    background-image: url(../img/icons/icEagle.svg);
+}
+.icEar {
+    background-image: url(../img/icons/icEar.svg);
+}
+.icEarn {
+    background-image: url(../img/icons/icEarn.svg);
+}
+.icEars {
+    background-image: url(../img/icons/icEars.svg);
+}
+.icEarth {
+    background-image: url(../img/icons/icEarth.svg);
+}
+.icEasel {
+    background-image: url(../img/icons/icEasel.svg);
+}
+.icEdge {
+    background-image: url(../img/icons/icEdge.svg);
+}
+.icEgg {
+    background-image: url(../img/icons/icEgg.svg);
+}
+.icEggBefore {
+    background-image: url(../img/icons/icEggBefore.svg);
+}
+.icEggAfter {
+    background-image: url(../img/icons/icEggAfter.svg);
+}
+
+.icEggplant {
+    background-image: url(../img/icons/icEggplant.svg);
+}
+.icEggs {
+    background-image: url(../img/icons/icEggs.svg);
+}
+.icEggsCarton {
+    background-image: url(../img/icons/icEggsCarton.svg);
+}
+.icEggsPan {
+    background-image: url(../img/icons/icEggsPan.svg);
+}
+.icEight {
+    background-image: url(../img/icons/icEight.svg);
+}
+.icElbow {
+    background-image: url(../img/icons/icElbow.svg);
+}
+.icElephant {
+    background-image: url(../img/icons/icElephant.svg);
+}
+.icElf {
+    background-image: url(../img/icons/icElf.svg);
+}
+.icEmbankment {
+    background-image: url(../img/icons/icEmbankment.svg);
+}
+.icEmpty {
+    background-image: url(../img/icons/icEmpty.svg);
+}
+.icEnter {
+    background-image: url(../img/icons/icEnter.svg);
+}
+.icEnvelope {
+    background-image: url(../img/icons/icEnvelope.svg);
+}
+.icEraser {
+    background-image: url(../img/icons/icEraser.svg);
+}
+.icExplode {
+    background-image: url(../img/icons/icExplode.svg);
+}
+.icExplosive {
+    background-image: url(../img/icons/icExplosive.svg);
+}
+.icExtra {
+    background-image: url(../img/icons/icExptra.svg);
+}
+.icEye {
+    background-image: url(../img/icons/icEye.svg);
+}
+.icEyes {
+    background-image: url(../img/icons/icEyes.svg);
+}
+.icFacial {
+    background-image: url(../img/icons/icFacial.svg);
+}
+.icFall {
+    background-image: url(../img/icons/icFall.svg);
+}
+.icFan {
+    background-image: url(../img/icons/icFan.svg);
+}
+.icFang {
+    background-image: url(../img/icons/icFang.svg);
+}
+.icFast {
+    background-image: url(../img/icons/icFast.svg);
+}
+.icFat {
+    background-image: url(../img/icons/icFat.svg);
+}
+.icFamily {
+    background-image: url(../img/icons/icFamily.svg);
+}
+.icFeather {
+    background-image: url(../img/icons/icFeather.svg);
+}
+.icFeet {
+    background-image: url(../img/icons/icFeet.svg);
+}
+.icFeetClean {
+    background-image: url(../img/icons/icFeetClean.svg);
+}
+.icFeetDirty {
+    background-image: url(../img/icons/icFeetDirty.svg);
+}
+.icFeetDuck {
+    background-image: url(../img/icons/icFeetDuck.svg);
+}
+.icFeetHuman {
+    background-image: url(../img/icons/icFeetHuman.svg);
+}
+.icFern {
+    background-image: url(../img/icons/icFern.svg);
+}
+.icFetch {
+    background-image: url(../img/icons/icFetch.svg);
+}
+.icFence {
+    background-image: url(../img/icons/icFence.svg);
+}
+.icFew {
+    background-image: url(../img/icons/icFew.svg);
+}
+.icFib {
+    background-image: url(../img/icons/icFib.svg);
+}
+.icField {
+    background-image: url(../img/icons/icField.svg);
+}
+.icFilmmaker {
+    background-image: url(../img/icons/icFilmmaker.svg);
+}
+.icFin {
+    background-image: url(../img/icons/icFin.svg);
+}
+.icFinger {
+    background-image: url(../img/icons/icFinger.svg);
+}
+.icFingers {
+    background-image: url(../img/icons/icFingers.svg);
+}
+.icFinish {
+    background-image: url(../img/icons/icFinish.svg);
+}
+.icFirst {
+    background-image: url(../img/icons/icFirst.svg);
+}
+.icFire {
+    background-image: url(../img/icons/icFire.svg);
+}
+.icFireHose {
+    background-image: url(../img/icons/icFireHose.svg);
+}
+.icFireHydrantRed {
+    background-image: url(../img/icons/icFireHydrantRed.svg);
+}
+.icFireman {
+    background-image: url(../img/icons/icFireman.svg);
+}
+.icFireworks {
+    background-image: url(../img/icons/icFireworks.svg);
+}
+.icFish {
+    background-image: url(../img/icons/icFish.svg);
+}
+.icFishBlue {
+    background-image: url(../img/icons/icFishBlue.svg);
+}
+.icFishnet {
+    background-image: url(../img/icons/icFishnet.svg);
+}
+.icFit {
+    background-image: url(../img/icons/icFit.svg);
+}
+.icFive {
+    background-image: url(../img/icons/icFive.svg);
+}
+.icFlag {
+    background-image: url(../img/icons/icFlag.svg);
+}
+.icFlashlight {
+    background-image: url(../img/icons/icFlashlight.svg);
+}
+.icFlip {
+    background-image: url(../img/icons/icFlip.svg);
+}
+.icFloFish {
+    background-image: url(../img/icons/icFloFish.svg);
+}
+.icFloor {
+    background-image: url(../img/icons/icFloor.svg);
+}
+.icFlop {
+    background-image: url(../img/icons/icFlop.svg);
+}
+.icFloppy {
+    background-image: url(../img/icons/icFloppy.svg);
+}
+.icFloss {
+    background-image: url(../img/icons/icFloss.svg);
+}
+.icFlow {
+    background-image: url(../img/icons/icFlow.svg);
+}
+.icFlower {
+    background-image: url(../img/icons/icFlower.svg);
+}
+.icFlowerCurly {
+    background-image: url(../img/icons/icFlowerCurly.svg);
+}
+.icFlowerPart {
+    background-image: url(../img/icons/icFlowerPart.svg);
+}
+.icFlowerPotBig {
+    background-image: url(../img/icons/icFlowerPotBig.svg);
+}
+.icFlowerPotSmall {
+    background-image: url(../img/icons/icFlowerPotSmall.svg);
+}
+.icFlowersGrow {
+    background-image: url(../img/icons/icFlowersGrow.svg);
+}
+.icFlowersSeed {
+    background-image: url(../img/icons/icFlowersSeed.svg);
+}
+.icFlowerStraight {
+    background-image: url(../img/icons/icFlowerStraight.svg);
+}
+.icFlowersWater {
+    background-image: url(../img/icons/icFlowersWater.svg);
+}
+.icFly {
+    background-image: url(../img/icons/icFly.svg);
+}
+.icFoil {
+    background-image: url(../img/icons/icFoil.svg);
+}
+.icFoot {
+    background-image: 
+	url(../img/icons/icFoot.svg);
+}
+.icFootball {
+    background-image: url(../img/icons/icFootball.svg);
+}
+.icFootprints {
+    background-image: url(../img/icons/icFootprints.svg);
+}
+.icForecasts {
+    background-image: url(../img/icons/icForecasts.svg);
+}
+.icForeman {
+    background-image: url(../img/icons/icForeman.svg);
+}
+.icForest{
+    background-image: url(../img/icons/icForest.svg);
+}
+.icForgetful{
+    background-image: url(../img/icons/icForgetful.svg);
+}
+.icForgiveness{
+    background-image: url(../img/icons/icForgiveness.svg);
+}
+.icFork{
+    background-image: url(../img/icons/icFork.svg);
+}
+.icForming{
+    background-image: url(../img/icons/icForming.svg);
+}
+.icFormula {
+    background-image: url(../img/icons/icFormula.svg);
+}
+.icFort {
+    background-image: url(../img/icons/icFort.svg);
+}
+.icFourth {
+    background-image: url(../img/icons/icFourth.svg);
+}
+.icFox {
+    background-image: url(../img/icons/icFox.svg);
+}
+.icFree1 {
+    background-image: url(../img/icons/icFree1.svg);
+}
+.icFree2 {
+    background-image: url(../img/icons/icFree2.svg);
+}
+.icFree3 {
+    background-image: url(../img/icons/icFree3.svg);
+}
+.icFresh {
+    background-image: url(../img/icons/icFresh.svg);
+}
+.icFridge {
+    background-image: url(../img/icons/icFridge.svg);
+}
+.icFries {
+    background-image: url(../img/icons/icFries.svg);
+}
+.icFrog {
+    background-image: url(../img/icons/icFrog.svg);
+}
+.icFrost {
+    background-image: url(../img/icons/icFrost.svg);
+}
+.icFun {
+    background-image: url(../img/icons/icFun.svg);
+}
+.icFur {
+    background-image: url(../img/icons/icFur.svg);
+}
+.icFuss {
+    background-image: url(../img/icons/icFuss.svg);
+}
+.icGame {
+    background-image: url(../img/icons/icGame.svg);
+}
+.icGarbage {
+    background-image: url(../img/icons/icGarbage.svg);
+}
+.icGarden {
+    background-image: url(../img/icons/icGarden.svg);
+}
+.icGaryGorilla {
+    background-image: url(../img/icons/icGaryGorilla.svg);
+}
+.icGas {
+    background-image: url(../img/icons/icGas.svg);
+}
+.icGasLight {
+    background-image: url(../img/icons/icGasLight.svg);
+}
+.icGate {
+    background-image: url(../img/icons/icGate.svg);
+}
+.icGathering {
+    background-image: url(../img/icons/icGathering.svg);
+}
+.icGaze {
+    background-image: url(../img/icons/icGaze.svg);
+}
+.icGerm {
+    background-image: url(../img/icons/icGerm.svg);
+}
+.icGift {
+    background-image: url(../img/icons/icGift.svg);
+}
+.icGiraffe {
+    background-image: url(../img/icons/icGiraffe.svg);
+}
+.icGirl {
+    background-image: url(../img/icons/icGirl.svg);
+}
+.icGirlAdult {
+    background-image: url(../img/icons/icGirlAdult.svg);
+}
+.icGirlBaby {
+    background-image: url(../img/icons/icGirlBaby.svg);
+}
+.icGirlChild {
+    background-image: url(../img/icons/icGirlChild.svg);
+}
+.icGlance {
+    background-image: url(../img/icons/icGlance.svg);
+}
+.icGlass {
+    background-image: url(../img/icons/icGlass.svg);
+}
+.icGlasses {
+    background-image: url(../img/icons/icGlasses.svg);
+}
+.icGloves {
+    background-image: url(../img/icons/icGloves.svg);
+}
+.icGlow {
+    background-image: url(../img/icons/icGlow.svg);
+}
+.icGlue {
+    background-image: url(../img/icons/icGlue.svg);
+}
+.icGoal {
+    background-image: url(../img/icons/icGoal.svg);
+}
+.icGoat {
+    background-image: url(../img/icons/icGoat.svg);
+}
+.icGold {
+    background-image: url(../img/icons/icGold.svg);
+}
+.icGrab {
+    background-image: url(../img/icons/icGrab.svg);
+}
+.icGrade {
+    background-image: url(../img/icons/icGrade.svg);
+}
+.icGrape {
+    background-image: url(../img/icons/icGrape.svg);
+}
+.icGrapes {
+    background-image: url(../img/icons/icGrapes.svg);
+}
+.icGrass {
+    background-image: url(../img/icons/icGrass.svg);
+}
+.icGratitude {
+    background-image: url(../img/icons/icGratitude.svg);
+}
+.icGray {
+    background-image: url(../img/icons/icGray.svg);
+}
+.icGrid {
+    background-image: url(../img/icons/icGrid.svg);
+}
+.icGrill {
+    background-image: url(../img/icons/icGrill.svg);
+}
+.icGrimace {
+    background-image: url(../img/icons/icGrimace.svg);
+}
+.icGrin {
+    background-image: url(../img/icons/icGrin.svg);
+}
+.icGroan {
+    background-image: url(../img/icons/icGroan.svg);
+}
+.icGrowl {
+    background-image: url(../img/icons/icGrowl.svg);
+}
+.icGrump {
+    background-image: url(../img/icons/icGrump.svg);
+}
+.icGuineaPig {
+    background-image: url(../img/icons/icGuineaPig.svg);
+}
+.icGuitar {
+    background-image: url(../img/icons/icGuitar.svg);
+}
+.icGumballs {
+    background-image: url(../img/icons/icGumballs.svg);
+}
+.icGymnast {
+    background-image: url(../img/icons/icGymnast.svg);
+}
+.icHad {
+    background-image: url(../img/icons/icHad.svg);
+}
+.icHair {
+    background-image: url(../img/icons/icHair.svg);
+}
+.icHam {
+    background-image: url(../img/icons/icHam.svg);
+}
+.icHamburger {
+    background-image: url(../img/icons/icHamburger.svg);
+}
+.icHamburgerBite {
+    background-image: url(../img/icons/icHamburgerBite.svg);
+}
+.icHammer {
+    background-image: url(../img/icons/icHammer.svg);
+}
+.icHamster {
+    background-image: url(../img/icons/icHamster.svg);
+}
+.icHands {
+    background-image: url(../img/icons/icHands.svg);
+}
+.icHanger {
+    background-image: url(../img/icons/icHanger.svg);
+}
+.icHandhold {
+    background-image: url(../img/icons/icHandhold.svg);
+}
+.icHannahHedgehog {
+    background-image: url(../img/icons/icHannahHedgehog.svg);
+}
+.icHappy {
+    background-image: url(../img/icons/icHappy.svg);
+}
+.icHarmony {
+    background-image: url(../img/icons/icHarmony.svg);
+}
+.icHarsh {
+    background-image: url(../img/icons/icHarsh.svg);
+}
+.icHat {
+    background-image: url(../img/icons/icHat.svg);
+}
+.icHaul {
+    background-image: url(../img/icons/icHaul.svg);
+}
+.icHawk {
+    background-image: url(../img/icons/icHawk.svg);
+}
+.icHay {
+    background-image: url(../img/icons/icHay.svg);
+}
+.icHeadphones {
+    background-image: url(../img/icons/icHeadphones.svg);
+}
+.icHeap {
+    background-image: url(../img/icons/icHeap.svg);
+}
+.icHeart {
+    background-image: url(../img/icons/icHeart.svg);
+}
+.icHem {
+    background-image: url(../img/icons/icHem.svg);
+}
+.icHen {
+    background-image: url(../img/icons/icHen.svg);
+}
+.icHid {
+    background-image: url(../img/icons/icHid.svg);
+}
+.icHide {
+    background-image: url(../img/icons/icHide.svg);
+}
+.icHighest {
+    background-image: url(../img/icons/icHighest.svg);
+}
+.icHighway {
+    background-image: url(../img/icons/icHighway.svg);
+}
+.icHike {
+    background-image: url(../img/icons/icHike.svg);
+}
+.icHill {
+    background-image: url(../img/icons/icHill.svg);
+}
+.icHim {
+    background-image: url(../img/icons/icHim.svg);
+}
+.icHip {
+    background-image: url(../img/icons/icHip.svg);
+}
+.icHit {
+    background-image: url(../img/icons/icHit.svg);
+}
+.icHole {
+    background-image: url(../img/icons/icHole.svg);
+}
+.icHome {
+    background-image: url(../img/icons/icHome.svg);
+}
+.icHonk {
+    background-image: url(../img/icons/icHonk.svg);
+}
+.icHop {
+    background-image: url(../img/icons/icHop.svg);
+}
+.icHorse {
+    background-image: url(../img/icons/icHorse.svg);
+}
+.icHorseNose {
+    background-image: url(../img/icons/icHorseNose.svg);
+}
+.icHorseWhole {
+    background-image: url(../img/icons/icHorseWhole.svg);
+}
+.icHose {
+    background-image: url(../img/icons/icHose.svg);
+}
+.icHospital {
+    background-image: url(../img/icons/icHospital.svg);
+}
+.icHot {
+    background-image: url(../img/icons/icHot.svg);
+}
+.icHouse {
+    background-image: url(../img/icons/icHouse.svg);
+}
+.icHouseBig {
+    background-image: url(../img/icons/icHouseBig.svg);
+}
+.icHouseSmall {
+    background-image: url(../img/icons/icHouseSmall.svg);
+}
+.icHowl {
+    background-image: url(../img/icons/icHowl.svg);
+}
+.icHub {
+    background-image: url(../img/icons/icHub.svg);
+}
+.icHug {
+    background-image: url(../img/icons/icHug.svg);
+}
+.icHuge {
+    background-image: url(../img/icons/icHuge.svg);
+}
+.icHurt {
+    background-image: url(../img/icons/icHurt.svg);
+}
+.icHut {
+    background-image: url(../img/icons/icHut.svg);
+}
+.icHyperlinking {
+    background-image: url(../img/icons/icHyperlinking.svg);
+}
+.icHype {
+    background-image: url(../img/icons/icHype.svg);
+}
+.icIceCream {
+    background-image: url(../img/icons/icIceCream.svg);
+}
+.icIceCream2Scoops {
+    background-image: url(../img/icons/icIceCream2Scoops.svg);
+}
+.icIceCreamBowl {
+    background-image: url(../img/icons/icIceCreamBowl.svg);
+}
+.icIceCube {
+    background-image: url(../img/icons/icIceCube.svg);
+}
+.icIcicle {
+    background-image: url(../img/icons/icIcicle.svg);
+}
+
+.icIgloo {
+    background-image: url(../img/icons/icIgloo.svg);
+}
+.icIguana {
+    background-image: url(../img/icons/icIguana.svg);
+}
+
+.icImbalance {
+    background-image: url(../img/icons/icImbalance.svg);
+}
+.icImmature {
+    background-image: url(../img/icons/icImmature.svg);
+}
+.icImpair {
+    background-image: url(../img/icons/icImpair.svg);
+}
+.icIncreasing {
+    background-image: url(../img/icons/icIncreasing.svg);
+}
+.icIncredible {
+    background-image: url(../img/icons/icIncredible.svg);
+}
+.icInflammation {
+    background-image: url(../img/icons/icInflammation.svg);
+}
+.icInhabit {
+    background-image: url(../img/icons/icInhabit.svg);
+}
+
+.icInch {
+    background-image: url(../img/icons/icInch.svg);
+}
+.icInside {
+    background-image: url(../img/icons/icInside.svg);
+}
+.icInnkeeper {
+    background-image: url(../img/icons/icInnkeeper.svg);
+}
+.icInspect {
+    background-image: url(../img/icons/icInspect.svg);
+}
+.icInvent {
+    background-image: url(../img/icons/icInvent.svg);
+}
+.icIrises {
+    background-image: url(../img/icons/icIrises.svg);
+}
+.icIron {
+    background-image: url(../img/icons/icIron.svg);
+}
+.icIsland {
+    background-image: url(../img/icons/icIsland.svg);
+}
+.icIt {
+    background-image: url(../img/icons/icIt.svg);
+}
+.icItch {
+    background-image: url(../img/icons/icItch.svg);
+}
+.icJacket {
+    background-image: url(../img/icons/icJacket.svg);
+}
+.icJam {
+    background-image: url(../img/icons/icJam.svg);
+}
+.icJamalJaguar {
+    background-image: url(../img/icons/icJamalJaguar.svg);
+}
+.icJar {
+    background-image: url(../img/icons/icJar.svg);
+}
+.icJeep {
+    background-image: url(../img/icons/icJeep.svg);
+}
+.icJellybeans {
+    background-image: url(../img/icons/icJellybeans.svg);
+}
+.icJellyfish {
+    background-image: url(../img/icons/icJellyfish.svg);
+}
+.icJet {
+    background-image: url(../img/icons/icJet.svg);
+}
+.icJudge {
+    background-image: url(../img/icons/icJudge.svg);
+}
+.icJoin {
+    background-image: url(../img/icons/icJoin.svg);
+}
+.icJuice {
+    background-image: url(../img/icons/icJuice.svg);
+}
+.icJump {
+    background-image: url(../img/icons/icJump.svg);
+}
+.icJune {
+    background-image: url(../img/icons/icJune.svg);
+}
+.icJuvenile {
+    background-image: url(../img/icons/icJuvenile.svg);
+}
+.icKayla {
+    background-image: url(../img/icons/icKayla.svg);
+}
+.icKangaroo {
+    background-image: url(../img/icons/icKangaroo.svg);
+}
+.icKeep {
+    background-image: url(../img/icons/icKeep.svg);
+}
+.icKey {
+    background-image: url(../img/icons/icKey.svg);
+}
+.icKeyCar {
+    background-image: url(../img/icons/icKeyCar.svg);
+}
+.icKeyboard {
+    background-image: url(../img/icons/icKeyboard.svg);
+}
+.icKick {
+    background-image: url(../img/icons/icKick.svg);
+}
+.icKidney {
+    background-image: url(../img/icons/icKidney.svg);
+}
+.icKing {
+    background-image: url(../img/icons/icKing.svg);
+}
+.icKit {
+    background-image: url(../img/icons/icKit.svg);
+}
+.icKite {
+    background-image: url(../img/icons/icKite.svg);
+}
+.icKiwi {
+    background-image: url(../img/icons/icKiwi.svg);
+}
+.icKnee {
+    background-image: url(../img/icons/icKnee.svg);
+}
+.icKnees {
+    background-image: url(../img/icons/icKnees.svg);
+}
+.icKneel {
+    background-image: url(../img/icons/icKneel.svg);
+}
+.icKnife {
+    background-image: url(../img/icons/icKnife.svg);
+}
+.icLadder {
+    background-image: url(../img/icons/icLadder.svg);
+}
+.icLadybug {
+    background-image: url(../img/icons/icLadybug.svg);
+}
+.icLake {
+    background-image: url(../img/icons/icLake.svg);
+}
+.icLamp {
+    background-image: url(../img/icons/icLamp.svg);
+}
+.icLap {
+    background-image: url(../img/icons/icLap.svg);
+}
+.icLaptop {
+    background-image: url(../img/icons/icLaptop.svg);
+}
+.icLash {
+    background-image: url(../img/icons/icLash.svg);
+}
+.icLast {
+    background-image: url(../img/icons/icLast.svg);
+}
+.icLatch {
+    background-image: url(../img/icons/icLatch.svg);
+}
+.icLate {
+    background-image: url(../img/icons/icLate.svg);
+}
+.icLaugh {
+    background-image: url(../img/icons/icLaugh.svg);
+}
+.icLaunchpad {
+    background-image: url(../img/icons/icLaunchpad.svg);
+}
+.icLawn {
+    background-image: url(../img/icons/icLawn.svg);
+}
+.icLay {
+    background-image: url(../img/icons/icLay.svg);
+}
+.icLeaf {
+    background-image: url(../img/icons/icLeaf.svg);
+}
+.icLeap {
+    background-image: url(../img/icons/icLeap.svg);
+}
+.icLeaves {
+    background-image: url(../img/icons/icLeaves.svg);
+}
+.icLeft {
+    background-image: url(../img/icons/icLeft.svg);
+}
+.icLegoHouse {
+    background-image: url(../img/icons/icLegoHouse.svg);
+}
+.icLegos {
+    background-image: url(../img/icons/icLegos.svg);
+}
+.icLeg {
+    background-image: url(../img/icons/icLeg.svg);
+}
+.icLemon {
+    background-image: url(../img/icons/icLemon.svg);
+}
+.icLick {
+    background-image: url(../img/icons/icLick.svg);
+}
+.icLifeboat {
+    background-image: url(../img/icons/icLifeboat.svg);
+}
+.icLight {
+    background-image: url(../img/icons/icLight.svg);
+}
+.icLightbulb {
+    background-image: url(../img/icons/icLightbulb.svg);
+}
+.icLightbulbOff {
+    background-image: url(../img/icons/icLightbulbOff.svg);
+}
+.icLightbulbOn {
+    background-image: url(../img/icons/icLightbulbOn.svg);
+}
+.icLightning {
+    background-image: url(../img/icons/icLightning.svg);
+}
+.icLike {
+    background-image: url(../img/icons/icLike.svg);
+}
+.icLilac {
+    background-image: url(../img/icons/icLilac.svg);
+}
+.icLime {
+    background-image: url(../img/icons/icLime.svg);
+}
+.icLion {
+    background-image: url(../img/icons/icLion.svg);
+}
+.icLips {
+    background-image: url(../img/icons/icLips.svg);
+}
+.icList {
+    background-image: url(../img/icons/icList.svg);
+}
+.icLock {
+    background-image: url(../img/icons/icLock.svg);
+}
+.icLog {
+    background-image: url(../img/icons/icLog.svg);
+}
+.icLolaLizard {
+    background-image: url(../img/icons/icLolaLizard.svg);
+}
+.icLollipop {
+    background-image: url(../img/icons/icLollipop.svg);
+}
+.icLone {
+    background-image: url(../img/icons/icLone.svg);
+}
+.icLuck {
+    background-image: url(../img/icons/icLuck.svg);
+}
+.icLuggage {
+    background-image: url(../img/icons/icLuggage.svg);
+}
+.icLunches {
+    background-image: url(../img/icons/icLunches.svg);
+}
+.icLungs {
+    background-image: url(../img/icons/icLungs.svg);
+}
+.icMad {
+    background-image: url(../img/icons/icMad.svg);
+}
+.icMall {
+    background-image: url(../img/icons/icMall.svg);
+}
+.icMan {
+    background-image: url(../img/icons/icMan.svg);
+}
+.icMap {
+    background-image: url(../img/icons/icMap.svg);
+}
+.icMash {
+    background-image: url(../img/icons/icMash.svg);
+}
+.icMask {
+    background-image: url(../img/icons/icMask.svg);
+}
+.icMass {
+    background-image: url(../img/icons/icMass.svg);
+}
+.icMast {
+    background-image: url(../img/icons/icMast.svg);
+}
+.icMat {
+    background-image: url(../img/icons/icMat.svg);
+}
+.icMatch {
+    background-image: url(../img/icons/icMatch.svg);
+}
+.icMaxFox {
+    background-image: url(../img/icons/icMaxFox.svg);
+}
+.icMe {
+    background-image: url(../img/icons/icMe.svg);
+}
+.icMeat {
+    background-image: url(../img/icons/icMeat.svg);
+}
+.icMeat2 {
+    background-image: url(../img/icons/icMeat2.svg);
+}
+.icMelt {
+    background-image: url(../img/icons/icMelt.svg);
+}
+.icMenu {
+    background-image: url(../img/icons/icMenu.svg);
+}
+.icMet {
+    background-image: url(../img/icons/icMet.svg);
+}
+.icMichaelMonkey {
+    background-image: url(../img/icons/icMichaelMonkey.svg);
+}
+.icMiscalculate {
+    background-image: url(../img/icons/icMiscalculate.svg);
+}
+.icMist {
+    background-image: url(../img/icons/icMist.svg);
+}
+.icMile {
+    background-image: url(../img/icons/icMile.svg);
+}
+.icMilk {
+    background-image: url(../img/icons/icMilk.svg);
+}
+.icMill {
+    background-image: url(../img/icons/icMill.svg);
+}
+.icMilkshakeStrawberry {
+    background-image: url(../img/icons/icMilkshakeStrawberry.svg);
+}
+.icMiscalculate {
+    background-image: url(../img/icons/icMiscalculate.svg);
+}
+.icMitt {
+    background-image: url(../img/icons/icMitt.svg);
+}
+.icMittens {
+    background-image: url(../img/icons/icMittens.svg);
+}
+.icMix {
+    background-image: url(../img/icons/icMix.svg);
+}
+.icMonkey {
+    background-image: url(../img/icons/icMonkey.svg);
+}
+.icMonster {
+    background-image: url(../img/icons/icMonster.svg);
+}
+.icMoonCrescent {
+    background-image: url(../img/icons/icMoonCrescent.svg);
+}
+.icMoonFull {
+    background-image: url(../img/icons/icMoonFull.svg);
+}
+.icMoose {
+    background-image: url(../img/icons/icMoose.svg);
+}
+.icMop {
+    background-image: url(../img/icons/icMop.svg);
+}
+.icMoth {
+    background-image: url(../img/icons/icMoth.svg);
+}
+.icMountain {
+    background-image: url(../img/icons/icMountain.svg);
+}
+.icMouse {
+    background-image: url(../img/icons/icMouse.svg);
+}
+.icMouth {
+    background-image: url(../img/icons/icMouth.svg);
+}
+.icMuch {
+    background-image: url(../img/icons/icMuch.svg);
+}
+.icMuffin {
+    background-image: url(../img/icons/icMuffin.svg);
+}
+.icMug {
+    background-image: url(../img/icons/icMug.svg);
+}
+.icMule {
+    background-image: url(../img/icons/icMule.svg);
+}
+.icMushroom {
+    background-image: url(../img/icons/icMushroom.svg);
+}
+.icMute {
+    background-image: url(../img/icons/icMute.svg);
+}
+.icMy {
+    background-image: url(../img/icons/icMy.svg);
+}
+.icMysterybag {
+    background-image: url(../img/icons/icMysterybag.svg);
+}
+.icNail {
+    background-image: url(../img/icons/icNail.svg);
+}
+.icNap {
+    background-image: url(../img/icons/icNap.svg);
+}
+.icNapkin {
+    background-image: url(../img/icons/icNapkin.svg);
+}
+.icNeck {
+    background-image: url(../img/icons/icNeck.svg);
+}
+.icNecklace {
+    background-image: url(../img/icons/icNecklace.svg);
+}
+.icNeedle {
+    background-image: url(../img/icons/icNeedle.svg);
+}
+.icNegative {
+    background-image: url(../img/icons/icNegative.svg);
+}
+.icNest {
+    background-image: url(../img/icons/icNest.svg);
+}
+.icNestEggs {
+    background-image: url(../img/icons/icNestEggs.svg);
+}
+.icNestEggsCrack {
+    background-image: url(../img/icons/icNestEggsCrack.svg);
+}
+.icNestEggsCracks {
+    background-image: url(../img/icons/icNestEggsCrack.svg);
+}
+.icNestEggsHatch {
+    background-image: url(../img/icons/icNestEggsHatch.svg);
+}
+.icNet {
+    background-image: url(../img/icons/icNet.svg);
+}
+.icNewspaper {
+    background-image: url(../img/icons/icNewspaper.svg);
+}
+.icNewt{
+    background-image: url(../img/icons/icNewt.svg);
+}
+.icNinaNuthatch {
+    background-image: url(../img/icons/icNinaNuthatch.svg);
+}
+.icNose {
+    background-image: url(../img/icons/icNose.svg);
+}
+.icNote {
+    background-image: url(../img/icons/icNote.svg);
+}
+.icNorth {
+    background-image: url(../img/icons/icNorth.svg);
+}
+.icNortheast {
+    background-image: url(../img/icons/icNortheast.svg);
+}
+.icNoun {
+    background-image: url(../img/icons/icNoun.svg);
+}
+.icNudge2 {
+    background-image: url(../img/icons/icNudge2.svg);
+}
+.icNumerous {
+    background-image: url(../img/icons/icNumerous.svg);
+}
+.icNurse {
+    background-image: url(../img/icons/icNurse.svg);
+}
+.icNoSmokingSign {
+    background-image: url(../img/icons/icNoSmokingSign.svg);
+}
+.icOat {
+    background-image: url(../img/icons/icOat.svg);
+}
+.icOatmeal {
+    background-image: url(../img/icons/icOatmeal.svg);
+}
+.icOuch {
+    background-image: url(../img/icons/icOuch.svg);
+}
+.icOutstanding {
+    background-image: url(../img/icons/icOutstanding.svg);
+}
+.icOboe {
+    background-image: url(../img/icons/icOboe.svg);
+}
+.icOcean {
+    background-image: url(../img/icons/icOcean.svg);
+}
+.icOctober {
+    background-image: url(../img/icons/icOctober.svg);
+}
+.icOctopus {
+    background-image: url(../img/icons/icOctopus.svg);
+}
+.icOld {
+    background-image: url(../img/icons/icOld.svg);
+}
+.icOlives {
+    background-image: url(../img/icons/icOlives.svg);
+}
+.icOmelet {
+    background-image: url(../img/icons/icOmelet.svg);
+}
+.icOne {
+    background-image: url(../img/icons/icOne.svg);
+}
+.icOnion {
+    background-image: url(../img/icons/icOnion.svg);
+}
+.icOpen {
+    background-image: url(../img/icons/icOpen.svg);
+}
+.icOrangePeel {
+    background-image: url(../img/icons/icOrangePeel.svg);
+}
+.icOrangeWhole {
+    background-image: url(../img/icons/icOrangeWhole.svg);
+}
+.icOrangeWhole1 {
+    background-image: url(../img/icons/icOrangeWhole1.svg);
+}
+.icOstrich {
+    background-image: url(../img/icons/icOstrich.svg);
+}
+.icOtter {
+    background-image: url(../img/icons/icOtter.svg);
+}
+.icOval {
+    background-image: url(../img/icons/icOval.svg);
+}
+.icOven {
+    background-image: url(../img/icons/icOven.svg);
+}
+.icOveralls {
+    background-image: url(../img/icons/icOveralls.svg);
+}
+.icOverdraw {
+    background-image: url(../img/icons/icOverdraw.svg);
+}
+.icOverlooking {
+    background-image: url(../img/icons/icOverlooking.svg);
+}
+.icOverthrew {
+    background-image: url(../img/icons/icOverthrew.svg);
+}
+.icOx {
+    background-image: url(../img/icons/icOx.svg);
+}
+.icPackage {
+    background-image: url(../img/icons/icPackage.svg);
+}
+.icPail {
+    background-image: url(../img/icons/icPail.svg);
+}
+.icPaintBlue {
+    background-image: url(../img/icons/icPaintBlue.svg);
+}
+.icPaintbrush {
+    background-image: url(../img/icons/icPaintbrush.svg);
+}
+.icPaints {
+    background-image: url(../img/icons/icPaints.svg);
+}
+.icPal {
+    background-image: url(../img/icons/icPal.svg);
+}
+.icPan {
+    background-image: url(../img/icons/icPan.svg);
+}
+.icPanic {
+    background-image: url(../img/icons/icPanic.svg);
+}
+.icPanda {
+    background-image: url(../img/icons/icPanda.svg);
+}
+.icPat {
+    background-image: url(../img/icons/icPat.svg);
+}
+.icPatches {
+    background-image: url(../img/icons/icPatches.svg);
+}
+.icPath {
+    background-image: url(../img/icons/icPath.svg);
+}
+.icPants {
+    background-image: url(../img/icons/icPants.svg);
+}
+.icPass {
+    background-image: url(../img/icons/icPass.svg);
+}
+.icPastaCurly {
+    background-image: url(../img/icons/icPastaCurly.svg);
+}
+.icPastaStraight {
+    background-image: url(../img/icons/icPastaStraight.svg);
+}
+.icPeak {
+    background-image: url(../img/icons/icPeak.svg);
+}
+.icPeanut {
+    background-image: url(../img/icons/icPeanut.svg);
+}
+.icPear {
+    background-image: url(../img/icons/icPear.svg);
+}
+.icPearB {
+    background-image: url(../img/icons/icPearB.svg);
+}
+.icPearl {
+    background-image: url(../img/icons/icPearl.svg);
+}
+.icPeas {
+    background-image: url(../img/icons/icPeas.svg);
+}
+.icPen {
+    background-image: url(../img/icons/icPen.svg);
+}
+.icPencils {
+    background-image: url(../img/icons/icPencils.svg);
+}
+.icPennies {
+    background-image: url(../img/icons/icPennies.svg);
+}
+.icPenny {
+    background-image: url(../img/icons/icPenny.svg);
+}
+.icPennyPenguin {
+    background-image: url(../img/icons/icPennyPenguin.svg);
+}
+.icPeppermint {
+    background-image: url(../img/icons/icPeppermint.svg);
+}
+.icPepperRed {
+    background-image: url(../img/icons/icPepperRed.svg);
+}
+.icPerky {
+    background-image: url(../img/icons/icPerky.svg);
+}
+.icPet {
+    background-image: url(../img/icons/icPet.svg);
+}
+.icPete {
+    background-image: url(../img/icons/icPete.svg);
+}
+.icPew {
+    background-image: url(../img/icons/icPew.svg);
+}
+.icPhone {
+    background-image: url(../img/icons/icPhone.svg);
+}
+.icPhonemes {
+    background-image: url(../img/icons/icPhonemes.svg);
+}
+.icPhonemesB {
+    background-image: url(../img/icons/icPhonemesB.svg);
+}
+.icPhonemicAwareness {
+    background-image: url(../img/icons/icPhonemicAwareness.svg);
+}
+.icPiano {
+    background-image: url(../img/icons/icPiano.svg);
+}
+.icPianoPart {
+    background-image: url(../img/icons/icPianoPart.svg);
+}
+.icPicnic {
+    background-image: url(../img/icons/icPicnic.svg);
+}
+.icPie {
+    background-image: url(../img/icons/icPie.svg);
+}
+.icPig {
+    background-image: url(../img/icons/icPig.svg);
+}
+.icPigpen {
+    background-image: url(../img/icons/icPigpen.svg);
+}
+.icPill {
+    background-image: url(../img/icons/icPill.svg);
+}
+.icPillB {
+    background-image: url(../img/icons/icPillB.svg);
+}
+.icPit {
+    background-image: url(../img/icons/icPit.svg);
+}
+.icPirate {
+    background-image: url(../img/icons/icPirate.svg);
+}
+.icPitch {
+    background-image: url(../img/icons/icPitch.svg);
+}
+.icPizzaPart {
+    background-image: url(../img/icons/icPizzaPart.svg);
+}
+.icPizzaWhole {
+    background-image: url(../img/icons/icPizzaWhole.svg);
+}
+.icPlate {
+    background-image: url(../img/icons/icPlate.svg);
+}
+.icPlay {
+    background-image: url(../img/icons/icPlay.svg);
+}
+.icPlayset {
+    background-image: url(../img/icons/icPlayset.svg);
+}
+.icPollute {
+    background-image: url(../img/icons/icPollute.svg);
+}
+.icPopsicle {
+    background-image: url(../img/icons/icPopsicle.svg);
+}
+.icPopcorn {
+    background-image: url(../img/icons/icPopcorn.svg);
+}
+.icPositive {
+    background-image: url(../img/icons/icPositive.svg);
+}
+.icPray {
+    background-image: url(../img/icons/icPray.svg);
+}
+.icPredict {
+    background-image: url(../img/icons/icPredict.svg);
+}
+.icPreshrunk {
+    background-image: url(../img/icons/icPreshrunk.svg);
+}
+.icPresidential {
+    background-image: url(../img/icons/icPresidential.svg);
+}
+.icPreventable {
+    background-image: url(../img/icons/icPreventable.svg);
+}
+.icProlonging {
+    background-image: url(../img/icons/icProlonging.svg);
+}
+.icProng {
+    background-image: url(../img/icons/icProng.svg);
+}
+.icProtect {
+    background-image: url(../img/icons/icProtect.svg);
+}
+.icPry {
+    background-image: url(../img/icons/icPry.svg);
+}
+.icPot {
+    background-image: url(../img/icons/icPot.svg);
+}
+.icPumpkin {
+    background-image: url(../img/icons/icPumpkin.svg);
+}
+.icPumpkinScoop {
+    background-image: url(../img/icons/icPumpkinScoop.svg);
+}
+.icPunishment{
+    background-image: url(../img/icons/icPunishment.svg);
+}
+.icPurple {
+    background-image: url(../img/icons/icPurple.svg);
+}
+.icPuzzle {
+    background-image: url(../img/icons/icPuzzle.svg);
+}
+.icPuzzlePieces {
+    background-image: url(../img/icons/icPuzzlePieces.svg);
+}
+.icQuail {
+    background-image: url(../img/icons/icQuail.svg);
+}
+.icQuarter {
+    background-image: url(../img/icons/icQuarter.svg);
+}
+.icQuartz {
+    background-image: url(../img/icons/icQuartz.svg);
+}
+.icQueen {
+    background-image: url(../img/icons/icQueen.svg);
+}
+.icQuestion {
+    background-image: url(../img/icons/icQuestion.svg);
+}
+.icQuick {
+    background-image: url(../img/icons/icQuick.svg);
+}
+.icQuiet {
+    background-image: url(../img/icons/icQuiet.svg);
+}
+.icQuilt {
+    background-image: url(../img/icons/icQuilt.svg);
+}
+.icQuincyQuail {
+    background-image: url(../img/icons/icQuincyQuail.svg);
+}
+.icQuit {
+    background-image: url(../img/icons/icQuit.svg);
+}
+.icQuizzes {
+    background-image: url(../img/icons/icQuizzes.svg);
+}
+.icRabbit {
+    background-image: url(../img/icons/icRabbit.svg);
+}
+.icRabbitLarge {
+    background-image: url(../img/icons/icRabbitLarge.svg);
+}
+.icRabbitSmall {
+    background-image: url(../img/icons/icRabbitSmall.svg);
+}
+.icRaccoon {
+    background-image: url(../img/icons/icRaccoon.svg);
+}
+.icRack {
+    background-image: url(../img/icons/icRack.svg);
+}
+.icRadish {
+    background-image: url(../img/icons/icRadish.svg);
+}
+.icRain {
+    background-image: url(../img/icons/icRain.svg);
+}
+.icRainbow {
+    background-image: url(../img/icons/icRainbow.svg);
+}
+.icRaincoat {
+    background-image: url(../img/icons/icRaincoat.svg);
+}
+.icRake {
+    background-image: url(../img/icons/icRake.svg);
+}
+.icRam {
+    background-image: url(../img/icons/icRam.svg);
+}
+.icRamp {
+    background-image: url(../img/icons/icRamp.svg);
+}
+.icRan {
+    background-image: url(../img/icons/icRan.svg);
+}
+.icRap {
+    background-image: url(../img/icons/icRap.svg);
+}
+.icRasberries {
+    background-image: url(../img/icons/icRaspberries.svg);
+}
+.icRash {
+    background-image: url(../img/icons/icRash.svg);
+}
+.icRat {
+    background-image: url(../img/icons/icRat.svg);
+}
+.icRattle {
+    background-image: url(../img/icons/icRattle.svg);
+}
+.icReadable {
+    background-image: url(../img/icons/icReadable.svg);
+}
+.icReal {
+    background-image: url(../img/icons/icReal.svg);
+}
+.icRecognize {
+    background-image: url(../img/icons/icRecognize.svg);
+}
+.icRecycle {
+    background-image: url(../img/icons/icRecycle.svg);
+}
+.icRed {
+    background-image: url(../img/icons/icRed.svg);
+}
+.icReel {
+    background-image: url(../img/icons/icReel.svg);
+}
+.icReflect {
+    background-image: url(../img/icons/icReflect.svg);
+}
+.icRefuse {
+    background-image: url(../img/icons/icRefuse.svg);
+}
+.icRejuvenate {
+    background-image: url(../img/icons/icRejuvenate.svg);
+}
+.icReset {
+    background-image: url(../img/icons/icReset.svg);
+}
+.icRetest {
+    background-image: url(../img/icons/icRetest.svg);
+}
+.icRelax {
+    background-image: url(../img/icons/icRelax.svg);
+}
+.icRelaxes {
+    background-image: url(../img/icons/icRelaxes.svg);
+}
+.icRevolting {
+    background-image: url(../img/icons/icRevolting.svg);
+}
+.icRework {
+    background-image: url(../img/icons/icRework.svg);
+}
+.icRicardoRacoon {
+    background-image: url(../img/icons/icRicardoRacoon.svg);
+}
+.icRich {
+    background-image: url(../img/icons/icRich.svg);
+}
+.icRidge {
+    background-image: url(../img/icons/icRidge.svg);
+}
+.icRim {
+    background-image: url(../img/icons/icRim.svg);
+}
+.icRing {
+    background-image: url(../img/icons/icRing.svg);
+}
+.icRip {
+    background-image: url(../img/icons/icRip.svg);
+}
+.icRoad {
+    background-image: url(../img/icons/icRoad.svg);
+}
+.icRoar {
+    background-image: url(../img/icons/icRoar.svg);
+}
+.icRobe {
+    background-image: url(../img/icons/icRobe.svg);
+}
+.icRobin {
+    background-image: url(../img/icons/icRobin.svg);
+}
+.icRobot {
+    background-image: url(../img/icons/icRobot.svg);
+}
+.icRock {
+    background-image: url(../img/icons/icRock.svg);
+}
+.icRocket {
+    background-image: url(../img/icons/icRocket.svg);
+}
+.icRod {
+    background-image: url(../img/icons/icRod.svg);
+}
+.icRollercoaster {
+    background-image: url(../img/icons/icRollercoaster.svg);
+}
+.icRooster {
+    background-image: url(../img/icons/icRooster.svg);
+}
+.icRose {
+    background-image: url(../img/icons/icRose.svg);
+}
+.icRot {
+    background-image: url(../img/icons/icRot.svg);
+}
+.icRude {
+    background-image: url(../img/icons/icRude.svg);
+}
+.icRug {
+    background-image: url(../img/icons/icRug.svg);
+}
+.icRun {
+    background-image: url(../img/icons/icRun.svg);
+}
+.icRust {
+    background-image: url(../img/icons/icRust.svg);
+}
+.icSack {
+    background-image: url(../img/icons/icSack.svg);
+}
+.icSad {
+    background-image: url(../img/icons/icSad.svg);
+}
+.icSalad {
+    background-image: url(../img/icons/icSalad.svg);
+}
+.icSame{
+    background-image: url(../img/icons/icSame.svg);
+}
+.icSandal{
+    background-image: url(../img/icons/icSandal.svg);
+}
+.icSandwichBite {
+    background-image: url(../img/icons/icSandwichBite.svg);
+}
+.icSandwichParts {
+    background-image: url(../img/icons/icSandwichParts.svg);
+}
+.icSandwichWhole {
+    background-image: url(../img/icons/icSandwichWhole.svg);
+}
+.icSap {
+    background-image: url(../img/icons/icSap.svg);
+}
+.icSat {
+    background-image: url(../img/icons/icSat.svg);
+}
+.icScare {
+    background-image: url(../img/icons/icScare.svg);
+}
+.icScarf {
+    background-image: url(../img/icons/icScarf.svg);
+}
+.icSchoolBus {
+    background-image: url(../img/icons/icSchoolBus.svg);
+}
+.icSchoolhouse {
+    background-image: url(../img/icons/icSchoolhouse.svg);
+}
+.icScissors {
+    background-image: url(../img/icons/icScissors.svg);
+}
+.icScolded {
+    background-image: url(../img/icons/icScolded.svg);
+}
+.icScrub {
+    background-image: url(../img/icons/icScrub.svg);
+}
+.icSeal {
+    background-image: url(../img/icons/icSeal.svg);
+}
+.icSeat {
+    background-image: url(../img/icons/icSeat.svg);
+}
+.icSeek {
+    background-image: url(../img/icons/icSeek.svg);
+}
+.icSeed {
+    background-image: url(../img/icons/icSeed.svg);
+}
+.icSequential {
+    background-image: url(../img/icons/icSequential.svg);
+}
+.icSet2 {
+    background-image: url(../img/icons/icSet2.svg);
+}
+.icShack {
+    background-image: url(../img/icons/icShack.svg);
+}
+.icShake {
+    background-image: url(../img/icons/icShake.svg);
+}
+.icShadow {
+    background-image: url(../img/icons/icShadow.svg);
+}
+.icShampoo {
+    background-image: url(../img/icons/icShampoo.svg);
+}
+.icShapes {
+    background-image: url(../img/icons/icShapes.svg);
+}
+.icShark {
+    background-image: url(../img/icons/icShark.svg);
+}
+.icSharp {
+    background-image: url(../img/icons/icSharp.svg);
+}
+.icShed {
+    background-image: url(../img/icons/icShed.svg);
+}
+.icSheet {
+    background-image: url(../img/icons/icSheet.svg);
+}
+.icSheep {
+    background-image: url(../img/icons/icSheep.svg);
+}
+.icShell {
+    background-image: url(../img/icons/icShell.svg);
+}
+.icShin {
+    background-image: url(../img/icons/icShin.svg);
+}
+.icShine {
+    background-image: url(../img/icons/icShine.svg);
+}
+.icShip {
+    background-image: url(../img/icons/icShip.svg);
+}
+.icShirt {
+    background-image: url(../img/icons/icShirt.svg);
+}
+.icShoe {
+    background-image: url(../img/icons/icShoe.svg);
+}
+.icShoeBlue {
+    background-image: url(../img/icons/icShoeBlue.svg);
+}
+.icShort {
+    background-image: url(../img/icons/icShort.svg);
+}
+.icShorts {
+    background-image: url(../img/icons/icShorts.svg);
+}
+.icShop {
+    background-image: url(../img/icons/icShop.svg);
+}
+.icShopkeeper {
+    background-image: url(../img/icons/icShopkeeper.svg);
+}
+.icShot {
+    background-image: url(../img/icons/icShot.svg);
+}
+.icShow {
+    background-image: url(../img/icons/icShow.svg);
+}
+.icShrink {
+    background-image: url(../img/icons/icShrink.svg);
+}
+.icShrunk {
+    background-image: url(../img/icons/icShrunk.svg);
+}
+.icShut {
+    background-image: url(../img/icons/icShut.svg);
+}
+.icShy {
+    background-image: url(../img/icons/icShy.svg);
+}
+.icSick {
+    background-image: url(../img/icons/icSick.svg);
+}
+.icSidewalk {
+    background-image: url(../img/icons/icSidewalk.svg);
+}
+.icSignature {
+    background-image: url(../img/icons/icSignature.svg);
+}
+.icSilly {
+    background-image: url(../img/icons/icSilly.svg);
+}
+.icSing {
+    background-image: url(../img/icons/icSing.svg);
+}
+.icSink {
+    background-image: url(../img/icons/icSink.svg);
+}
+.icSink2 {
+    background-image: url(../img/icons/icSink2.svg);
+}
+.icSip {
+    background-image: url(../img/icons/icSip.svg);
+}
+.icSit {
+    background-image: url(../img/icons/icSit.svg);
+}
+.icSix {
+    background-image: url(../img/icons/icSix.svg);
+}
+.icSixteen {
+    background-image: url(../img/icons/icSixteen.svg);
+}
+.icShrug {
+    background-image: url(../img/icons/icShrug.svg);
+}
+.icSkateboard {
+    background-image: url(../img/icons/icSkateboard.svg);
+}
+.icSkate {
+    background-image: url(../img/icons/icSkate.svg);
+}
+.icSkin {
+    background-image: url(../img/icons/icSkin.svg);
+}
+.icSkit {
+    background-image: url(../img/icons/icSkit.svg);
+}
+.icSkirt {
+    background-image: url(../img/icons/icSkirt.svg);
+}
+.icSkunk {
+    background-image: url(../img/icons/icSkunk.svg);
+}
+.icSkyBlue {
+    background-image: url(../img/icons/icSkyBlue.svg);
+}
+.icSled {
+    background-image: url(../img/icons/icSled.svg);
+}
+.icSleigh {
+    background-image: url(../img/icons/icSleigh.svg);
+}
+.icSlide {
+    background-image: url(../img/icons/icSlide.svg);
+}
+.icSlideFirst {
+    background-image: url(../img/icons/icSlideFirst.svg);
+}
+.icSlideLast {
+    background-image: url(../img/icons/icSlideLast.svg);
+}
+.icSlip {
+    background-image: url(../img/icons/icSlip.svg);
+}
+.icSlobby {
+    background-image: url(../img/icons/icSlobby.svg);
+}
+.icSlop1 {
+    background-image: url(../img/icons/icSlop1.svg);
+}
+.icSlop2 {
+    background-image: url(../img/icons/icSlop2.svg);
+}
+.icSlideSecond {
+    background-image: url(../img/icons/icSlideSecond.svg);
+}
+.icSmash {
+    background-image: url(../img/icons/icSmash.svg);
+}
+.icSmile {
+    background-image: url(../img/icons/icSmile.svg);
+}
+.icSmock {
+    background-image: url(../img/icons/icSmock.svg);
+}
+.icSmoke {
+    background-image: url(../img/icons/icSmoke.svg);
+}
+.icSnack {
+    background-image: url(../img/icons/icSnack.svg);
+}
+.icSnake {
+    background-image: url(../img/icons/icSnake.svg);
+}
+.icSnail {
+    background-image: url(../img/icons/icSnail.svg);
+}
+.icSneeze {
+    background-image: url(../img/icons/icSneeze.svg);
+}
+.icSnout {
+    background-image: url(../img/icons/icSnout.svg);
+}
+.icSnowball {
+    background-image: url(../img/icons/icSnowball.svg);
+}
+.icSo {
+    background-image: url(../img/icons/icSo.svg);
+}
+.icSoil {
+    background-image: url(../img/icons/icSoil.svg);
+}
+.icSoak {
+    background-image: url(../img/icons/icSoak.svg);
+}
+.icSoap {
+    background-image: url(../img/icons/icSoap.svg);
+}
+.icSoar {
+    background-image: url(../img/icons/icSoar.svg);
+}
+.icSob {
+    background-image: url(../img/icons/icSob.svg);
+}
+.icSock {
+    background-image: url(../img/icons/icSock.svg);
+}
+.icSofiaSeal {
+    background-image: url(../img/icons/icSofiaSeal.svg);
+}
+.icSoft {
+    background-image: url(../img/icons/icSoft.svg);
+}
+.icSorting {
+    background-image: url(../img/icons/icSorting.svg);
+}
+.icSoupHot {
+    background-image: url(../img/icons/icSoupHot.svg);
+}
+.icSpace {
+    background-image: url(../img/icons/icSpace.svg);
+}
+.icSpare {
+    background-image: url(../img/icons/icSpare.svg);
+}
+.icSplash {
+    background-image: url(../img/icons/icSplash.svg);
+}
+.icSpeedBoat {
+    background-image: url(../img/icons/icSpeedBoat.svg);
+}
+.icSpin {
+    background-image: url(../img/icons/icSpin.svg);
+}
+.icSplash {
+    background-image: url(../img/icons/icSplash.svg);
+}
+.icSplotch {
+    background-image: url(../img/icons/icSplotch.svg);
+}
+.icSplotchB {
+    background-image: url(../img/icons/icSplotchB.svg);
+}
+.icSpoke {
+    background-image: url(../img/icons/icSpoke.svg);
+}
+.icSpool {
+    background-image: url(../img/icons/icSpool.svg);
+}
+.icSport {
+    background-image: url(../img/icons/icSport.svg);
+}
+.icStage {
+    background-image: url(../img/icons/icStage.svg);
+}
+.icStairs {
+    background-image: url(../img/icons/icStairs.svg);
+}
+.icStamp {
+    background-image: url(../img/icons/icStamp.svg);
+}
+.icStampede {
+    background-image: url(../img/icons/icStampede.svg);
+}
+.icStar {
+    background-image: url(../img/icons/icStar.svg);
+}
+.icStaple {
+    background-image: url(../img/icons/icStaple.svg);
+}
+.icStars {
+    background-image: url(../img/icons/icStars.svg);
+}
+.icStay {
+    background-image: url(../img/icons/icStay.svg);
+}
+.icStick {
+    background-image: url(../img/icons/icStick.svg);
+}
+.icStep {
+    background-image: url(../img/icons/icStep.svg);
+}
+.icStem {
+    background-image: url(../img/icons/icStem.svg);
+}
+.icSteep {
+    background-image: url(../img/icons/icSteep.svg);
+}
+.icStool {
+    background-image: url(../img/icons/icStool.svg);
+}
+.icStoplight {
+    background-image: url(../img/icons/icStoplight.svg);
+}
+.icStopSignRed {
+    background-image: url(../img/icons/icStopSignRed.svg);
+}
+.icStraight {
+    background-image: url(../img/icons/icStraight.svg);
+}
+.icStraw {
+    background-image: url(../img/icons/icStraw.svg);
+}
+.icStrawberryRed {
+    background-image: url(../img/icons/icStrawberryRed.svg);
+}
+.icStreet {
+    background-image: url(../img/icons/icStreet.svg);
+}
+.icStuck {
+    background-image: url(../img/icons/icStuck.svg);
+}
+.icStruck {
+    background-image: url(../img/icons/icStruck.svg);
+}
+.icStuck {
+    background-image: url(../img/icons/icStuck.svg);
+}
+.icStuff {
+    background-image: url(../img/icons/icStuff.svg);
+}
+.icSubtract {
+    background-image: url(../img/icons/icSubtract.svg);
+}
+.icSuddenness {
+    background-image: url(../img/icons/icSuddenness.svg);
+}
+.icSuit {
+    background-image: url(../img/icons/icSuit.svg);
+}
+.icSun {
+    background-image: url(../img/icons/icSun.svg);
+}
+.icSunflower {
+    background-image: url(../img/icons/icSunflower.svg);
+}
+.icSunglasses {
+    background-image: url(../img/icons/icSunglasses.svg);
+}
+.icSunscreen {
+    background-image: url(../img/icons/icSunscreen.svg);
+}
+.icSuntan {
+    background-image: url(../img/icons/icSuntan.svg);
+}
+.icSurf {
+    background-image: url(../img/icons/icSurf.svg);
+}
+.icSwears {
+    background-image: url(../img/icons/icSwears.svg);
+}
+.icSwim {
+    background-image: url(../img/icons/icSwim.svg);
+}
+.icSwinging {
+    background-image: url(../img/icons/icSwinging.svg);
+    
+}.icSwoop {
+    background-image: url(../img/icons/icSwoop.svg);
+}
+.icTable {
+    background-image: url(../img/icons/icTable.svg);
+}
+.icTack {
+    background-image: url(../img/icons/icTack.svg);
+}
+.icTail {
+    background-image: url(../img/icons/icTail.svg);
+}
+.icTalk {
+    background-image: url(../img/icons/icTalk.svg);
+}
+.icTall {
+    background-image: url(../img/icons/icTall.svg);
+}
+.icTap {
+    background-image: url(../img/icons/icTap.svg);
+}
+.icTape {
+    background-image: url(../img/icons/icTape.svg);
+}
+.icTarget {
+    background-image: url(../img/icons/icTarget.svg);
+}
+.icTan {
+    background-image: url(../img/icons/icTan.svg);
+}
+.icTantrum {
+    background-image: url(../img/icons/icTantrum.svg);
+}
+.icTeacherBlast {
+    background-image: url(../img/icons/icTeacherBlast.svg);
+}
+.icTea {
+    background-image: url(../img/icons/icTea.svg);
+}
+.icTeaCold {
+    background-image: url(../img/icons/icTeaCold.svg);
+}
+.icTeaganTiger {
+    background-image: url(../img/icons/icTeaganTiger.svg);
+}
+.icTeaHot {
+    background-image: url(../img/icons/icTeaHot.svg);
+}
+.icTeam {
+    background-image: url(../img/icons/icTeam.svg);
+}
+.icTeeth {
+    background-image: url(../img/icons/icTeeth.svg);
+}
+.icTell {
+    background-image: url(../img/icons/icTell.svg);
+}
+.icTen {
+    background-image: url(../img/icons/icTen.svg);
+}
+.icTennis {
+    background-image: url(../img/icons/icTennis.svg);
+}
+.icTent {
+    background-image: url(../img/icons/icTent.svg);
+}
+.icThankfulness {
+    background-image: url(../img/icons/icThankfulness.svg);
+}
+.icThermometer {
+    background-image: url(../img/icons/icThermometer.svg);
+}
+.icThorn {
+    background-image: url(../img/icons/icThorn.svg);
+}.icThin {
+    background-image: url(../img/icons/icThin.svg);
+}
+.icThread {
+    background-image: url(../img/icons/icThread.svg);
+}
+.icThree {
+    background-image: url(../img/icons/icThree.svg);
+}
+.icThud {
+    background-image: url(../img/icons/icThud.svg);
+}
+.icThumb {
+    background-image: url(../img/icons/icThumb.svg);
+}
+.icThumbsUp {
+    background-image: url(../img/icons/icThumbsUp.svg);
+}
+.icThumbsUp2 {
+    background-image: url(../img/icons/icThumbsUp2.svg);
+}
+.icThunderstorm {
+    background-image: url(../img/icons/icThunderstorm.svg);
+}
+.icTick {
+    background-image: url(../img/icons/icTick.svg);
+}
+.icTie {
+    background-image: url(../img/icons/icTie.svg);
+}
+.icTiger {
+    background-image: url(../img/icons/icTiger.svg);
+}
+.icTime {
+    background-image: url(../img/icons/icTime.svg);
+}
+.icTinkering {
+    background-image: url(../img/icons/icTinkering.svg);
+}
+.icTip {
+    background-image: url(../img/icons/icTip.svg);
+}
+.icToad {
+    background-image: url(../img/icons/icToad.svg);
+}
+.icToast {
+    background-image: url(../img/icons/icToast.svg);
+}
+.icToastButter {
+    background-image: url(../img/icons/icToastButter.svg);
+}
+.icToaster {
+    background-image: url(../img/icons/icToaster.svg);
+}
+.icToes {
+    background-image: url(../img/icons/icToes.svg);
+}
+.icTomatoRed {
+    background-image: url(../img/icons/icTomatoRed.svg);
+}
+.icTongue {
+    background-image: url(../img/icons/icTongue.svg);
+}
+.icToon {
+    background-image: url(../img/icons/icToon.svg);
+}
+.icToothbrush {
+    background-image: url(../img/icons/icToothbrush.svg);
+}
+.icToothbrush1 {
+    background-image: url(../img/icons/icToothbrush1.svg);
+}
+.icToothpasteBrushing {
+    background-image: url(../img/icons/icToothpasteBrushing.svg);
+}
+.icTop {
+    background-image: url(../img/icons/icTop.svg);
+}
+.icTorch {
+    background-image: url(../img/icons/icTorch.svg);
+}
+.icTorches {
+    background-image: url(../img/icons/icTorches.svg);
+}
+.icTorn {
+    background-image: url(../img/icons/icTorn.svg);
+}
+.icToss {
+    background-image: url(../img/icons/icToss.svg);
+}
+.icTowel {
+    background-image: url(../img/icons/icTowel.svg);
+}
+.icTown {
+    background-image: url(../img/icons/icTown.svg);
+}
+.icToy {
+    background-image: url(../img/icons/icToy.svg);
+}
+.icTrain {
+    background-image: url(../img/icons/icTrain.svg);
+}
+.icTrafficLightGreen {
+    background-image: url(../img/icons/icTrafficLightGreen.svg);
+}
+.icTrafficLightRed {
+    background-image: url(../img/icons/icTrafficLightRed.svg);
+}
+.icTrapezoid {
+    background-image: url(../img/icons/icTrapezoid.svg);
+}
+.icTreat {
+    background-image: url(../img/icons/icTreat.svg);
+}
+.icTree {
+    background-image: url(../img/icons/icTree.svg);
+}
+.icTreeBig {
+    background-image: url(../img/icons/icTreeBig.svg);
+}
+.icTreePart {
+    background-image: url(../img/icons/icTreePart.svg);
+}
+.icTreeSmall {
+    background-image: url(../img/icons/icTreeSmall.svg);
+}
+.icTreeWhole {
+    background-image: url(../img/icons/icTreeWhole.svg);
+}
+.icTRex {
+    background-image: url(../img/icons/icTRex.svg);
+}
+.icTripod {
+    background-image: url(../img/icons/icTripod.svg);
+}
+.icTruck {
+    background-image: url(../img/icons/icTruck.svg);
+}
+.icTry {
+    background-image: url(../img/icons/icTry.svg);
+}
+.icTub {
+    background-image: url(../img/icons/icTub.svg);
+}
+.icTube {
+    background-image: url(../img/icons/icTube.svg);
+}
+.icTuck {
+    background-image: url(../img/icons/icTuck.svg);
+}
+.icTurn {
+    background-image: url(../img/icons/icTurn.svg);
+}
+.icTurtle {
+    background-image: url(../img/icons/icTurtle.svg);
+}
+.icTusk {
+    background-image: url(../img/icons/icTusk.svg);
+}
+.icTwins {
+    background-image: url(../img/icons/icTwins.svg);
+}
+.icTwo {
+    background-image: url(../img/icons/icTwo.svg);
+}
+.icUmbrella {
+    background-image: url(../img/icons/icUmbrella.svg);
+}
+.icUncover {
+    background-image: url(../img/icons/icUncover.svg);
+}
+.icUnder {
+    background-image: url(../img/icons/icUnder.svg);
+}
+.icUnequal {
+    background-image: url(../img/icons/icUnequal.svg);
+}
+.icUnicorn {
+    background-image: url(../img/icons/icUnicorn.svg);
+}
+.icUnicycle {
+    background-image: url(../img/icons/icUnicycle.svg);
+}
+.icUniform {
+    background-image: url(../img/icons/icUniform.svg);
+}
+.icUnlike {
+    background-image: url(../img/icons/icUnlike.svg);
+}
+.icUnpack {
+    background-image: url(../img/icons/icUnpack.svg);
+}
+.icUnplug {
+    background-image: url(../img/icons/icUnplug.svg);
+}
+.icUnsafe {
+    background-image: url(../img/icons/icUnsafe.svg);
+}
+.icUp {
+    background-image: url(../img/icons/icUp.svg);
+}
+.icUphill {
+    background-image: url(../img/icons/icUphill.svg);
+}
+.icUpright {
+    background-image: url(../img/icons/icUpright.svg);
+}
+.icUproar {
+    background-image: url(../img/icons/icUproar.svg);
+}
+.icUpsidedown {
+    background-image: url(../img/icons/icUpsidedown.svg);
+}
+.icUpstairs {
+    background-image: url(../img/icons/icUpstairs.svg);
+}
+.icUpstream {
+    background-image: url(../img/icons/icUpstream.svg);
+}
+.icUse {
+    background-image: url(../img/icons/icUse.svg);
+}
+.icUsherYoung {
+    background-image: url(../img/icons/icUsherYoung.svg);
+}
+.icV {
+    background-image: url(../img/icons/icV.svg);
+}
+.icVacuum {
+    background-image: url(../img/icons/icVacuum.svg);
+}
+.icValley {
+    background-image: url(../img/icons/icValley.svg);
+}
+.icVan {
+    background-image: url(../img/icons/icVan.svg);
+}
+.icVase {
+    background-image: url(../img/icons/icVase.svg);
+}
+.icVat {
+    background-image: url(../img/icons/icVat.svg);
+}
+.icVest {
+    background-image: url(../img/icons/icVest.svg);
+}
+.icVet {
+    background-image: url(../img/icons/icVet.svg);
+}
+.icVegetables {
+    background-image: url(../img/icons/icVegetables.svg);
+}
+.icVeggies {
+    background-image: url(../img/icons/icVeggies.svg);
+}
+.icVine {
+    background-image: url(../img/icons/icVine.svg);
+}
+.icVinnieVulture {
+    background-image: url(../img/icons/icVinnieVulture.svg);
+}
+.icVirus {
+    background-image: url(../img/icons/icVirus.svg);
+}
+.icViolin {
+    background-image: url(../img/icons/icViolin.svg);
+}
+.icVolcano {
+    background-image: url(../img/icons/icVolcano.svg);
+}
+.icVote {
+    background-image: url(../img/icons/icVote.svg);
+}
+.icWagon {
+    background-image: url(../img/icons/icWagon.svg);
+}
+.icWater {
+    background-image: url(../img/icons/icWater.svg);
+}
+.icWaterEmpty {
+    background-image: url(../img/icons/icWaterEmpty.svg);
+}
+.icWaterfall {
+    background-image: url(../img/icons/icWaterfall.svg);
+}
+.icWaterFull {
+    background-image: url(../img/icons/icWaterFull.svg);
+}
+.icWatermelon {
+    background-image: url(../img/icons/icWatermelon.svg);
+}
+.icWatermelonWhole {
+    background-image: url(../img/icons/icWatermelonWhole.svg);
+}
+.icWaveHand {
+    background-image: url(../img/icons/icWaveHand.svg);
+}
+.icWaveOcean {
+    background-image: url(../img/icons/icWaveOcean.svg);
+}
+.icWax {
+    background-image: url(../img/icons/icWax.svg);
+}
+.icWeb {
+    background-image: url(../img/icons/icWeb.svg);
+}
+.icWeb1 {
+    background-image: url(../img/icons/icWeb1.svg);
+}
+.icWebinar1 {
+    background-image: url(../img/icons/icWebinar1.svg);
+}
+.icWebinar2 {
+    background-image: url(../img/icons/icWebinar2.svg);
+}
+.icWebinar3 {
+    background-image: url(../img/icons/icWebinar3.svg);
+}
+.icWebinar4 {
+    background-image: url(../img/icons/icWebinar4.svg);
+}
+.icWeek {
+    background-image: url(../img/icons/icWeek.svg);
+}
+.icWet {
+    background-image: url(../img/icons/icWet.svg);
+}
+.icWhale {
+    background-image: url(../img/icons/icWhale.svg);
+}
+.icWhen {
+    background-image: url(../img/icons/icWhen.svg);
+}
+.icWhirlpool {
+    background-image: url(../img/icons/icWhirlpool.svg);
+}
+.icWhite {
+    background-image: url(../img/icons/icWhite.svg);
+}
+.icWig {
+    background-image: url(../img/icons/icWig.svg);
+}
+.icWillieWalrus {
+    background-image: url(../img/icons/icWillieWalrus.svg);
+}
+.icWin {
+    background-image: url(../img/icons/icWin.svg);
+}
+.icWindow {
+    background-image: url(../img/icons/icWindow.svg);
+}
+.icWindowpane {
+    background-image: url(../img/icons/icWindowpane.svg);
+}
+.icWindowSmall {
+    background-image: url(../img/icons/icWindowSmall.svg);
+}
+.icWindowStainedGlass {
+    background-image: url(../img/icons/icWindowStainedGlass.svg);
+}
+.icWing {
+    background-image: url(../img/icons/icWing.svg);
+}
+.icWhich {
+    background-image: url(../img/icons/icWhich.svg);
+}
+.icWhip {
+    background-image: url(../img/icons/icWhip.svg);
+}
+.icWhisk {
+    background-image: url(../img/icons/icWhisk.svg);
+}
+.icWith {
+    background-image: url(../img/icons/icWith.svg);
+}
+.icWhiz {
+    background-image: url(../img/icons/icWhiz.svg);
+}
+.icWoodWorking {
+    background-image: url(../img/icons/icWoodWorking.svg);
+}
+.icWorm {
+    background-image: url(../img/icons/icWorm.svg);
+}
+.icWrap {
+    background-image: url(../img/icons/icWrap.svg);
+}
+.icX {
+    background-image: url(../img/icons/icX.svg);
+}
+.icVacuum {
+    background-image: url(../img/icons/icVacuum.svg);
+}
+.icYam {
+    background-image: url(../img/icons/icYam.svg);
+}
+.icYarn {
+    background-image: url(../img/icons/icYarn.svg);
+}
+.icYawn {
+    background-image: url(../img/icons/icYawn.svg);
+}
+.icYell {
+    background-image: url(../img/icons/icYell.svg);
+}
+.icYellow {
+    background-image: url(../img/icons/icYellow.svg);
+}
+.icYes {
+    background-image: url(../img/icons/icYes.svg);
+}
+.icYield {
+    background-image: url(../img/icons/icYield.svg);
+}
+.icYogurt {
+    background-image: url(../img/icons/icYogurt.svg);
+}
+.icYolandaYak {
+    background-image: url(../img/icons/icYolandaYak.svg);
+}
+.icYoyo {
+    background-image: url(../img/icons/icYoyo.svg);
+}
+.icZachZebra {
+    background-image: url(../img/icons/icZachZebra.svg);
+}
+.icZap {
+    background-image: url(../img/icons/icZap.svg);
+}
+.icZebra {
+    background-image: url(../img/icons/icZebra.svg);
+}
+.icZero {
+    background-image: url(../img/icons/icZero.svg);
+}
+.icZigzag {
+    background-image: url(../img/icons/icZigzag.svg);
+}
+.icZipper {
+    background-image: url(../img/icons/icZipper.svg);
+}
+.icZombie {
+    background-image: url(../img/icons/icZombie.svg);
+}
+.icZoo {
+    background-image: url(../img/icons/icZoo.svg);
+}
+.icZoom {
+    background-image: url(../img/icons/icZoom.svg);
+}
+.icZucchini {
+    background-image: url(../img/icons/icZucchini.svg);
+}
+/*New Icons from Launchpad Added 04-06-21NG*/
+.icA_lowercase {
+    background-image: url(../img/icons/icA_lowercase.svg);
+}
+.icA_uppercase {
+    background-image: url(../img/icons/icA_uppercase.svg);
+}
+.icB_lowercase {
+    background-image: url(../img/icons/icB_lowercase.svg);
+}
+.icB_uppercase {
+    background-image: url(../img/icons/icB_uppercase.svg);
+}
+.icC_lowercase {
+    background-image: url(../img/icons/icC_lowercase.svg);
+}
+.icC_uppercase {
+    background-image: url(../img/icons/icC_uppercase.svg);
+}
+.icD_lowercase {
+    background-image: url(../img/icons/icD_lowercase.svg);
+}
+.icD_uppercase {
+    background-image: url(../img/icons/icD_uppercase.svg);
+}
+.icE_lowercase {
+    background-image: url(../img/icons/icE_lowercase.svg);
+}
+.icL_lowercase {
+    background-image: url(../img/icons/icL_lowercase.svg);
+}
+.icY_lowercase{
+    background-image: url(../img/icons/icY_lowercase.svg);
+}
+.icN_lowercase {
+    background-image: url(../img/icons/icN_lowercase.svg);
+}
+.icT_uppercase {
+    background-image: url(../img/icons/icT_uppercase.svg);
+}
+.icV_uppercase {
+    background-image: url(../img/icons/icV_uppercase.svg);
+}
+.icX_lowercase {
+    background-image: url(../img/icons/icX_lowercase.svg);
+}
+.icT_lowercase {
+    background-image: url(../img/icons/icT_lowercase.svg);
+}
+.icR_lowercase {
+    background-image: url(../img/icons/icR_lowercase.svg);
+}
+.icSquare {
+    background-image: url(../img/icons/icSquare.svg);
+}
+.icM_uppercase {
+    background-image: url(../img/icons/icM_uppercase.svg);
+}
+.icS_lowercase {
+    background-image: url(../img/icons/icS_lowercase.svg);
+}
+.icS_lowercase {
+    background-image: url(../img/icons/icS_lowercase.svg);
+}
+.icSop {
+    background-image: url(../img/icons/icSop.svg);
+}
+.icCircle {
+    background-image: url(../img/icons/icCircle.svg);
+}
+.icP_lowercase {
+    background-image: url(../img/icons/icP_lowercase.svg);
+}
+
+.icBookOpen {
+    background-image: url(../img/icons/icBookOpen.svg);
+}
+.icTriangle {
+    background-image: url(../img/icons/icTriangle.svg);
+}
+.icO_lowercase {
+    background-image: url(../img/icons/icO_lowercase.svg);
+}
+.icDiamond {
+    background-image: url(../img/icons/icDiamond.svg);
+}
+

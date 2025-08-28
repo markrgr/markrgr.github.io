@@ -1,0 +1,291 @@
+//Controls operation of main menu
+var menuBreak1 = 14;
+var menuBreak2 = 24;
+function setBook(bookObj) {
+    $('#s0select0').unbind('change');
+    $('#s0select1').unbind('change');
+    $('#s0select2').unbind('change');
+    $('#lessonShow').hide();
+    $('#s0select0').prop('selectedIndex',0);
+    $('#s0select1').prop('selectedIndex',0);
+    $('#s0select2').prop('selectedIndex',0);
+    //activate dropdowns
+		$('#s0select0').change(function(e) {
+             $('#lessonShow').slideDown(500);
+            unitNum = Number($(this).val());
+            $('#lessonShow').html('');
+			for (i=0; i<menuData.units[unitNum-1].lessons.length; i++) {
+                $('#lessonShow').append('<div class="lessonSelector" id="s0btn' + (i+1) + '"><div class="lessonNum">'+ (i+1) + '</div><span class="lessonText" id="s0b'+(i+1)+'">'+ menuData.units[unitNum-1].lessons[i].lessonText + '</span></div>');
+			}
+
+            $('.lessonSelector').click(function(e) {
+			     pageNum=0;
+			     navigate(unitNum, Number($(this).attr('id').substr(5)));
+			
+            });
+        });
+        $('#s0select1').change(function(e) {
+             $('#lessonShow').slideDown(500);
+            unitNum = Number($(this).val());
+            $('#lessonShow').html('');
+			for (i=0; i<menuData.units[unitNum-1].lessons.length; i++) {
+                $('#lessonShow').append('<div class="lessonSelector" id="s0btn' + (i+1) + '"><div class="lessonNum">'+ (i+1) + '</div><span class="lessonText" id="s0b'+(i+1)+'">'+ menuData.units[unitNum-1].lessons[i].lessonText + '</span></div>');
+			}
+
+            $('.lessonSelector').click(function(e) {
+			     pageNum=0;
+			     navigate(unitNum, Number($(this).attr('id').substr(5)));
+			
+            });
+        });
+        $('#s0select2').change(function(e) {
+            
+            $('#lessonShow').slideDown(500);
+            unitNum = Number($(this).val());
+            $('#lessonShow').html('');
+			for (i=0; i<menuData.units[unitNum-1].lessons.length; i++) {
+                $('#lessonShow').append('<div class="lessonSelector" id="s0btn' + (i+1) + '"><div class="lessonNum">'+ (i+1) + '</div><span class="lessonText" id="s0b'+(i+1)+'">'+ menuData.units[unitNum-1].lessons[i].lessonText + '</span></div>');
+			}
+
+            $('.lessonSelector').click(function(e) {
+			     pageNum=0;
+			     navigate(unitNum, Number($(this).attr('id').substr(5)));
+			
+            });
+
+        });
+    $('.bookTab').removeClass('bookTabInactive');
+    $('.bookTab').removeClass('bookTabActive');
+    $(bookObj).addClass('bookTabActive');
+    if ($(bookObj).attr('id') == 's0Book1') {
+        $('#s0select0').show();
+        $('#s0select1').hide();
+        $('#s0select2').hide();
+    } 
+    if ($(bookObj).attr('id') == 's0Book2') {
+        $('#s0select1').show();
+        $('#s0select2').hide();
+        $('#s0select0').hide();
+    }
+    if ($(bookObj).attr('id') == 's0Book3') {
+        $('#s0select2').show();
+        $('#s0select1').hide();
+        $('#s0select0').hide();
+    }
+    $('#selectArrowBlock').show(500);
+}
+
+function getMenu() {
+	$.getJSON( 'data/menu/menu.json' + '?version='+ version, function( data ) {
+		menuData = data;
+		//Build DropDown
+		$('#s0select0').html('<option value="">Pick a Unit...</option>');
+        $('#s0select1').html('<option value="">Pick a Unit...</option>');
+        $('#s0select2').html('<option value="">Pick a Unit...</option>');
+		for (i=0; i<menuBreak1; i++) {
+			$('#s0select0').append('<option value="' + (i+1)+ '">' + menuData.units[i].unitTitle + '</option>');
+		}
+        for (i=menuBreak1; i<menuBreak2; i++) {
+			$('#s0select1').append('<option value="' + (i+1)+ '">' + menuData.units[i].unitTitle + '</option>');
+		}
+        for (i=menuBreak2; i<menuData.units.length; i++) {
+			$('#s0select2').append('<option value="' + (i+1)+ '">' + menuData.units[i].unitTitle + '</option>');
+		}
+		if (isFirefox) {
+			$('.unitSelectIndicator').css('background-image','none');
+			$('#menuSelectorIndicator').css('background-image','none');
+		}
+		//Default Values for Start
+		$('#s0b1').html(menuData.units[0].lessons[0].lessonText);
+		$('#s0b2').html(menuData.units[0].lessons[1].lessonText);
+		$('#s0b3').html(menuData.units[0].lessons[2].lessonText);
+		$('#s0b4').html(menuData.units[0].lessons[3].lessonText);
+		$('#s0b5').html(menuData.units[0].lessons[4].lessonText);
+		
+
+		$('.setupSelector').click(function(e) {
+			navigate(unitNum, Number($(this).attr('id').substr(3)));
+			
+        });
+		$('#s0').fadeIn(500);
+	});
+}
+
+function setUpScreens() {
+	//Initilize values for all screens
+    
+    $('#content').css('background-image','none');
+}
+
+//Supplemental Code
+
+var maxCol =15;
+
+function getSupplemental() {
+    $.getJSON("data/objects/supplementalv2.json", function (data) {
+        var supMenuData = data;
+        var htmlMenu = '';
+        var htmlPanel = '';
+        for (i = 0; i < data.resources.length; i++) {
+            if (data.resources[i].sublinks.length == 1) {
+                htmlMenu += '<div id="supNav' + (i + 1) + '" class="supNavBtn sup' + data.resources[i].color + '"><p>' + data.resources[i].sublinks[0].title + '</p><div class="supNavBtnPointer sup' + data.resources[i].color + ' supPointerHidden"></div></div>';
+
+                htmlPanel += '<div id="supPanel' + (i + 1) + '" class="supPanel supBorder' + data.resources[i].color + '">';
+
+                var titleString = data.resources[i].sublinks[0].title;
+                var parsedTitleString = '';
+                var foundBr = titleString.indexOf('<br />');
+
+                if (foundBr > -1) {
+                    parsedTitleString += titleString.substr(0, foundBr) + ' ';
+                    parsedTitleString += titleString.substr((foundBr + 6));
+                } else {
+                    parsedTitleString = titleString;
+                }
+
+                //htmlPanel += '<h2 class="supColor' + data.resources[i].color + '">' + parsedTitleString + '</h2>';
+                if (data.resources[i].sublinks[0].length <= maxCol) {
+                    htmlPanel += '<div class="supPanelLinks">';
+                } else {
+                    htmlPanel += '<div class="supPanelLinks supPanelTwoCol">';
+                }
+
+                for (j = 0; j < data.resources[i].sublinks[0].links.length; j++) {
+                    htmlPanel += '<a target="_blank" href="' + data.resources[i].sublinks[0].links[j].url + '"><span class="supColor' + data.resources[i].color + '">&#9658;</span>' + data.resources[i].sublinks[0].links[j].name + '</a><br />'
+                }
+                htmlPanel += '</div>';
+                htmlPanel += '</div>';
+            } else {
+                htmlMenu += '<div id="supNav' + (i + 1) + '" class="supNavBtn sup' + data.resources[i].color + '"><p>' + data.resources[i].category + '</p><div class="supNavBtnPointer sup' + data.resources[i].color + ' supPointerHidden"></div></div>';
+
+                htmlPanel += '<div id="supPanel' + (i + 1) + '" class="supPanel supPanelCenter supBorder' + data.resources[i].color + '">';
+                for (j = 0; j < data.resources[i].sublinks.length; j++) {
+                    htmlPanel += '<div id="supNav' + (i + 1) + (j+1) +'" class="supNavBtn sup' + data.resources[i].color + '"><p>' + data.resources[i].sublinks[j].title + '</p><div class="supNavBtnPointer sup' + data.resources[i].color + ' supPointerHidden"></div></div>';
+                }
+                
+                
+                for (j = 0; j < data.resources[i].sublinks.length; j++) {
+                htmlPanel += '<div id="supPanel' + (i + 1) + (j+1) + '" class="supPanel supBorder' + data.resources[i].color + '">';
+                    
+                    console.log('length:' + data.resources[i].sublinks[j].links.length);
+                    if (data.resources[i].sublinks[j].links.length <=maxCol){
+                        htmlPanel += '<div class="supPanelLinks">';
+                        
+                    } else {
+                        htmlPanel += '<div class="supPanelLinks supPanelTwoCol">';
+                    }
+                    
+                    
+                    
+                    
+                    for (k=0; k<data.resources[i].sublinks[j].links.length; k++) {
+                        htmlPanel += '<a target="_blank" href="' + data.resources[i].sublinks[j].links[k].url + '"><span class="supColor' + data.resources[i].color + '">&#9658;</span>' + data.resources[i].sublinks[j].links[k].name + '</a><br />'
+                    }
+                         htmlPanel += '</div>';
+                    
+                htmlPanel += '</div>'
+                }
+                
+                
+                htmlPanel += '</div>';
+                htmlPanel += '</div>';
+
+            }
+        }
+        $('#supplementalNav').html(htmlMenu);
+        $('#supPanels').html(htmlPanel);
+        $('.supPanel').hide();
+        $('.supMenu .supNavBtn').bind(clicker, function () {
+            $('.supPanel .supNavBtnPointer').addClass('supPointerHidden');
+            $('.supMenu .supNavBtnPointer').addClass('supPointerHidden');
+            $('.supMenu #supNav' + $(this).attr('id').substr(6) + ' .supNavBtnPointer').removeClass('supPointerHidden');
+            $('.supPanel').hide();
+            $('#supPanel' + $(this).attr('id').substr(6)).slideDown(500);
+        });
+        
+        $('.supPanel .supNavBtn').bind(clicker, function(){
+            $('.supPanel .supNavBtnPointer').addClass('supPointerHidden');
+            $('.supPanel #supNav' + $(this).attr('id').substr(6) + ' .supNavBtnPointer').removeClass('supPointerHidden');
+            $('.supPanel .supPanel').hide();
+            $('#supPanel' + $(this).attr('id').substr(6)).slideDown(500);
+        });
+
+
+    }, function () {
+        alert('fail')
+    });
+}
+
+function showSupplemental() {
+    $('#supplementalv2').slideDown(500);
+    $('#s0').fadeOut(200);
+}
+
+function hideSupplemental() {
+    $('#supplementalv2').slideUp(250);
+    $('#s0').fadeIn(200);
+}
+//PopUpCode
+function getPopUp() {
+    $.getJSON('data/objects/popup.json' + '?version=' + version, function (data) {
+        popData = data[0];
+        console.log(popData);
+        //If live
+        if (popData.active == 'true' && localStorage.getItem('hdwPop' + popData.popID) != '0') {
+            popUp = true;
+            $('#popupBox .popupBanner').html(popData.banner);
+            $('#popupBox .popupTitle').html(popData.title);
+            $('#popupBox .popupBody').html(popData.body);
+            $('#popupBox #popupClose').html(popData.close);
+            $('#popupBox #popupDismiss').html(popData.dismiss);
+            setTimeout(function () {
+                $('#popup').slideDown(500);
+                $('#popupTab').html(popData.tabTitle + ' &#9660;');
+            }, 2000);
+
+            /*setTimeout(function () {
+                $('#popup').slideUp(500);
+            }, 15000);*/
+            $('#popupTab').bind('click', function () {
+                if ($('#popupBox').css('display') == 'none') {
+                    $('#popupBox').slideDown(500);
+                    $('#popupTab').html(popData.tabTitle + ' &#9660;');
+                } else {
+                    $('#popupBox').slideUp(500);
+                    $('#popupTab').html(popData.tabTitle + ' &#9650;');
+                };
+            })
+            $('#popupClose').bind('click', function () {
+                $('#popupBox').slideUp(500);
+                $('#popupTab').html(popData.tabTitle + ' &#9650;');
+            });
+            $('#popupDismiss').bind('click', function () {
+                localStorage.setItem('hdwPop' + popData.popID, '0');
+                $('#popupBox').slideUp(500);
+                $('#popupTab').html(popData.tabTitle + ' &#9650;');
+                $('#popupTab').css('display', 'none');
+                popUp = false;
+            })
+        }
+    });
+}
+
+$(document).ready(function(e) {
+    getPopUp();
+    getMenu();
+    getSupplemental();
+	setUpScreens();
+    $('.bookTab').click(function (e) {
+        setBook(this);
+    });
+    $('#sup1').click(function (e) {
+        showSupplemental();
+    });
+    /*$('#closeSupplementalv2').click(function (e) {
+        console.log('close sup 2')
+        hideSupplemental();
+    });*/
+    $('#closeSupplementalv2').bind(clicker, function(){
+        hideSupplemental();
+    })
+});

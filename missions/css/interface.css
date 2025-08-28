@@ -1,0 +1,267 @@
+.vidThumb {
+	position:absolute;
+	bottom:1em;
+	left:1em;
+	border-radius:1em;
+	z-index: 100000;
+	height:12em;
+	width:auto;
+	border:solid .2em var(--ghostWhite60);
+ }
+body, html {
+	height:100%;
+	font-size:14px;
+	height:100%;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select: none;
+	user-select:none;
+	font-family:'BodyText';
+}
+#links {
+	color:#fff;
+	position:absolute;
+	left:10em;
+	right:20em;
+	top:10em;
+	bottom:20em;
+}
+#links h1 {
+	color:#fff;
+	font-family:"BoldText";
+	text-decoration: none;
+	font-size:1em;
+
+}
+
+#links a {
+	color:#fff;
+	font-family:"BodyText";
+	text-decoration: none;
+	font-size:1em;
+
+}
+
+#wrapper {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	/*height:700px;*/
+	/*background-color:#1d70c4;*/
+    background-color:var(--mollyBlue);
+	background-image:url(../img/interface/backgrounds/b3.jpeg);
+	background-position:center center;
+	background-size: auto 100%;
+    
+/*Start Colorzilla*/
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#002142+0,000b16+100 */
+/*background: linear-gradient(to bottom,  #002142 0%,#000b16 100%);*/
+
+
+background-image:none;
+overflow: hidden;
+}
+ #contentSizer {
+    font-size:.8em;
+  display:inline-block;
+     position:relative;
+     width:100%;
+     height:100%;
+     overflow:hidden;
+ }
+
+#content {
+    position:absolute;
+    top:2em;
+    left:2em;
+    right:6em;
+    bottom:4em;
+    padding: .5em;
+    padding-top: 3em;
+    /*background-image:url(../img/contentBackground.png);
+	background-position:center center;
+	background-size: auto 100%;
+	background-repeat:repeat;*/
+    overflow:hidden;
+    z-index:2;
+}
+.embedded {
+    width:100%;
+    height:100%;
+}
+
+.embeddedVideo {
+	position:absolute;
+	
+height:100%;
+width:100%;
+}
+.menuBarParent.navBottom {
+    top:auto;
+    bottom:0;
+    left:44em;
+    right:4em;
+
+}
+.menuBarParent.navBottom .menuBar {
+	border-bottom-right-radius:0em;
+    border-top-left-radius:1em;
+}
+.menuBarParent.navHidden {
+    display:none;
+}
+
+
+.menuBarParent {
+    position:absolute;
+	left:0;
+    font-size: 1em;
+    right:48em;
+	top:0em;
+    height:auto;
+    z-index:4999;
+   /* background-image:url('../img/greenTitleArrowLong.png');*/
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position:right;
+
+}
+.menuBar {
+	position:relative;
+	color:#fff;
+	text-align:left;
+padding:0;
+    height:2.5em;
+	font-family:'BodyText';
+	z-index:5000;
+    display:block;
+    font-size:1.2em;
+    background-color:rgb(82, 119, 7);
+    background-color:var(--control);
+    border-bottom-right-radius:1em;
+    box-shadow:0 0 .5em rgba(0,0,0,1);
+}
+#menuBarLeft {
+    position:relative;
+	left:2em;
+    top:0;
+    width:2em;
+    text-align:center;
+    z-index:5001;
+    display:none;
+
+}
+#menuBarSelector {
+    position:absolute;
+    left:15em;
+    top:.35em;
+    height:1em;
+	z-index:2000;
+    display:none;
+}
+#menuBarCenter {
+    position:absolute;
+	left:.8em;
+    top:.6em;
+    font-size:1.2em;
+    height:1em;
+    z-index:5001;
+
+}
+#menuBarRight {
+    position:absolute;
+    font-size:1.1em;
+	right:12em;
+    top:.6em;
+    height:1em;
+    text-align:left;
+    z-index:5001;
+    font-family:'BoldText';
+    display:none;
+}
+#homeBtn {
+	position:absolute;
+	top:0;
+	left:0;
+	width:2em;
+	height:2.25em;
+	background-image:url(../img/home.png);
+	background-repeat:no-repeat;
+	background-size:auto 50%;
+	background-position: center center;
+	cursor:pointer;
+	z-index:5000;
+}
+#navArrows {
+	position:absolute;
+	top:0;
+	left:3em;
+	width:8em;
+	height:2.25em;
+    line-height:2.5em;
+	z-index:5000;
+}
+#navLeft {
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	width:2em;
+    background-image:url(../img/arrowPrev.png);
+	background-repeat:no-repeat;
+	background-size:auto 60%;
+	background-position: center center;
+	display:inline-block;
+	z-index:5000;
+	cursor:pointer;
+}
+
+#navRight {
+	position:absolute;
+	right:0;
+	top:0;
+	bottom:0;
+	width:2em;
+	background-image:url(../img/arrowNext.png);
+	background-repeat:no-repeat;
+	background-size:auto 60%;
+	background-position: center center;
+	display:inline-block;
+	z-index:5000;
+	cursor:pointer;
+}
+
+
+#menuSelectorIndicator {
+	height:1em;
+	width:1em;
+	background-image:url(../img/selectIndicator.png);
+	background-size:auto 100%;
+	background-position: center center;
+	background-repeat:no-repeat;
+    padding-right: 13em;
+}
+#menuBarLessonSelector {
+	border-radius:0;
+	border:none;
+	color:#fff;
+	font-size:1em;
+	line-height:1.25em;
+	font-family:'BoldText';
+	margin:0;
+	margin-right:1em;
+	cursor: pointer;
+	/*outline: none;
+	-webkit-appearance:none;*/  
+	display:inline-block;
+    height:1.6em;
+	text-align:center;
+    background-color:rgba(255,255,255,0);
+    padding-left:1em;
+    padding-right:1em;
+}
+#menuBarLessonSelector option {
+     color:#333;   
+}
